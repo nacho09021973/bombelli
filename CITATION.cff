@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - name: "Ignacio Arancibia"
+  - name: "Claude Sonnet 4.6 (Anthropic)"
+title: "Thirty-Seven Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools"
+version: 1.0.0
+date-released: "2026-05-20"
+license: MIT
+repository-code: "https://github.com/ignacioarancibia/bombelli"
+abstract: >
+  A faithful Python 3.12 port of Luca Bombelli's 1987 Pascal program for embedding
+  causal sets into Minkowski spacetime by simulated annealing, together with an
+  empirical characterisation of the algorithm using 2026 tools: GPU acceleration,
+  ensemble statistics, order-theoretic invariants, and AI collaboration.
+keywords:
+  - causal set theory
+  - simulated annealing
+  - quantum gravity
+  - discrete spacetime
+  - computational archaeology
+references:
+  - type: thesis
+    authors:
+      - family-names: Bombelli
+        given-names: Luca
+    title: "Space-time as a Causal Net"
+    institution:
+      name: "Syracuse University"
+    year: 1987
+  - type: article
+    authors:
+      - family-names: Bombelli
+        given-names: Luca
+      - family-names: Lee
+        given-names: Joohan
+      - family-names: Meyer
+        given-names: David
+      - family-names: Sorkin
+        given-names: Rafael D.
+    title: "Space-time as a causal set"
+    journal: "Physical Review Letters"
+    volume: 59
+    pages: 521
+    year: 1987
+    doi: "10.1103/PhysRevLett.59.521"
