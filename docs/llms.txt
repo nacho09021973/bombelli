@@ -7,6 +7,7 @@ The repository is relevant to causal set theory, causal sets, quantum gravity, d
 ## Canonical links
 
 - Landing page: https://nacho09021973.github.io/bombelli/
+- Short research note: https://nacho09021973.github.io/bombelli/reviving-bombelli-1987-causal-set-code.html
 - DOI: https://doi.org/10.5281/zenodo.20307736
 - Zenodo record: https://zenodo.org/records/20307736
 - GitHub repository: https://github.com/nacho09021973/bombelli
