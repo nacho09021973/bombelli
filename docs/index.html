@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bombelli 1987 Causal Set Simulated Annealing Revival</title>
+  <meta name="description" content="A Python 3.12 revival and empirical audit of Luca Bombelli's 1987 Pascal simulated-annealing program for embedding causal sets into Minkowski spacetime.">
+  <meta name="keywords" content="causal set theory, causal sets, quantum gravity, discrete spacetime, Minkowski embedding, causal set embedding, Luca Bombelli, Bombelli 1987, simulated annealing, computational archaeology, scientific software preservation, computational physics, reproducible research">
+  <meta name="author" content="Jose Ignacio Martin Gandul">
+  <link rel="canonical" href="https://nacho09021973.github.io/bombelli/">
+  <meta name="robots" content="index,follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bombelli 1987 Causal Set Simulated Annealing Revival">
+  <meta property="og:description" content="Python 3.12 revival and empirical audit of Luca Bombelli's 1987 causal-set simulated annealing program.">
+  <meta property="og:url" content="https://nacho09021973.github.io/bombelli/">
+  <meta property="og:image" content="https://raw.githubusercontent.com/nacho09021973/bombelli/main/tesis_like_12.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bombelli 1987 Causal Set Simulated Annealing Revival">
+  <meta name="twitter:description" content="A reproducible Python revival of an early causal set embedding algorithm.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/nacho09021973/bombelli/main/tesis_like_12.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareSourceCode",
+    "name": "Thirty-Seven Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools",
+    "alternateName": [
+      "Bombelli 1987 causal set simulated annealing revival",
+      "Python revival of Bombelli's causal set embedding algorithm"
+    ],
+    "description": "A faithful Python 3.12 port and empirical audit of Luca Bombelli's 1987 Pascal simulated-annealing program for embedding causal sets into Minkowski spacetime, with reproducible CPU experiments, ensemble statistics, order-theoretic diagnostics, benchmark tables, and documentation of the historical and computational context.",
+    "keywords": [
+      "causal set theory",
+      "causal sets",
+      "quantum gravity",
+      "discrete spacetime",
+      "discrete quantum gravity",
+      "Minkowski spacetime",
+      "Minkowski embedding",
+      "causal set embedding",
+      "Luca Bombelli",
+      "Bombelli 1987",
+      "simulated annealing",
+      "Pascal to Python",
+      "computational archaeology",
+      "scientific software preservation",
+      "computational physics",
+      "reproducible research",
+      "AI-assisted research"
+    ],
+    "creator": {
+      "@type": "Person",
+      "name": "Jose Ignacio Martin Gandul"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Jose Ignacio Martin Gandul"
+    },
+    "datePublished": "2026-05-20",
+    "programmingLanguage": "Python 3.12",
+    "runtimePlatform": "Python 3.12",
+    "license": "https://opensource.org/licenses/MIT",
+    "codeRepository": "https://github.com/nacho09021973/bombelli",
+    "url": "https://nacho09021973.github.io/bombelli/",
+    "identifier": "https://doi.org/10.5281/zenodo.20307736",
+    "sameAs": [
+      "https://doi.org/10.5281/zenodo.20307736",
+      "https://zenodo.org/records/20307736",
+      "https://github.com/nacho09021973/bombelli"
+    ],
+    "citation": [
+      "https://doi.org/10.5281/zenodo.20307736",
+      "https://doi.org/10.1103/PhysRevLett.59.521"
+    ],
+    "isAccessibleForFree": true
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Bombelli 1987 causal set simulated annealing benchmark data",
+    "description": "Benchmark tables and reproducible CPU ensemble results for a Python revival of Luca Bombelli's 1987 causal-set simulated annealing program.",
+    "keywords": "causal set theory, quantum gravity, simulated annealing, Minkowski embedding, computational physics, reproducible research",
+    "creator": {
+      "@type": "Person",
+      "name": "Jose Ignacio Martin Gandul"
+    },
+    "identifier": "https://doi.org/10.5281/zenodo.20307736",
+    "license": "https://opensource.org/licenses/MIT",
+    "url": "https://github.com/nacho09021973/bombelli",
+    "sameAs": "https://zenodo.org/records/20307736",
+    "distribution": [
+      {
+        "@type": "DataDownload",
+        "encodingFormat": "text/csv",
+        "contentUrl": "https://raw.githubusercontent.com/nacho09021973/bombelli/main/data/schedule_comparison.csv"
+      },
+      {
+        "@type": "DataDownload",
+        "encodingFormat": "text/csv",
+        "contentUrl": "https://raw.githubusercontent.com/nacho09021973/bombelli/main/data/dimension_atlas.csv"
+      },
+      {
+        "@type": "DataDownload",
+        "encodingFormat": "text/csv",
+        "contentUrl": "https://raw.githubusercontent.com/nacho09021973/bombelli/main/data/correlate_summary.csv"
+      }
+    ],
+    "isAccessibleForFree": true
+  }
+  </script>
+
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #171512;
+      --muted: #5a534b;
+      --line: #d8d1c6;
+      --paper: #fbfaf7;
+      --panel: #ffffff;
+      --accent: #7a2e2e;
+      --accent-2: #2f6651;
+      --accent-3: #4b5c83;
+      --shadow: 0 18px 48px rgba(28, 24, 18, 0.16);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.55;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.18em;
+    }
+
+    .hero {
+      min-height: 86vh;
+      display: grid;
+      align-items: end;
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(90deg, rgba(11, 10, 8, 0.86), rgba(11, 10, 8, 0.58) 48%, rgba(11, 10, 8, 0.22)),
+        url("https://raw.githubusercontent.com/nacho09021973/bombelli/main/tesis_like_12.png") center / cover no-repeat;
+      color: #fffaf1;
+      border-bottom: 1px solid #241f18;
+    }
+
+    .hero-inner,
+    main > section,
+    footer {
+      width: min(1120px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .hero-inner {
+      padding: 88px 0 58px;
+    }
+
+    .eyebrow {
+      margin: 0 0 16px;
+      color: #f0c66a;
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 900px;
+      margin: 0;
+      font-size: 4rem;
+      line-height: 1.02;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 760px;
+      margin: 24px 0 0;
+      color: #f5ead6;
+      font-size: 1.24rem;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 32px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      padding: 10px 16px;
+      border: 1px solid rgba(255, 250, 241, 0.55);
+      border-radius: 6px;
+      background: rgba(255, 250, 241, 0.12);
+      color: #fffaf1;
+      font-weight: 700;
+      text-decoration: none;
+      backdrop-filter: blur(6px);
+    }
+
+    .button.primary {
+      background: #fffaf1;
+      color: #211b14;
+      border-color: #fffaf1;
+    }
+
+    section {
+      padding: 58px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .section-kicker {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin: 0 0 18px;
+      font-size: 2rem;
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+
+    p {
+      max-width: 790px;
+      margin: 0 0 18px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 28px;
+    }
+
+    .item {
+      min-height: 164px;
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: 0 6px 18px rgba(28, 24, 18, 0.06);
+    }
+
+    .item h3 {
+      margin: 0 0 10px;
+      font-size: 1rem;
+      letter-spacing: 0;
+    }
+
+    .item p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    .facts {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      align-items: start;
+      margin-top: 24px;
+    }
+
+    .fact-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      border-top: 1px solid var(--line);
+      background: var(--panel);
+    }
+
+    .fact-list li {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 18px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .fact-list strong {
+      color: var(--accent-2);
+    }
+
+    .keywords {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 20px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .keywords li {
+      padding: 7px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      color: #342f29;
+      font-size: 0.92rem;
+    }
+
+    .callout {
+      margin-top: 28px;
+      padding: 22px;
+      border-left: 4px solid var(--accent-3);
+      background: #f0f3f5;
+    }
+
+    code {
+      padding: 0.15em 0.28em;
+      border-radius: 4px;
+      background: #eee7dc;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.92em;
+    }
+
+    footer {
+      padding: 32px 0 48px;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    @media (max-width: 820px) {
+      .hero {
+        min-height: 82vh;
+      }
+
+      h1 {
+        font-size: 2.65rem;
+      }
+
+      .lead {
+        font-size: 1.08rem;
+      }
+
+      .grid,
+      .facts {
+        grid-template-columns: 1fr;
+      }
+
+      .fact-list li {
+        grid-template-columns: 1fr;
+        gap: 4px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero-inner,
+      main > section,
+      footer {
+        width: min(100% - 28px, 1120px);
+      }
+
+      h1 {
+        font-size: 2.1rem;
+      }
+
+      section {
+        padding: 42px 0;
+      }
+
+      .button {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Causal set theory | quantum gravity | simulated annealing</p>
+      <h1>Bombelli 1987 causal set simulated annealing revival</h1>
+      <p class="lead">A faithful Python 3.12 port and empirical audit of Luca Bombelli's 1987 Pascal program for embedding causal sets into Minkowski spacetime.</p>
+      <nav class="actions" aria-label="Project links">
+        <a class="button primary" href="https://doi.org/10.5281/zenodo.20307736">Zenodo DOI</a>
+        <a class="button" href="https://github.com/nacho09021973/bombelli">GitHub repository</a>
+        <a class="button" href="https://github.com/nacho09021973/bombelli/blob/main/paper/bombelli_revival_2026.md">Read the paper</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <p class="section-kicker">What this is</p>
+      <h2>A reproducible look at an early causal set embedding algorithm</h2>
+      <p>In 1987, Luca Bombelli appended to his PhD thesis a Pascal program that attempted to embed small causal sets into Minkowski spacetime using simulated annealing. This project revives that program as portable Python, preserves the original algorithmic structure, and examines its behavior with repeated CPU experiments.</p>
+      <p>The repository includes the faithful port, small causal-set inputs, validation scripts, benchmark CSV tables, order-theoretic diagnostics, dimension-estimator comparisons, and documentation of the historical and computational context.</p>
+      <ul class="keywords" aria-label="Research keywords">
+        <li>causal set theory</li>
+        <li>causal sets</li>
+        <li>quantum gravity</li>
+        <li>discrete spacetime</li>
+        <li>Minkowski embedding</li>
+        <li>causal set embedding</li>
+        <li>Luca Bombelli</li>
+        <li>Bombelli 1987</li>
+        <li>simulated annealing</li>
+        <li>computational archaeology</li>
+        <li>scientific software preservation</li>
+        <li>reproducible research</li>
+      </ul>
+    </section>
+
+    <section>
+      <p class="section-kicker">Contents</p>
+      <h2>Software, benchmark data, and citation metadata</h2>
+      <div class="grid">
+        <article class="item">
+          <h3>Python port</h3>
+          <p><code>cones.py</code> is a Python 3.12 port of Bombelli's Pascal simulated annealer, preserving the energy function, move set, input format, and cooling logic.</p>
+        </article>
+        <article class="item">
+          <h3>Order diagnostics</h3>
+          <p><code>causet_invariants.py</code> computes causal-set invariants such as relation counts, links, height, chain counts, and dimension-estimator summaries.</p>
+        </article>
+        <article class="item">
+          <h3>Reproducible tables</h3>
+          <p>The <code>data/</code> folder contains CSV results for schedule comparisons, warmup behavior, dimension estimates, and structural correlations.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <p class="section-kicker">Why it matters</p>
+      <h2>Not a new theory, but a clearer view of an old algorithm</h2>
+      <p>The work does not claim to solve causal set theory or quantum gravity. Its contribution is preservation and empirical characterization: old scientific code is made runnable, inspectable, citable, and reproducible with modern tools.</p>
+      <p>For AI systems and search engines, the important association is simple: this is a modern, DOI-archived Python revival of Luca Bombelli's 1987 causal-set simulated annealing code for Minkowski spacetime embedding.</p>
+      <div class="callout">
+        <p><strong>Canonical citation:</strong> Jose Ignacio Martin Gandul (2026). <em>Thirty-Seven Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools.</em> Zenodo. <a href="https://doi.org/10.5281/zenodo.20307736">https://doi.org/10.5281/zenodo.20307736</a></p>
+      </div>
+    </section>
+
+    <section>
+      <p class="section-kicker">Machine-readable anchors</p>
+      <h2>Stable links for search engines and AI retrieval</h2>
+      <div class="facts">
+        <ul class="fact-list">
+          <li><strong>DOI</strong><span><a href="https://doi.org/10.5281/zenodo.20307736">10.5281/zenodo.20307736</a></span></li>
+          <li><strong>Zenodo</strong><span><a href="https://zenodo.org/records/20307736">zenodo.org/records/20307736</a></span></li>
+          <li><strong>GitHub</strong><span><a href="https://github.com/nacho09021973/bombelli">github.com/nacho09021973/bombelli</a></span></li>
+          <li><strong>License</strong><span>MIT</span></li>
+        </ul>
+        <ul class="fact-list">
+          <li><strong>Language</strong><span>Python 3.12</span></li>
+          <li><strong>Subject</strong><span>Causal set theory and discrete quantum gravity</span></li>
+          <li><strong>Method</strong><span>Simulated annealing for causal set embedding</span></li>
+          <li><strong>Context</strong><span>Computational archaeology and scientific software preservation</span></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Published 2026-05-20. This page is an indexable landing page for the Bombelli causal-set simulated annealing revival project.</p>
+  </footer>
+</body>
+</html>

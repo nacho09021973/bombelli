@@ -11,14 +11,28 @@ repository-code: "https://github.com/nacho09021973/bombelli"
 abstract: >
   A faithful Python 3.12 port of Luca Bombelli's 1987 Pascal program for embedding
   causal sets into Minkowski spacetime by simulated annealing, together with an
-  empirical characterisation of the algorithm using portable CPU runs,
-  ensemble statistics, and order-theoretic invariants.
+  empirical characterization of the algorithm using portable CPU runs,
+  ensemble statistics, order-theoretic diagnostics, benchmark tables, and
+  documentation of the historical and computational context.
 keywords:
   - causal set theory
+  - causal sets
+  - Bombelli
+  - Luca Bombelli
+  - Minkowski embedding
+  - causal set embedding
+  - Pascal to Python
+  - scientific software preservation
+  - algorithm revival
   - simulated annealing
+  - simulated annealing optimization
   - quantum gravity
+  - discrete quantum gravity
   - discrete spacetime
+  - computational physics
   - computational archaeology
+  - reproducible research
+  - AI-assisted research
 references:
   - type: thesis
     authors:

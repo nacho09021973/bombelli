@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nacho09021973.github.io/bombelli/sitemap.xml

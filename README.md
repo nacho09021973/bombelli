@@ -6,6 +6,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20307736.svg)](https://doi.org/10.5281/zenodo.20307736)
 
+Project landing page: <https://nacho09021973.github.io/bombelli/>
+
 ---
 
 ![Retro visualization of the 12-element causal set](tesis_like_12.png)
@@ -23,9 +25,13 @@
 
 ## What this is
 
+A modern Python revival and empirical audit of Luca Bombelli's 1987 causal-set simulated annealing program.
+
 In 1987, Luca Bombelli appended to his PhD thesis a Pascal program that tried to embed small causal sets into Minkowski spacetime by simulated annealing. The program ran on the workstations of the era, produced results for a handful of cases, and was never published as a standalone tool.
 
-This repository documents a small experiment: port Bombelli's program to Python, run it reproducibly on ordinary machines, and compare many runs instead of one. It is written for curious readers, physics enthusiasts, and people who enjoy computational archaeology. It does not claim to advance causal set theory; it is simply a closer look at one old algorithm.
+This repository provides a faithful Python 3.12 port of Bombelli's Pascal simulated-annealing program for embedding causal sets into Minkowski spacetime. It includes reproducible CPU experiments, ensemble statistics, order-theoretic diagnostics, benchmark tables, and documentation of the historical and computational context. The work revisits an early causal set algorithm using modern software engineering, reproducibility practices, and AI-assisted code archaeology.
+
+It is written for curious readers, physics enthusiasts, and people who enjoy computational archaeology. It does not claim to advance causal set theory; it is simply a closer look at one old algorithm.
 
 The paper is in [`paper/bombelli_revival_2026.md`](paper/bombelli_revival_2026.md).
 
@@ -203,8 +209,9 @@ The result is modest: old code, a few simple tests, and a clearer picture of how
 If you use this work, please cite:
 
 ```
-Martin Gandul, J. I. "Thirty-Seven Years of Simulated Annealing on a Causal Set:
-A Revival of Bombelli (1987) with 2026 Tools." 2026.
+Jose Ignacio Martin Gandul (2026). Thirty-Seven Years of Simulated Annealing
+on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools. Zenodo.
+https://doi.org/10.5281/zenodo.20307736
 ```
 
 And the original work this revives:

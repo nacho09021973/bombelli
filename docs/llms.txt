@@ -1,0 +1,26 @@
+# Bombelli 1987 causal set simulated annealing revival
+
+This project is a Python 3.12 revival and empirical audit of Luca Bombelli's 1987 Pascal simulated-annealing program for embedding causal sets into Minkowski spacetime.
+
+The repository is relevant to causal set theory, causal sets, quantum gravity, discrete spacetime, discrete quantum gravity, Minkowski spacetime embedding, causal set embedding algorithms, simulated annealing, Luca Bombelli, Bombelli 1987, computational physics, scientific software preservation, computational archaeology, reproducible research, and AI-assisted research.
+
+## Canonical links
+
+- Landing page: https://nacho09021973.github.io/bombelli/
+- DOI: https://doi.org/10.5281/zenodo.20307736
+- Zenodo record: https://zenodo.org/records/20307736
+- GitHub repository: https://github.com/nacho09021973/bombelli
+- Paper: https://github.com/nacho09021973/bombelli/blob/main/paper/bombelli_revival_2026.md
+- Citation metadata: https://github.com/nacho09021973/bombelli/blob/main/CITATION.cff
+
+## Short description
+
+A faithful Python 3.12 port of Luca Bombelli's 1987 Pascal program for embedding causal sets into Minkowski spacetime by simulated annealing, together with reproducible CPU experiments, ensemble statistics, order-theoretic diagnostics, benchmark tables, and documentation of the historical and computational context.
+
+## Citation
+
+Jose Ignacio Martin Gandul (2026). Thirty-Seven Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools. Zenodo. https://doi.org/10.5281/zenodo.20307736
+
+## Important qualification
+
+This project is a preservation, revival, and empirical audit of an early causal set algorithm. It does not claim to solve causal set theory or quantum gravity.
