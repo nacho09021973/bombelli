@@ -1,8 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-  - name: "Ignacio Arancibia"
-  - name: "Claude Sonnet 4.6 (Anthropic)"
+  - name: "Jose Ignacio Martin Gandul"
 title: "Thirty-Seven Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools"
 version: 1.0.0
 date-released: "2026-05-20"
@@ -11,7 +10,7 @@ repository-code: "https://github.com/ignacioarancibia/bombelli"
 abstract: >
   A faithful Python 3.12 port of Luca Bombelli's 1987 Pascal program for embedding
   causal sets into Minkowski spacetime by simulated annealing, together with an
-  empirical characterisation of the algorithm using 2026 tools: GPU acceleration,
+  empirical characterisation of the algorithm using portable CPU runs,
   ensemble statistics, order-theoretic invariants, and AI collaboration.
 keywords:
   - causal set theory
