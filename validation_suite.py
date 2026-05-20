@@ -33,6 +33,7 @@ Jacobian.
 
 from __future__ import annotations
 
+import argparse
 import contextlib
 import io
 import math
@@ -556,7 +557,6 @@ def run_recovery(
     initial_temp: float = 100.0,
     cooling_factor: float = 0.9,
     max_data: int = 35,
-    backend: str = "cpu",
 ) -> RecoveryResult:
     """Run one annealing recovery on one sprinkled case.
 
@@ -582,7 +582,6 @@ def run_recovery(
             anneal_limit=anneal_limit,
             initial_temp=initial_temp,
             cooling_factor=cooling_factor,
-            backend=backend,
         )
         sim.run(Path(tmpdir) / "out.txt")
 
@@ -752,3 +751,71 @@ def write_summary_report(summary: Sequence[dict], path: Path) -> None:
             "{mean_interval_rmse:.4f} | {mean_mm_dim:.3f} |".format(**row)
         )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def _parse_int_list(raw: str) -> List[int]:
+    values = [int(part.strip()) for part in raw.split(",") if part.strip()]
+    if not values:
+        raise argparse.ArgumentTypeError("expected at least one integer")
+    return values
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(
+        description="Run a small sprinkle-then-recover validation ensemble."
+    )
+    parser.add_argument(
+        "--d-spacetimes",
+        type=_parse_int_list,
+        default=[2],
+        help="comma-separated spacetime dimensions, default: 2",
+    )
+    parser.add_argument(
+        "--sizes",
+        type=_parse_int_list,
+        default=[6],
+        help="comma-separated causet sizes, default: 6",
+    )
+    parser.add_argument(
+        "--case-seeds",
+        type=_parse_int_list,
+        default=[1959],
+        help="comma-separated sprinkling seeds, default: 1959",
+    )
+    parser.add_argument(
+        "--optimizer-seeds",
+        type=_parse_int_list,
+        default=[1959],
+        help="comma-separated annealer seeds, default: 1959",
+    )
+    parser.add_argument("--max-data", type=int, default=1, help="annealing blocks per recovery")
+    parser.add_argument("--initial-temp", type=float, default=100.0, help="initial temperature")
+    parser.add_argument("--cooling-factor", type=float, default=0.9, help="cooling factor")
+    args = parser.parse_args()
+
+    cases = generate_ensemble(args.d_spacetimes, args.sizes, args.case_seeds)
+    results: List[RecoveryResult] = []
+    for case in cases:
+        for optimizer_seed in args.optimizer_seeds:
+            results.append(
+                run_recovery(
+                    case,
+                    optimizer_seed=optimizer_seed,
+                    max_data=args.max_data,
+                    initial_temp=args.initial_temp,
+                    cooling_factor=args.cooling_factor,
+                )
+            )
+
+    summary = summarize(results)
+    print("d_spacetime,n,runs,mean_final_energy,mean_truth_energy,mean_interval_rmse,mean_mm_dim")
+    for row in summary:
+        print(
+            "{d_spacetime},{n},{runs},{mean_final_energy:.6f},"
+            "{mean_truth_energy:.6f},{mean_interval_rmse:.6f},{mean_mm_dim:.6f}".format(**row)
+        )
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

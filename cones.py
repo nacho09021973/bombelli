@@ -19,11 +19,6 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List, Sequence, TextIO, Tuple
 
-try:
-    from cuda_backend import CUDAEnergyBackend
-except Exception:  # pragma: no cover - optional accelerator
-    CUDAEnergyBackend = None
-
 
 def parse_cones_input(path: Path) -> List[List[bool]]:
     """Parse the Pascal input file format.
@@ -412,7 +407,6 @@ def run_single_case(
     plot_path: Path | None,
     interactive: bool,
     max_data: int,
-    backend: str,
 ) -> ConesSimulator:
     sim = ConesSimulator(
         z=z,
@@ -421,7 +415,6 @@ def run_single_case(
         interactive=interactive,
         max_data=max_data,
         plot_path=plot_path,
-        backend=backend,
     )
     sim.run(output_path)
     return sim
@@ -473,7 +466,6 @@ def run_sweep(args: argparse.Namespace) -> int:
             plot_path=plot_path,
             interactive=args.interactive,
             max_data=args.max_data,
-            backend=args.backend,
         )
         row = sim.summary()
         row.update(
@@ -502,15 +494,12 @@ class ConesSimulator:
     interactive: bool = False
     max_data: int = 35
     plot_path: Path | None = None
-    backend: str = "cpu"
-    shared_cuda_backend: Any | None = None
     warmup_limit: int = 100
     anneal_limit: int = 100
     initial_temp: float = 100.0
     cooling_factor: float = 0.9
     acceptance_scale: float = 4.0
     rng: PascalRNG = field(init=False)
-    cuda_backend: Any | None = field(init=False, default=None)
 
     def __post_init__(self) -> None:
         self.n = len(self.z)
@@ -528,8 +517,6 @@ class ConesSimulator:
             raise ValueError("cooling_factor must be in (0, 1]")
         if self.acceptance_scale < 0.0:
             raise ValueError("acceptance_scale must be nonnegative")
-        if self.backend not in ("cpu", "cuda", "auto"):
-            raise ValueError("backend must be cpu, cuda, or auto")
         self.original_seed = self.seed
         self.rng = PascalRNG(self.seed)
 
@@ -557,11 +544,6 @@ class ConesSimulator:
         self.initial_energy = 0.0
         self.warmup_energy = 0.0
 
-        if self.shared_cuda_backend is not None:
-            self.cuda_backend = self.shared_cuda_backend
-        elif self.backend in ("cuda", "auto"):
-            self._init_cuda_backend()
-
     @staticmethod
     def _sort(value: float) -> float:
         return math.sqrt(max(value, 0.0))
@@ -571,21 +553,6 @@ class ConesSimulator:
 
     def gasdev(self) -> float:
         return self.rng.gasdev()
-
-    def _init_cuda_backend(self) -> None:
-        if CUDAEnergyBackend is None:
-            if self.backend == "cuda":
-                raise RuntimeError("CUDA backend requested but cuda_backend.py is unavailable")
-            self.backend = "cpu"
-            return
-        try:
-            self.cuda_backend = CUDAEnergyBackend(self.n, self.dim)
-            self.cuda_backend.set_z(self.z)
-        except Exception:
-            if self.backend == "cuda":
-                raise
-            self.cuda_backend = None
-            self.backend = "cpu"
 
     def startup(self, out: TextIO) -> None:
         for i in range(self.n):
@@ -599,17 +566,6 @@ class ConesSimulator:
         self._writeln(out, f"Energy of initial configuration: {self.energies[0]:9.3f}")
 
     def energy(self) -> None:
-        if self.cuda_backend is not None:
-            flat = self.cuda_backend.compute(self.xnew, self.rnew, self.rave)
-            self.deltae = 0.0
-            for i in range(self.n - 1):
-                base = i * self.n
-                for j in range(i + 1, self.n):
-                    value = flat[base + j]
-                    self.enew[i][j] = value
-                    self.deltae += value - self.eold[i][j]
-            return
-
         roottwo = math.sqrt(2.0)
         self.deltae = 0.0
 
@@ -803,18 +759,14 @@ class ConesSimulator:
         where.write(text + "\n")
 
     def run(self, output_path: Path) -> None:
-        try:
-            with output_path.open("w", encoding="utf-8") as out:
-                self.startup(out)
-                self.warmup(out)
-                self.anneal(out)
-                self.writeout(sys.stdout)
-                self.writeout(out)
-            if self.plot_path is not None:
-                write_svg_plot(self.data, self.plot_path)
-        finally:
-            if self.cuda_backend is not None and self.shared_cuda_backend is None:
-                self.cuda_backend.close()
+        with output_path.open("w", encoding="utf-8") as out:
+            self.startup(out)
+            self.warmup(out)
+            self.anneal(out)
+            self.writeout(sys.stdout)
+            self.writeout(out)
+        if self.plot_path is not None:
+            write_svg_plot(self.data, self.plot_path)
 
     def summary(self) -> Dict[str, Any]:
         final_energy = self.data[-1][1] if self.data else self.eave
@@ -844,7 +796,6 @@ def build_argparser() -> argparse.ArgumentParser:
     parser.add_argument("--seed", type=int, default=1959, help="random seed")
     parser.add_argument("--interactive", action="store_true", help="use the old prompt-driven annealing loop")
     parser.add_argument("--max-data", type=int, default=35, help="maximum annealing data points in noninteractive mode")
-    parser.add_argument("--backend", choices=["cpu", "cuda", "auto"], default="cpu", help="energy backend")
     parser.add_argument("--warmup-limit", type=int, default=100, help="maximum reconfigure steps during warmup")
     parser.add_argument("--anneal-limit", type=int, default=100, help="maximum reconfigure steps per anneal block")
     parser.add_argument("--initial-temp", type=float, default=100.0, help="initial temperature")
@@ -907,7 +858,6 @@ def main(argv: Sequence[str] | None = None) -> int:
         interactive=args.interactive,
         max_data=args.max_data,
         plot_path=None if args.no_plot else args.plot,
-        backend=args.backend,
         warmup_limit=args.warmup_limit,
         anneal_limit=args.anneal_limit,
         initial_temp=args.initial_temp,

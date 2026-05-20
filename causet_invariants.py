@@ -25,7 +25,10 @@ Notation conventions follow ``cones.py``:
 
 from __future__ import annotations
 
+import argparse
+import json
 import math
+from pathlib import Path
 from typing import Dict, List, Sequence
 
 
@@ -387,3 +390,21 @@ def invariants_fingerprint(z: CausalMatrix) -> Dict[str, object]:
         "antichain_profile": antichain_profile(z),
         "chain_counts": chain_counts(z, k_max=4),
     }
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(
+        description="Compute order-theoretic invariants for a Pascal-style causet input."
+    )
+    parser.add_argument("input_file", type=Path, help="Pascal-style incidence input file")
+    args = parser.parse_args()
+
+    from cones import parse_cones_input
+
+    z = parse_cones_input(args.input_file)
+    print(json.dumps(invariants_fingerprint(z), indent=2, sort_keys=True))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

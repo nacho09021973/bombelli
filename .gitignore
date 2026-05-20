@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+cone.out
+cone.svg
+sweep_runs/
+sweep_report.csv
+sweep_report.md
+sweep_summary.svg
