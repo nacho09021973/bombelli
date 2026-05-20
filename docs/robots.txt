@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 
+# On GitHub Pages project sites, this file is served under /bombelli/robots.txt.
+# Submit the sitemap directly in Google Search Console for reliable discovery.
 Sitemap: https://nacho09021973.github.io/bombelli/sitemap.xml
