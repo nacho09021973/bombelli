@@ -6,12 +6,13 @@ title: "Thirty-Seven Years of Simulated Annealing on a Causal Set: A Revival of 
 version: 1.0.0
 date-released: "2026-05-20"
 license: MIT
-repository-code: "https://github.com/ignacioarancibia/bombelli"
+doi: "10.5281/zenodo.20307736"
+repository-code: "https://github.com/nacho09021973/bombelli"
 abstract: >
   A faithful Python 3.12 port of Luca Bombelli's 1987 Pascal program for embedding
   causal sets into Minkowski spacetime by simulated annealing, together with an
   empirical characterisation of the algorithm using portable CPU runs,
-  ensemble statistics, order-theoretic invariants, and AI collaboration.
+  ensemble statistics, and order-theoretic invariants.
 keywords:
   - causal set theory
   - simulated annealing

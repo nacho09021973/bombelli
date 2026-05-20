@@ -4,6 +4,8 @@
 
 *Jose Ignacio Martin Gandul · 2026*
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20307736.svg)](https://doi.org/10.5281/zenodo.20307736)
+
 ---
 
 ![Retro visualization of the 12-element causal set](tesis_like_12.png)
