@@ -1,6 +1,70 @@
 User-agent: *
 Allow: /
 
-# On GitHub Pages project sites, this file is served under /bombelli/robots.txt.
-# Submit the sitemap directly in Google Search Console for reliable discovery.
+# AI assistant and search crawlers are explicitly welcome.
+# Topics covered: causal set theory, Luca Bombelli 1987, quantum gravity,
+# Minkowski spacetime embedding, simulated annealing, scientific software
+# preservation, reproducible research, SORKIN-2 algorithmic recoverability.
+
+# OpenAI (ChatGPT training and search)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Google AI (Gemini, AI Overviews, Google-Extended for AI training)
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# xAI Grok
+User-agent: Grok
+Allow: /
+
+User-agent: xAI
+Allow: /
+
+# Meta
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Common Crawl (training corpus for many open-weight models)
+User-agent: CCBot
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Diffbot (structured data extraction)
+User-agent: Diffbot
+Allow: /
+
+# Bytespider (ByteDance)
+User-agent: Bytespider
+Allow: /
+
+# Machine-readable AI context: https://nacho09021973.github.io/bombelli/llms.txt
+# On GitHub Pages, this file is served under /bombelli/robots.txt.
 Sitemap: https://nacho09021973.github.io/bombelli/sitemap.xml
