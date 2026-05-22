@@ -45,5 +45,7 @@
       "scheme": "doi"
     }
   ],
+  "language": "eng",
+  "access_right": "open",
   "notes": "A preservation, revival, and empirical audit of an early causal set simulated-annealing algorithm. This software release does not claim to solve causal set theory or quantum gravity."
 }

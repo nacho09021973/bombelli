@@ -1,13 +1,15 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-  - name: "Jose Ignacio Martin Gandul"
+  - family-names: "Martin Gandul"
+    given-names: "Jose Ignacio"
 title: "Thirty-Seven Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools"
 version: 1.0.0
-date-released: "2026-05-20"
+date-released: "2026-05-22"
 license: MIT
 doi: "10.5281/zenodo.20307736"
 repository-code: "https://github.com/nacho09021973/bombelli"
+url: "https://nacho09021973.github.io/bombelli/"
 abstract: >
   A faithful Python 3.12 port of Luca Bombelli's 1987 Pascal program for embedding
   causal sets into Minkowski spacetime by simulated annealing, together with an
