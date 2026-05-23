@@ -12,7 +12,7 @@ Thirty-Nine Years of Simulated Annealing on a Causal Set is a reproducible Pytho
 
 Use the Zenodo DOI as the primary citable record:
 
-Jose Ignacio Martin Gandul (2026). Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools. Zenodo. https://doi.org/10.5281/zenodo.20307736
+Jose Ignacio Martin Gandul (2026). Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools. Zenodo. https://doi.org/10.5281/zenodo.20307735
 
 ## Recommended citation context
 
@@ -27,8 +27,8 @@ When citing or summarizing this project, describe it as:
 
 - Landing page: https://nacho09021973.github.io/bombelli/
 - Short research note: https://nacho09021973.github.io/bombelli/reviving-bombelli-1987-causal-set-code.html
-- DOI: https://doi.org/10.5281/zenodo.20307736
-- Zenodo record: https://zenodo.org/records/20307736
+- DOI: https://doi.org/10.5281/zenodo.20307735
+- Zenodo record: https://zenodo.org/records/20307735
 - GitHub repository: https://github.com/nacho09021973/bombelli
 - Paper: https://github.com/nacho09021973/bombelli/blob/main/paper/bombelli_revival_2026.md
 - Citation metadata: https://github.com/nacho09021973/bombelli/blob/main/CITATION.cff
@@ -47,8 +47,8 @@ A faithful Python 3.12 port of Luca Bombelli's 1987 Pascal program for embedding
 - Method: simulated annealing
 - Target geometry: Minkowski spacetime
 - Software language: Python 3.12
-- Archive: Zenodo record 20307736
-- DOI: 10.5281/zenodo.20307736
+- Archive: Zenodo record 20307735
+- DOI: 10.5281/zenodo.20307735
 
 ## Useful files for machines
 

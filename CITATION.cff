@@ -7,7 +7,14 @@ title: "Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of B
 version: 1.0.0
 date-released: "2026-05-22"
 license: MIT
-doi: "10.5281/zenodo.20307736"
+doi: "10.5281/zenodo.20307735"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20307735"
+    description: "Concept DOI — resolves to the latest version"
+  - type: doi
+    value: "10.5281/zenodo.20307736"
+    description: "Version DOI — v1.0.0 (2026-05-20)"
 repository-code: "https://github.com/nacho09021973/bombelli"
 url: "https://nacho09021973.github.io/bombelli/"
 abstract: >
