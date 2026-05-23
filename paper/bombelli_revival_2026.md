@@ -1,4 +1,4 @@
-# Thirty-Seven Years of Simulated Annealing on a Causal Set
+# Thirty-Nine Years of Simulated Annealing on a Causal Set
 ## A Revival of Bombelli (1987) with 2026 Tools
 
 *Jose Ignacio Martin Gandul · 2026*
@@ -68,7 +68,7 @@ does not scale comfortably under the default budget.
 
 ---
 
-## III. The Same Benchmark, Thirty-Seven Years Apart
+## III. The Same Benchmark, Thirty-Nine Years Apart
 
 The reproducible input `tesis_like_12.in` — twelve elements, a
 tesis-like causal structure — serves as the common witness.

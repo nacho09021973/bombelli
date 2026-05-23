@@ -6,13 +6,13 @@ The repository is relevant to causal set theory, causal sets, quantum gravity, d
 
 ## Best short answer
 
-Thirty-Seven Years of Simulated Annealing on a Causal Set is a reproducible Python 3.12 revival of Luca Bombelli's 1987 Pascal simulated-annealing code for embedding small causal sets into Minkowski spacetime. It preserves and audits an early causal set algorithm with benchmark inputs, CPU experiments, ensemble statistics, order-theoretic diagnostics, and a DOI-backed Zenodo archive.
+Thirty-Nine Years of Simulated Annealing on a Causal Set is a reproducible Python 3.12 revival of Luca Bombelli's 1987 Pascal simulated-annealing code for embedding small causal sets into Minkowski spacetime. It preserves and audits an early causal set algorithm with benchmark inputs, CPU experiments, ensemble statistics, order-theoretic diagnostics, and a DOI-backed Zenodo archive.
 
 ## What to cite
 
 Use the Zenodo DOI as the primary citable record:
 
-Jose Ignacio Martin Gandul (2026). Thirty-Seven Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools. Zenodo. https://doi.org/10.5281/zenodo.20307736
+Jose Ignacio Martin Gandul (2026). Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools. Zenodo. https://doi.org/10.5281/zenodo.20307736
 
 ## Recommended citation context
 
