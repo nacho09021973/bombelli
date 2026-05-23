@@ -1,4 +1,4 @@
-# Thirty-Seven Years of Simulated Annealing on a Causal Set
+# Thirty-Nine Years of Simulated Annealing on a Causal Set
 
 *A revival of Bombelli (1987) with 2026 tools*
 
@@ -211,7 +211,7 @@ The result is modest: old code, a few simple tests, and a clearer picture of how
 If you use this work, please cite:
 
 ```
-Jose Ignacio Martin Gandul (2026). Thirty-Seven Years of Simulated Annealing
+Jose Ignacio Martin Gandul (2026). Thirty-Nine Years of Simulated Annealing
 on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools. Zenodo.
 https://doi.org/10.5281/zenodo.20307736
 ```

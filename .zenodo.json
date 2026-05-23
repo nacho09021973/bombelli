@@ -1,5 +1,5 @@
 {
-  "title": "Thirty-Seven Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools",
+  "title": "Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools",
   "upload_type": "software",
   "description": "This repository provides a faithful Python 3.12 port of Luca Bombelli's 1987 Pascal simulated-annealing program for embedding causal sets into Minkowski spacetime. It includes reproducible CPU experiments, ensemble statistics, order-theoretic diagnostics, benchmark tables, and documentation of the historical and computational context. The work revisits an early causal set algorithm using modern software engineering, reproducibility practices, and AI-assisted code archaeology. Project landing page: https://nacho09021973.github.io/bombelli/",
   "creators": [
