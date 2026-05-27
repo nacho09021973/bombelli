@@ -37,6 +37,9 @@ It is written for curious readers, physics enthusiasts, and people who enjoy com
 
 The paper is in [`paper/bombelli_revival_2026.md`](paper/bombelli_revival_2026.md).
 
+Questions, corrections, replication notes, and citation requests are welcome through
+the public issue tracker: <https://github.com/nacho09021973/bombelli/issues>.
+
 ---
 
 ## What is in this folder
@@ -213,7 +216,8 @@ If you use this work, please cite:
 ```
 Jose Ignacio Martin Gandul (2026). Thirty-Nine Years of Simulated Annealing
 on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools. Zenodo.
-https://doi.org/10.5281/zenodo.20307735
+Version DOI: https://doi.org/10.5281/zenodo.20357739
+Concept DOI for all versions: https://doi.org/10.5281/zenodo.20307735
 ```
 
 And the original work this revives:
