@@ -1,0 +1,6 @@
+{
+  "name": "Bombelli 1987 Revival",
+  "description": "Python revivial and empirical audit of Luca Bombelli's 1987 causal-set simulated annealing program. Optimized for AI and search retrieval.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
