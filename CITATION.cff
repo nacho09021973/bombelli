@@ -4,19 +4,22 @@ authors:
   - family-names: "Martin Gandul"
     given-names: "Jose Ignacio"
 title: "Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools"
-version: 1.0.1
-date-released: "2026-05-23"
+version: "2.0"
+date-released: "2026-06-18"
 license: MIT
-doi: "10.5281/zenodo.20357739"
+doi: "10.5281/zenodo.20743638"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.20307735"
     description: "Concept DOI / all versions"
   - type: doi
+    value: "10.5281/zenodo.20743638"
+    description: "Version DOI — v2.0 (2026-06-18)"
+  - type: doi
     value: "10.5281/zenodo.20357739"
     description: "Version DOI — v1.0.1 (2026-05-23)"
 repository-code: "https://github.com/nacho09021973/bombelli"
-repository-artifact: "https://zenodo.org/records/20357739"
+repository-artifact: "https://zenodo.org/records/20743638"
 url: "https://nacho09021973.github.io/bombelli/"
 abstract: >
   A faithful Python 3.12 port of Luca Bombelli's 1987 Pascal program for embedding

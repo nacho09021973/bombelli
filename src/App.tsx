@@ -19,9 +19,19 @@ export default function App() {
               Causal Set Simulated Annealing
             </p>
           </div>
-          <nav aria-label="Primary navigation">
-            <a 
-              href="https://github.com/nacho09021973/bombelli" 
+          <nav aria-label="Primary navigation" className="flex items-center gap-3">
+            <a
+              href="https://doi.org/10.5281/zenodo.20307735"
+              className="inline-flex items-center gap-2 px-4 py-2 bg-white text-zinc-900 text-sm font-medium rounded-md border border-zinc-300 hover:bg-zinc-100 transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Cite via Zenodo DOI"
+            >
+              <FileText className="w-4 h-4" />
+              <span>DOI</span>
+            </a>
+            <a
+              href="https://github.com/nacho09021973/bombelli"
               className="inline-flex items-center gap-2 px-4 py-2 bg-zinc-900 text-white text-sm font-medium rounded-md hover:bg-zinc-800 transition-colors"
               target="_blank"
               rel="noopener noreferrer"
@@ -90,9 +100,9 @@ export default function App() {
               <div className="w-10 h-10 rounded-lg bg-zinc-800 flex items-center justify-center text-white mb-6">
                 <CheckCircle2 className="w-5 h-5" />
               </div>
-              <h3 className="text-lg font-semibold">Order Diagnostics</h3>
+              <h3 className="text-lg font-semibold">Order Diagnostics & Tests</h3>
               <p className="text-zinc-400 mt-2 leading-relaxed">
-                Extensive order diagnostics and robust testing environments ensure that the revival strictly adheres to the mathematical constraints of the 1987 paper.
+                Embedding-free order-theoretic diagnostics (Myrheim–Meyer and Meyer midpoint dimension, chain counts, height) plus a unit-test suite that checks RNG determinism, the energy oracle, and Lorentz invariance.
               </p>
             </motion.article>
 
@@ -108,7 +118,7 @@ export default function App() {
               </div>
               <h3 className="text-lg font-semibold text-zinc-900">Reproducible Tables</h3>
               <p className="text-zinc-600 mt-2 leading-relaxed">
-                Includes fully reproducible benchmark tables, allowing anyone to verify the program's computational complexity and output states locally.
+                Every benchmark table is the literal output of a script (<span className="font-mono text-sm">experiments.py</span>): regenerate each CSV from scratch with a single command and obtain byte-identical results.
               </p>
             </motion.article>
 
@@ -124,8 +134,17 @@ export default function App() {
               </div>
               <h3 className="text-lg font-semibold text-zinc-900">Citation & Software Metadata</h3>
               <p className="text-zinc-600 mt-2 leading-relaxed">
-                Packaged with clear citation rules and software metadata to make it simple for the academic community and indexing algorithms to accurately reference.
+                Archived on Zenodo with a citable DOI and machine-readable <span className="font-mono text-sm">CITATION.cff</span> metadata.
               </p>
+              <a
+                href="https://doi.org/10.5281/zenodo.20307735"
+                className="inline-flex items-center gap-1 mt-3 text-sm font-medium text-blue-700 hover:text-blue-900"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                DOI: 10.5281/zenodo.20307735 (all versions)
+                <ExternalLink className="w-3 h-3" />
+              </a>
             </motion.article>
           </div>
         </section>
@@ -164,8 +183,12 @@ export default function App() {
              © {new Date().getFullYear()} Software Preservation Study.
            </p>
            <div className="flex items-center gap-4">
-             <a href="https://nacho09021973.github.io/bombelli/" className="text-sm font-medium text-zinc-600 hover:text-zinc-900 inline-flex items-center gap-1 transition-colors">
-               Main Project Site
+             <a href="https://github.com/nacho09021973/bombelli" className="text-sm font-medium text-zinc-600 hover:text-zinc-900 inline-flex items-center gap-1 transition-colors" target="_blank" rel="noopener noreferrer">
+               Repository
+               <ExternalLink className="w-3 h-3" />
+             </a>
+             <a href="https://doi.org/10.5281/zenodo.20743638" className="text-sm font-medium text-zinc-600 hover:text-zinc-900 inline-flex items-center gap-1 transition-colors" target="_blank" rel="noopener noreferrer">
+               Cite (v2.0)
                <ExternalLink className="w-3 h-3" />
              </a>
            </div>
