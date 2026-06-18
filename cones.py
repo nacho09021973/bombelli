@@ -685,7 +685,6 @@ class ConesSimulator:
             self.energy()
             self.update()
             self.count += 1
-            print(self.count)
         self.statistics()
         self._writeln(out, "Count Temp.   E[1].   Eave.   Evar.  spheat")
         self._writeln(
