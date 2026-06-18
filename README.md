@@ -48,8 +48,12 @@ the public issue tracker: <https://github.com/nacho09021973/bombelli/issues>.
 Bombelli/
 ├── cones.py                  # Faithful Python 3.12 port of Bombelli's Pascal annealer
 ├── causet_invariants.py      # Order-theoretic invariants (chains, links, height, MM dim)
-├── validation_suite.py       # End-to-end reproducibility tests
+├── validation_suite.py       # Sprinkler, controls, Lorentz-invariant residual, recovery
 ├── visualize_causets.py      # Retro SVG diagrams for small causal sets
+├── experiments.py            # Reproducible driver: regenerates every data/*.csv
+├── Makefile                  # make test / smoke / data
+│
+├── tests/                    # Real unit tests (RNG, energy oracle, invariants)
 │
 ├── inputs/
 │   ├── tesis_like_6.in       # 6-element causal set (fast benchmark)
@@ -80,7 +84,7 @@ A Pascal program, a single workstation, and one run per case.
 The same program ported to portable Python, plus the ability to run many seeds across a parameter grid on ordinary CPU machines.
 
 **What changed in one test:**
-On the 12-element benchmark, the default schedule (T₀ = 100, α = 0.9) gives a mean final energy of 20.021 across 100 seeds. With T₀ = 180 and α = 0.8 — same algorithm, same energy function, same move set — the mean drops to 0.166. This is not a new theory; it is just the kind of parameter sensitivity that becomes easier to see when repeated runs are cheap.
+On the 12-element benchmark, the default schedule (T₀ = 100, α = 0.9) gives a mean final energy of 22.735 across 100 seeds and never reaches a faithful embedding. With T₀ = 180 and α = 0.8 — same algorithm, same energy function, same move set — the optimizer reaches zero energy in 95 of 100 seeds. This is not a new theory; it is just the kind of parameter sensitivity that becomes easier to see when repeated runs are cheap.
 
 ---
 
@@ -88,29 +92,29 @@ On the 12-element benchmark, the default schedule (T₀ = 100, α = 0.9) gives a
 
 ### I. The schedule matters
 
-| Schedule | T₀ | α | Mean final energy (100 seeds) |
-|:---|---:|---:|---:|
-| Bombelli defaults | 100 | 0.9 | 20.021 |
-| Tuned (grid scan) | 180 | 0.8 | 0.166 |
+| Schedule | T₀ | α | Mean final energy (100 seeds) | Zero-energy runs |
+|:---|---:|---:|---:|---:|
+| Bombelli defaults | 100 | 0.9 | 22.735 | 0 / 100 |
+| Tuned (grid scan) | 180 | 0.8 | 0.000 | 95 / 100 |
 
-Source: [`data/schedule_comparison.csv`](data/schedule_comparison.csv)
+Source: [`data/schedule_comparison.csv`](data/schedule_comparison.csv) — regenerate with `python experiments.py schedule` (run at `dim = 3`, seeds 1959–2058).
 
 ### II. The warmup can disturb near-perfect initializations
 
-The original warmup makes 10 unconditional accept steps before annealing. What those 10 steps do:
+Before annealing the program runs an unconditional-accept warmup loop. What that warmup does to controlled initializations (measured in isolation, no subsequent anneal; "preserved" means final energy below 1.0):
 
 | Initialization | Legacy warmup | Skip warmup | Guarded warmup |
 |:---|:---|:---|:---|
 | Ground truth (E = 0) | Preserved 18/18 | Preserved 18/18 | Preserved 18/18 |
-| Truth + small noise (ε = 10⁻³) | Mean E = 18.92, 16/18 | Mean E = 12.12, 17/18 | Mean E = 0.001, 18/18 |
-| Truth + medium noise (ε = 5×10⁻²) | Mean E = 395.8, 0/18 | Mean E = 286.0, 0/18 | Mean E = 255.3, 0/18 |
-| Random initialization | Mean E = 405.2, 8/18 | Mean E = 307.9, 11/18 | Mean E = 271.4, 12/18 |
+| Truth + small noise (ε = 10⁻³) | Mean E = 111.7, 16/18 | Mean E = 0.003, 18/18 | Mean E = 0.000, 18/18 |
+| Truth + medium noise (ε = 5×10⁻²) | Mean E = 747.1, 0/18 | Mean E = 6.79, 1/18 | Mean E = 6.02, 5/18 |
+| Random initialization | Mean E = 875.0, 0/18 | Mean E = 451.7, 0/18 | Mean E = 239.8, 0/18 |
 
 *Grid: d ∈ {2, 3, 4}, n ∈ {32, 64}, seeds 1959/1962/1987 — 18 cells per row.*
 
-The guarded warmup accepts a proposed move only if it does not increase the energy. It is an external wrapper around the same internals — no change to the energy, the move set, or the cooling schedule.
+The guarded warmup accepts a proposed move only if it does not increase the energy. It is an external wrapper around the same internals — no change to the energy, the move set, or the cooling schedule. Because the Bombelli move size at a node is proportional to that node's local energy, a faithful configuration is a fixed point of every mode, which is why the ground-truth row is preserved everywhere.
 
-Source: [`data/warmup_comparison.csv`](data/warmup_comparison.csv)
+Source: [`data/warmup_comparison.csv`](data/warmup_comparison.csv) — regenerate with `python experiments.py warmup`.
 
 ### III. Dimension estimators add context
 
@@ -118,47 +122,48 @@ Two independent dimension estimators — the Myrheim–Meyer formula and Meyer's
 
 | Family | d | MM dim | Midpoint dim | Discrepancy |
 |:---|:---:|---:|---:|---:|
-| Minkowski | 2 | **2.02** | **2.06** | 0.07 |
-| Minkowski | 3 | **3.06** | **3.00** | 0.28 |
-| Minkowski | 4 | **4.07** | **3.80** | 0.42 |
+| Minkowski | 2 | **2.01** | **2.06** | 0.06 |
+| Minkowski | 3 | **2.99** | **3.06** | 0.20 |
+| Minkowski | 4 | **4.07** | **3.64** | 0.44 |
 | Kleitman–Rothschild | — | 2.37 | 4.71 | **2.34** |
 | Corona poset | — | 1.98 | 7.00 | **5.02** |
 
 For manifoldlike sprinklings the two estimators agree reasonably well. For non-manifoldlike controls they separate. The finite-size trend is useful because it gives a quick warning that a causal set may not be well described by a low-dimensional sprinkling.
 
-Source: [`data/dimension_atlas.csv`](data/dimension_atlas.csv)
+Source: [`data/dimension_atlas.csv`](data/dimension_atlas.csv) — regenerate with `python experiments.py atlas` (5 seeds).
 
 ### IV. Denser causal sets are harder for the optimizer
 
-At per-seed level (N = 90, n ∈ {32, 48, 64}):
+Difficulty proxy: mean final energy across 8 optimizer seeds (lower = easier), over N = 30 Minkowski sprinklings, n ∈ {16, 20, 24}:
 
 | Invariant | Target | Raw Spearman ρ | Partial ρ (controlling for n) |
 |:---|:---|---:|---:|
-| `relation_count` | Floor saturation | +0.941 | +0.903 |
-| `chain2_count` | Floor saturation | +0.941 | +0.903 |
-| `height` | Floor saturation | +0.836 | +0.779 |
-| `abs_discrepancy_mm_midpoint` | Floor saturation | −0.759 | −0.659 |
-| `mm_dim` | Floor saturation | −0.698 | −0.530 |
+| `relation_count` | Mean final energy | +0.844 | +0.687 |
+| `height` | Mean final energy | +0.341 | +0.487 |
+| `mm_dim` | Mean final energy | −0.283 | −0.645 |
+| `abs_discrepancy_mm_midpoint` | Mean final energy | −0.043 | −0.322 |
 
-The correlation survives controlling for finite-size scaling: even within a fixed n stratum, denser, taller causal sets are harder for the optimizer.
+The strongest predictor is the relation count: denser causal sets are harder for the optimizer, and the effect survives controlling for size (partial ρ = +0.69 within fixed n). This is a reduced ensemble (the full-size grid costs hours because failed anneals are slow); it characterises this optimizer's difficulty landscape, not physical embeddability.
 
-Source: [`data/correlate_summary.csv`](data/correlate_summary.csv)
+Source: [`data/correlate_summary.csv`](data/correlate_summary.csv) — regenerate with `python experiments.py correlate`.
 
 ### V. Larger batches are now easy to inspect
 
 | Causal set size n | 1987-style run | 2026 CPU ensemble |
 |---:|:---|:---|
-| 6 | Single run, qualitative | Success rate 25–50 %, small grid available |
-| 12 | Single run, qualitative | Success rate 0–12.5 %, schedule matters strongly |
-| 16 | Not reported | Success rate 0–12.5 %, budget-dependent |
-| 24 | Not accessible | All runs time out at default budget |
-| 32–64 | Not accessible | Ensemble statistics available; floor pathology characterised |
+| 6–16 | Single run, qualitative | Whole-ensemble statistics over many seeds; outcome depends strongly on the cooling schedule (see finding I) |
+| 24–48 | Single or not reported | Still runnable on a CPU but slow; difficulty characterised in finding IV |
+| 64+ | Not accessible | Ensembles become expensive because failed runs are slow (see the reduced ensembles in findings III–IV) |
+
+The concrete reproducible witness is finding I: under the tuned schedule the optimizer reaches a faithful embedding in 95 of 100 seeds on the 12-element benchmark, where the default schedule reaches it in none.
 
 ---
 
 ## How to run it
 
-**Requirements:** Python 3.12. No external Python packages are required.
+**Requirements:** Python 3.12. The simulation and experiments use only the
+standard library; `pip install -r requirements.txt` adds `pytest` for the
+tests.
 
 ```bash
 # Run the annealer on the canonical 12-element input
@@ -170,12 +175,28 @@ python cones.py inputs/tesis_like_12.in --dim 2 --initial-temp 180 --cooling-fac
 # Compute order-theoretic invariants
 python causet_invariants.py inputs/tesis_like_12.in
 
-# Run the validation suite
-python validation_suite.py
-
 # Draw a small 1980s-style SVG diagram
 python visualize_causets.py inputs/tesis_like_12.in --output tesis_like_12.retro.svg
 ```
+
+### Reproduce every number in this README
+
+Each table above is the literal output of one experiment; nothing is
+hand-edited. Regenerate them (deterministic given the seeds) with:
+
+```bash
+make test        # 18 unit tests (RNG determinism, energy oracle, Lorentz invariance, …)
+make smoke       # fast end-to-end check (writes to a scratch dir)
+
+python experiments.py atlas      # finding III -> data/dimension_atlas.csv
+python experiments.py schedule   # finding I   -> data/schedule_comparison.csv  (~2 min)
+python experiments.py warmup     # finding II  -> data/warmup_comparison.csv
+python experiments.py correlate  # finding IV  -> data/correlate_summary.csv
+# or: make data   (runs them all)
+```
+
+The experiment parameters (sizes, seeds, dimensions, annealing budget) are
+named constants documented in each function of `experiments.py`.
 
 ### Approximate runtimes
 

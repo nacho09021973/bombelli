@@ -1,6 +1,6 @@
 family,d_spacetime,n,n_seeds,mean_mm_dim,mean_midpoint_dim,mean_abs_discrepancy
-minkowski,2,256,5,2.02,2.06,0.07
-minkowski,3,256,5,3.06,3.00,0.28
-minkowski,4,256,5,4.07,3.80,0.42
+minkowski,2,256,5,2.01,2.06,0.06
+minkowski,3,256,5,2.99,3.06,0.20
+minkowski,4,256,5,4.07,3.64,0.44
 kleitman_rothschild,NA,256,5,2.37,4.71,2.34
-corona_poset,NA,256,5,1.98,7.00,5.02
+corona,NA,256,5,1.98,7.00,5.02
