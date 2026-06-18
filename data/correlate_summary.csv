@@ -1,6 +1,5 @@
 invariant,target,raw_spearman_rho,partial_spearman_rho_ctrl_n,n_observations,note
-relation_count,floor_saturated_fraction,+0.941,+0.903,90,size-like invariant
-chain2_count,floor_saturated_fraction,+0.941,+0.903,90,size-like invariant
-height,floor_saturated_fraction,+0.836,+0.779,90,size-like invariant
-abs_discrepancy_mm_midpoint,floor_saturated_fraction,-0.759,-0.659,90,dimensionless
-mm_dim,floor_saturated_fraction,-0.698,-0.530,90,dimensionless
+relation_count,mean_final_energy,+0.844,+0.687,30,size-like invariant
+height,mean_final_energy,+0.341,+0.487,30,size-like invariant
+mm_dim,mean_final_energy,-0.283,-0.645,30,dimensionless
+abs_discrepancy_mm_midpoint,mean_final_energy,-0.043,-0.322,24,dimensionless
