@@ -110,7 +110,8 @@ def myrheim_meyer_dimension(
     """Estimate the continuous spacetime dimension ``d`` from the causet.
 
     Inverts the Myrheim-Meyer ordering-fraction formula
-    ``f(d) = Gamma(d + 1) Gamma(d / 2) / (4 Gamma(3 d / 2))``
+    ``f(d) = Gamma(d + 1) Gamma(d / 2) / (2 Gamma(3 d / 2))``
+    (the unordered-pair convention; see :func:`_myrheim_meyer_f`)
     by bisection on the observed ordering fraction.
 
     This estimator is an *independent* diagnostic. It does not call

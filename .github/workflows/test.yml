@@ -38,7 +38,7 @@ jobs:
           if [ -f Makefile ] && grep -qE '^test:' Makefile; then
             make test
           else
-            pytest -v --tb=short || echo "No tests found; skipping."
+            pytest -v --tb=short
           fi
 
       - name: Smoke check (CPU, fast)
