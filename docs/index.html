@@ -3,58 +3,170 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Python 3.12 revival and empirical audit of Luca Bombelli's 1987 causal-set simulated annealing program. A reproducible look at an early causal set embedding algorithm." />
-    
-    <!-- Keywords optimized for AI and traditional search -->
-    <meta name="keywords" content="Luca Bombelli, causal set, simulated annealing, Python 3.12, causal set embedding algorithm, software preservation, quantum gravity, physics simulation revival" />
-    <meta name="author" content="Nacho" />
+    <meta name="description" content="Python 3.12 revival and empirical audit of Luca Bombelli's 1987 causal-set simulated annealing program, archived on Zenodo and published with reproducible code." />
+    <meta name="keywords" content="Luca Bombelli, causal set, simulated annealing, Python 3.12, Zenodo, causal set embedding algorithm, software preservation, quantum gravity, physics simulation revival" />
+    <meta name="author" content="Jose Ignacio Martin Gandul" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://nacho09021973.github.io/bombelli/" />
 
-    <!-- Open Graph / Webpage -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://nacho09021973.github.io/bombelli/" />
     <meta property="og:title" content="Bombelli 1987 Causal Set Simulated Annealing Revival" />
-    <meta property="og:description" content="Python 3.12 revival and empirical audit of Luca Bombelli's 1987 causal-set simulated annealing program." />
-    
-    <!-- Preconnect to Google Fonts for performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-    
-    <!-- JSON-LD Structured Data for AI & Crawlers -->
+    <meta property="og:description" content="A reproducible Python 3.12 revival and empirical audit of Luca Bombelli's 1987 causal-set simulated annealing program." />
+    <meta property="og:site_name" content="Bombelli 1987 Causal Set Revival" />
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
+      "@type": "SoftwareSourceCode",
       "name": "Bombelli 1987 Causal Set Simulated Annealing Revival",
+      "headline": "Thirty-Nine Years of Simulated Annealing on a Causal Set",
       "author": {
         "@type": "Person",
-        "name": "Nacho"
+        "name": "Jose Ignacio Martin Gandul"
       },
+      "codeRepository": "https://github.com/nacho09021973/bombelli",
       "url": "https://nacho09021973.github.io/bombelli/",
-      "description": "Python 3.12 revival and empirical audit of Luca Bombelli's 1987 causal-set simulated annealing program. Not a new theory, but a clearer view of an old algorithm.",
-      "applicationCategory": "ScienceApplication",
-      "softwareRequirements": "Python 3.12",
-      "operatingSystem": "Any",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5",
-        "ratingCount": "1"
-      },
-      "keywords": "Luca Bombelli, causal set, simulated annealing, software preservation"
+      "identifier": "https://doi.org/10.5281/zenodo.20743638",
+      "description": "Python 3.12 revival and empirical audit of Luca Bombelli's 1987 causal-set simulated annealing program. The project preserves and tests an early causal set embedding algorithm with reproducible code and data.",
+      "programmingLanguage": "Python",
+      "runtimePlatform": "Python 3.12",
+      "license": "https://opensource.org/license/mit",
+      "keywords": [
+        "Luca Bombelli",
+        "causal set",
+        "simulated annealing",
+        "Zenodo",
+        "software preservation",
+        "quantum gravity",
+        "Minkowski spacetime"
+      ],
+      "sameAs": [
+        "https://github.com/nacho09021973/bombelli",
+        "https://zenodo.org/records/20743638",
+        "https://doi.org/10.5281/zenodo.20743638"
+      ]
     }
     </script>
 
-    <title>Bombelli 1987 Causal Set Simulated Annealing Revival</title>
-    <script type="module" crossorigin src="/bombelli/assets/index-CyeSzRyI.js"></script>
-    <link rel="stylesheet" crossorigin href="/bombelli/assets/index-57jdyCz-.css">
+    <style>
+      body {
+        background: #fcfcfc;
+        color: #222;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.6;
+        margin: 0;
+      }
+
+      header,
+      main,
+      footer {
+        margin: 0 auto;
+        max-width: 880px;
+        padding: 2rem;
+      }
+
+      header {
+        padding-top: 3rem;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: #111;
+        line-height: 1.2;
+      }
+
+      h1 {
+        font-size: clamp(2rem, 4vw, 3.2rem);
+        margin-bottom: 0.75rem;
+      }
+
+      a {
+        color: #0056b3;
+      }
+
+      code {
+        background: #eee;
+        border-radius: 4px;
+        font-family: "SFMono-Regular", Consolas, monospace;
+        padding: 0.15rem 0.35rem;
+      }
+
+      .lede {
+        font-size: 1.2rem;
+        margin-top: 0;
+      }
+
+      .note {
+        background: #eef2f5;
+        border-left: 4px solid #0056b3;
+        margin: 1.5rem 0;
+        padding: 1rem;
+      }
+
+      .links {
+        padding-left: 1.2rem;
+      }
+
+      .metadata {
+        color: #555;
+        margin-bottom: 2rem;
+      }
+    </style>
+
+    <title>Bombelli 1987 Causal Set Revival | Zenodo and GitHub</title>
   </head>
   <body>
-    <div id="root"></div>
+    <header>
+      <p class="metadata">Jose Ignacio Martin Gandul · 2026 · DOI: 10.5281/zenodo.20743638</p>
+      <h1>Bombelli 1987 Causal Set Simulated Annealing Revival</h1>
+      <p class="lede">A Python 3.12 revival and empirical audit of Luca Bombelli's 1987 Pascal simulated-annealing program for embedding causal sets into Minkowski spacetime.</p>
+    </header>
+
+    <main>
+      <section aria-labelledby="what-this-is">
+        <h2 id="what-this-is">What This Is</h2>
+        <p>This project preserves, ports, and tests an early causal set algorithm from Luca Bombelli's 1987 PhD thesis. The original Pascal program used simulated annealing to search for embeddings of small causal sets into Minkowski spacetime.</p>
+        <p>The revival provides readable Python code, reproducible CPU experiments, ensemble statistics, order-theoretic diagnostics, benchmark tables, and historical context. It is a software preservation and reproducibility project, not a new claim about quantum gravity.</p>
+      </section>
+
+      <section aria-labelledby="why-index">
+        <h2 id="why-index">Core Search Terms</h2>
+        <p>The project is directly about Luca Bombelli, causal set theory, simulated annealing, causal set embedding algorithms, software preservation, Zenodo archival, and reproducible computational physics.</p>
+      </section>
+
+      <section aria-labelledby="results">
+        <h2 id="results">Main Results</h2>
+        <p>The experiments compare Bombelli's original annealing schedule with modern repeated runs across seeds and parameters. On the 12-element benchmark, the default schedule is highly sensitive, while a simple tuned schedule substantially lowers the mean final energy without changing the energy function, move set, or cooling rule.</p>
+        <p>The repository also includes checks for warmup behavior, finite-size dimension estimators, and order-theoretic correlates of optimization difficulty.</p>
+      </section>
+
+      <section class="note" aria-labelledby="archive">
+        <h2 id="archive">Archive and Citation</h2>
+        <p>The project is archived on Zenodo as version 2.0 and linked to the public GitHub repository. Cite it as Jose Ignacio Martin Gandul, <em>Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools</em>, Zenodo, DOI: <a href="https://doi.org/10.5281/zenodo.20743638">10.5281/zenodo.20743638</a>.</p>
+      </section>
+
+      <section aria-labelledby="links">
+        <h2 id="links">Links</h2>
+        <ul class="links">
+          <li><a href="https://github.com/nacho09021973/bombelli">GitHub repository: nacho09021973/bombelli</a></li>
+          <li><a href="https://zenodo.org/records/20743638">Zenodo archive v2.0</a></li>
+          <li><a href="https://doi.org/10.1103/PhysRevLett.59.521">Original causal set reference: Phys. Rev. Lett. 59, 521</a></li>
+          <li><a href="reviving-bombelli-1987-causal-set-code.html">Project article: Reviving Bombelli's 1987 causal set code</a></li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="run">
+        <h2 id="run">How to Run</h2>
+        <p>Requirements are intentionally small: Python 3.12 and the repository files. Example commands:</p>
+        <p><code>python cones.py inputs/tesis_like_12.in --dim 2</code></p>
+        <p><code>python validation_suite.py</code></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>MIT licensed research software. The source code, data, citation metadata, and reproducibility notes are available in the GitHub repository.</p>
+    </footer>
   </body>
 </html>
-
