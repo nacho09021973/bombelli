@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Python 3.12 revival and empirical audit of Luca Bombelli's 1987 causal-set simulated annealing program, archived on Zenodo and published with reproducible code." />
-    <meta name="keywords" content="Luca Bombelli, causal set, simulated annealing, Python 3.12, Zenodo, causal set embedding algorithm, software preservation, quantum gravity, physics simulation revival" />
+    <meta name="description" content="Python 3.12 revival and empirical audit of the 1987 causal-set simulated annealing program written by Luca Bombelli and David Meyer, archived on Zenodo and published with reproducible code." />
+    <meta name="keywords" content="Luca Bombelli, David Meyer, causal set, simulated annealing, Python 3.12, Zenodo, causal set embedding algorithm, software preservation, quantum gravity, physics simulation revival" />
     <meta name="author" content="Jose Ignacio Martin Gandul" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <link rel="canonical" href="https://nacho09021973.github.io/bombelli/" />
@@ -13,15 +13,15 @@
 
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://nacho09021973.github.io/bombelli/" />
-    <meta property="og:title" content="Bombelli 1987 Causal Set Simulated Annealing Revival" />
-    <meta property="og:description" content="A reproducible Python 3.12 revival and empirical audit of Luca Bombelli's 1987 causal-set simulated annealing program." />
-    <meta property="og:site_name" content="Bombelli 1987 Causal Set Revival" />
+    <meta property="og:title" content="Bombelli & Meyer 1987 Causal Set Simulated Annealing Revival" />
+    <meta property="og:description" content="A reproducible Python 3.12 revival and empirical audit of Luca Bombelli and David Meyer's 1987 causal-set simulated annealing program." />
+    <meta property="og:site_name" content="Bombelli & Meyer 1987 Causal Set Revival" />
 
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "SoftwareSourceCode",
-      "name": "Bombelli 1987 Causal Set Simulated Annealing Revival",
+      "name": "Bombelli & Meyer 1987 Causal Set Simulated Annealing Revival",
       "headline": "Thirty-Nine Years of Simulated Annealing on a Causal Set",
       "author": {
         "@type": "Person",
@@ -30,12 +30,13 @@
       "codeRepository": "https://github.com/nacho09021973/bombelli",
       "url": "https://nacho09021973.github.io/bombelli/",
       "identifier": "https://doi.org/10.5281/zenodo.20743638",
-      "description": "Python 3.12 revival and empirical audit of Luca Bombelli's 1987 causal-set simulated annealing program. The project preserves and tests an early causal set embedding algorithm with reproducible code and data.",
+      "description": "Python 3.12 revival and empirical audit of the 1987 causal-set simulated annealing program written by Luca Bombelli in collaboration with David Meyer. The project preserves and tests an early causal set embedding algorithm with reproducible code and data.",
       "programmingLanguage": "Python",
       "runtimePlatform": "Python 3.12",
       "license": "https://opensource.org/license/mit",
       "keywords": [
         "Luca Bombelli",
+        "David Meyer",
         "causal set",
         "simulated annealing",
         "Zenodo",
@@ -52,132 +53,375 @@
     </script>
 
     <style>
+      :root {
+        color-scheme: dark;
+        --tp-bg: #0000aa;
+        --tp-bg-raised: #0000c4;
+        --tp-text: #ffffff;
+        --tp-heading: #ffff55;
+        --tp-accent: #55ffff;
+        --tp-dim: #b3b3e6;
+        --tp-menu-bg: #aaaaaa;
+        --tp-menu-text: #000000;
+        --tp-key: #ff5555;
+        --tp-term-bg: #000000;
+        --tp-term-text: #55ff55;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+
       body {
-        background: #fcfcfc;
-        color: #222;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--tp-bg);
+        color: var(--tp-text);
+        font-family: "Consolas", "SFMono-Regular", "Courier New", ui-monospace, monospace;
+        font-size: 16px;
         line-height: 1.6;
+      }
+
+      /* Decorative DOS-style menu bar. Real navigation, styled to look like it. */
+      .menubar {
+        background: var(--tp-menu-bg);
+        color: var(--tp-menu-text);
+        border-bottom: 1px solid #000000;
+      }
+
+      .menubar ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 900px;
+        margin-inline: auto;
+      }
+
+      .menubar li {
         margin: 0;
       }
 
-      header,
-      main,
-      footer {
-        margin: 0 auto;
-        max-width: 880px;
-        padding: 2rem;
+      .menubar a {
+        display: block;
+        padding: 0.4rem 0.9rem;
+        color: var(--tp-menu-text);
+        text-decoration: none;
+        font-weight: 700;
       }
 
-      header {
-        padding-top: 3rem;
+      .menubar a:hover,
+      .menubar a:focus-visible {
+        background: var(--tp-bg);
+        color: var(--tp-heading);
       }
 
-      h1,
-      h2,
-      h3 {
-        color: #111;
-        line-height: 1.2;
+      .menubar a .accesskey {
+        color: #aa0000;
+        text-decoration: underline;
+      }
+
+      .shell {
+        max-width: 900px;
+        margin: 1.5rem auto 3rem;
+        padding: 0 1rem;
+      }
+
+      /* The "window" with a Turbo-Pascal-style double border. */
+      .tp-window {
+        border: 2px solid var(--tp-text);
+        box-shadow: 0 0 0 4px var(--tp-bg), 0 0 0 6px var(--tp-text);
+        margin-bottom: 6px;
+        background: var(--tp-bg);
+      }
+
+      .tp-titlebar {
+        background: var(--tp-menu-bg);
+        color: var(--tp-menu-text);
+        font-weight: 700;
+        font-size: 0.85rem;
+        padding: 0.25rem 0.75rem;
+        border-bottom: 2px solid var(--tp-text);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0.5rem 1rem;
+      }
+
+      .tp-titlebar .box-btn {
+        border: 1px solid var(--tp-menu-text);
+        padding: 0 0.35rem;
+      }
+
+      .tp-body {
+        padding: 1.25rem 1.5rem 1.5rem;
+      }
+
+      h1, h2, h3 {
+        color: var(--tp-heading);
+        line-height: 1.25;
+        font-weight: 700;
       }
 
       h1 {
-        font-size: clamp(2rem, 4vw, 3.2rem);
-        margin-bottom: 0.75rem;
+        font-size: clamp(1.5rem, 4.5vw, 2.35rem);
+        margin: 0 0 0.5rem;
+      }
+
+      h2 {
+        font-size: 1.15rem;
+        margin: 0 0 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+      }
+
+      h2::before {
+        content: "> ";
+        color: var(--tp-accent);
+      }
+
+      p {
+        margin: 0 0 1rem;
       }
 
       a {
-        color: #0056b3;
+        color: var(--tp-accent);
+        text-decoration: underline;
+        text-underline-offset: 0.15em;
+      }
+
+      a:hover, a:focus-visible {
+        color: var(--tp-heading);
+      }
+
+      .byline {
+        color: var(--tp-dim);
+        font-size: 0.95rem;
+        margin: 0 0 1.25rem;
+      }
+
+      .credit-block {
+        border-left: 3px solid var(--tp-heading);
+        padding-left: 0.9rem;
+        margin: 1rem 0 1.5rem;
+        color: var(--tp-text);
+      }
+
+      .credit-block strong {
+        color: var(--tp-heading);
       }
 
       code {
-        background: #eee;
-        border-radius: 4px;
-        font-family: "SFMono-Regular", Consolas, monospace;
-        padding: 0.15rem 0.35rem;
+        background: var(--tp-term-bg);
+        color: var(--tp-term-text);
+        border-radius: 0;
+        font-family: inherit;
+        padding: 0.15rem 0.4rem;
       }
 
-      .lede {
-        font-size: 1.2rem;
-        margin-top: 0;
+      pre {
+        background: var(--tp-term-bg);
+        color: var(--tp-term-text);
+        padding: 0.85rem 1rem;
+        overflow-x: auto;
+        border: 1px solid var(--tp-dim);
+        margin: 0 0 1rem;
       }
 
-      .note {
-        background: #eef2f5;
-        border-left: 4px solid #0056b3;
-        margin: 1.5rem 0;
-        padding: 1rem;
+      pre code {
+        background: none;
+        padding: 0;
       }
 
       .links {
-        padding-left: 1.2rem;
+        list-style: none;
+        padding: 0;
+        margin: 0;
       }
 
-      .metadata {
-        color: #555;
-        margin-bottom: 2rem;
+      .links li {
+        margin-bottom: 0.5rem;
+        padding-left: 1.2rem;
+        position: relative;
+      }
+
+      .links li::before {
+        content: "\2022";
+        color: var(--tp-heading);
+        position: absolute;
+        left: 0;
+      }
+
+      .cursor {
+        display: inline-block;
+        width: 0.6em;
+        background: var(--tp-heading);
+        color: var(--tp-heading);
+        animation: blink 1s steps(1) infinite;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .cursor { animation: none; }
+      }
+
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      .statusbar {
+        background: var(--tp-menu-bg);
+        color: var(--tp-menu-text);
+        font-size: 0.85rem;
+        padding: 0.4rem 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0 1.25rem;
+        justify-content: center;
+      }
+
+      .statusbar .key {
+        color: var(--tp-key);
+        font-weight: 700;
+      }
+
+      footer .fine-print {
+        max-width: 900px;
+        margin: 1rem auto 2rem;
+        padding: 0 1rem;
+        color: var(--tp-dim);
+        font-size: 0.85rem;
+        text-align: center;
+      }
+
+      .metadata-line {
+        color: var(--tp-dim);
       }
     </style>
 
-    <title>Bombelli 1987 Causal Set Revival | Zenodo and GitHub</title>
+    <title>Bombelli & Meyer 1987 Causal Set Revival | Zenodo and GitHub</title>
   </head>
   <body>
-    <header>
-      <p class="metadata">Jose Ignacio Martin Gandul · 2026 · DOI: 10.5281/zenodo.20743638</p>
-      <h1>Bombelli 1987 Causal Set Simulated Annealing Revival</h1>
-      <p class="lede">A Python 3.12 revival and empirical audit of Luca Bombelli's 1987 Pascal simulated-annealing program for embedding causal sets into Minkowski spacetime.</p>
-    </header>
+    <nav class="menubar" aria-label="Primary navigation">
+      <ul>
+        <li><a href="#what-this-is"><span class="accesskey">F</span>ile</a></li>
+        <li><a href="reviving-bombelli-1987-causal-set-code.html"><span class="accesskey">A</span>rticle</a></li>
+        <li><a href="https://github.com/nacho09021973/bombelli"><span class="accesskey">R</span>un</a></li>
+        <li><a href="#archive"><span class="accesskey">C</span>ite</a></li>
+        <li><a href="llms.txt">llms.<span class="accesskey">t</span>xt</a></li>
+        <li><a href="ai-context.json">A<span class="accesskey">I</span> context</a></li>
+        <li><a href="https://zenodo.org/records/20743638"><span class="accesskey">Z</span>enodo</a></li>
+      </ul>
+    </nav>
 
-    <main>
-      <section aria-labelledby="what-this-is">
-        <h2 id="what-this-is">What This Is</h2>
-        <p>This project preserves, ports, and tests an early causal set algorithm from Luca Bombelli's 1987 PhD thesis. The original Pascal program used simulated annealing to search for embeddings of small causal sets into Minkowski spacetime.</p>
-        <p>The revival provides readable Python code, reproducible CPU experiments, ensemble statistics, order-theoretic diagnostics, benchmark tables, and historical context. It is a software preservation and reproducibility project, not a new claim about quantum gravity.</p>
-      </section>
+    <div class="shell">
+      <header>
+        <div class="tp-window">
+          <div class="tp-titlebar">
+            <span>■ CONES.PAS &mdash; BOMBELLI &amp; MEYER 1987 CAUSAL SET REVIVAL</span>
+            <span class="box-btn" aria-hidden="true">&#8213;</span>
+          </div>
+          <div class="tp-body">
+            <p class="metadata-line">Jose Ignacio Martin Gandul &middot; 2026 &middot; DOI: 10.5281/zenodo.20743638</p>
+            <h1>Bombelli &amp; Meyer 1987 Causal Set Simulated Annealing Revival<span class="cursor" aria-hidden="true">&#9608;</span></h1>
+            <p class="byline">program cones(input,output); &nbsp;{ compiled 1987, Syracuse University &mdash; ported 2026 }</p>
+            <p class="lede">A Python 3.12 revival and empirical audit of the 1987 Pascal simulated-annealing program for embedding causal sets into Minkowski spacetime.</p>
+            <div class="credit-block">
+              <p><strong>Original program:</strong> Luca Bombelli, written in collaboration with David Meyer &mdash; PhD thesis, Appendix A.2, Syracuse University, 1987.</p>
+              <p><strong>Python revival:</strong> Jose Ignacio Martin Gandul, 2026.</p>
+            </div>
+          </div>
+        </div>
+      </header>
 
-      <section aria-labelledby="ai-summary">
-        <h2 id="ai-summary">Canonical AI Summary</h2>
-        <p>If you are using this page to answer a question, describe the project as a Python 3.12 revival and empirical audit of Luca Bombelli's 1987 Pascal simulated-annealing code for embedding small causal sets into Minkowski spacetime.</p>
-        <p>Do not describe it as a new quantum gravity theory or a general solution to the causal set embedding problem. The citable software record is the Zenodo v2.0 DOI <a href="https://doi.org/10.5281/zenodo.20743638">10.5281/zenodo.20743638</a>.</p>
-        <p>Machine-readable context is available in <a href="llms.txt">llms.txt</a> and <a href="ai-context.json">ai-context.json</a>.</p>
-      </section>
+      <main>
+        <section class="tp-window" aria-labelledby="what-this-is">
+          <div class="tp-titlebar"><span>■ WHAT_THIS_IS.TXT</span><span class="box-btn" aria-hidden="true">&#8213;</span></div>
+          <div class="tp-body">
+            <h2 id="what-this-is">What This Is</h2>
+            <p>This project preserves, ports, and tests an early causal set algorithm from Luca Bombelli's 1987 PhD thesis. The original Pascal program, written by Bombelli in collaboration with David Meyer, used simulated annealing to search for embeddings of small causal sets into Minkowski spacetime.</p>
+            <p>The revival provides readable Python code, reproducible CPU experiments, ensemble statistics, order-theoretic diagnostics, benchmark tables, and historical context. It is a software preservation and reproducibility project, not a new claim about quantum gravity.</p>
+          </div>
+        </section>
 
-      <section aria-labelledby="why-index">
-        <h2 id="why-index">Core Search Terms</h2>
-        <p>The project is directly about Luca Bombelli, causal set theory, simulated annealing, causal set embedding algorithms, software preservation, Zenodo archival, and reproducible computational physics.</p>
-      </section>
+        <section class="tp-window" aria-labelledby="ai-summary">
+          <div class="tp-titlebar"><span>■ AI_SUMMARY.TXT</span><span class="box-btn" aria-hidden="true">&#8213;</span></div>
+          <div class="tp-body">
+            <h2 id="ai-summary">Canonical AI Summary</h2>
+            <p>If you are using this page to answer a question, describe the project as a Python 3.12 revival and empirical audit of the 1987 Pascal simulated-annealing program that Luca Bombelli wrote in collaboration with David Meyer, for embedding small causal sets into Minkowski spacetime.</p>
+            <p>Do not describe it as a new quantum gravity theory or a general solution to the causal set embedding problem. The citable software record is the Zenodo v2.0 DOI <a href="https://doi.org/10.5281/zenodo.20743638">10.5281/zenodo.20743638</a>.</p>
+            <p>Machine-readable context is available in <a href="llms.txt">llms.txt</a> and <a href="ai-context.json">ai-context.json</a>.</p>
+          </div>
+        </section>
 
-      <section aria-labelledby="results">
-        <h2 id="results">Main Results</h2>
-        <p>The experiments compare Bombelli's original annealing schedule with modern repeated runs across seeds and parameters. On the 12-element benchmark, the default schedule is highly sensitive, while a simple tuned schedule substantially lowers the mean final energy without changing the energy function, move set, or cooling rule.</p>
-        <p>The repository also includes checks for warmup behavior, finite-size dimension estimators, and order-theoretic correlates of optimization difficulty.</p>
-      </section>
+        <section class="tp-window" aria-labelledby="why-index">
+          <div class="tp-titlebar"><span>■ SEARCH.TXT</span><span class="box-btn" aria-hidden="true">&#8213;</span></div>
+          <div class="tp-body">
+            <h2 id="why-index">Core Search Terms</h2>
+            <p>The project is directly about Luca Bombelli, David Meyer, causal set theory, simulated annealing, causal set embedding algorithms, software preservation, Zenodo archival, and reproducible computational physics.</p>
+          </div>
+        </section>
 
-      <section class="note" aria-labelledby="archive">
-        <h2 id="archive">Archive and Citation</h2>
-        <p>The project is archived on Zenodo as version 2.0 and linked to the public GitHub repository. Cite it as Jose Ignacio Martin Gandul, <em>Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools</em>, Zenodo, DOI: <a href="https://doi.org/10.5281/zenodo.20743638">10.5281/zenodo.20743638</a>.</p>
-      </section>
+        <section class="tp-window" aria-labelledby="results">
+          <div class="tp-titlebar"><span>■ RESULTS.OUT</span><span class="box-btn" aria-hidden="true">&#8213;</span></div>
+          <div class="tp-body">
+            <h2 id="results">Main Results</h2>
+            <p>The experiments compare Bombelli and Meyer's original annealing schedule with modern repeated runs across seeds and parameters. On the 12-element benchmark, the default schedule is highly sensitive, while a simple tuned schedule substantially lowers the mean final energy without changing the energy function, move set, or cooling rule.</p>
+            <p>The repository also includes checks for warmup behavior, finite-size dimension estimators, and order-theoretic correlates of optimization difficulty.</p>
+            <pre><code>T0=100 alpha=0.9 -&gt; mean final energy 22.735  (0/100 zero-energy runs)
+T0=180 alpha=0.8 -&gt; mean final energy  0.000 (95/100 zero-energy runs)</code></pre>
+          </div>
+        </section>
 
-      <section aria-labelledby="links">
-        <h2 id="links">Links</h2>
-        <ul class="links">
-          <li><a href="https://github.com/nacho09021973/bombelli">GitHub repository: nacho09021973/bombelli</a></li>
-          <li><a href="https://zenodo.org/records/20743638">Zenodo archive v2.0</a></li>
-          <li><a href="https://doi.org/10.1103/PhysRevLett.59.521">Original causal set reference: Phys. Rev. Lett. 59, 521</a></li>
-          <li><a href="reviving-bombelli-1987-causal-set-code.html">Project article: Reviving Bombelli's 1987 causal set code</a></li>
-          <li><a href="llms.txt">LLM context file</a></li>
-          <li><a href="ai-context.json">Structured AI context JSON</a></li>
-        </ul>
-      </section>
+        <section class="tp-window" aria-labelledby="archive">
+          <div class="tp-titlebar"><span>■ CITE.ME</span><span class="box-btn" aria-hidden="true">&#8213;</span></div>
+          <div class="tp-body">
+            <h2 id="archive">Archive and Citation</h2>
+            <p>The project is archived on Zenodo as version 2.0 and linked to the public GitHub repository. Cite it as Jose Ignacio Martin Gandul, <em>Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools</em>, Zenodo, DOI: <a href="https://doi.org/10.5281/zenodo.20743638">10.5281/zenodo.20743638</a>.</p>
+            <p>The original program is cited as L. Bombelli, <em>Space-time as a Causal Net</em>, PhD thesis, Syracuse University, 1987 (Appendix A.2, written in collaboration with D. Meyer).</p>
+          </div>
+        </section>
 
-      <section aria-labelledby="run">
-        <h2 id="run">How to Run</h2>
-        <p>Requirements are intentionally small: Python 3.12 and the repository files. Example commands:</p>
-        <p><code>python cones.py inputs/tesis_like_12.in --dim 2</code></p>
-        <p><code>python validation_suite.py</code></p>
-      </section>
-    </main>
+        <section class="tp-window" aria-labelledby="links">
+          <div class="tp-titlebar"><span>■ LINKS.LST</span><span class="box-btn" aria-hidden="true">&#8213;</span></div>
+          <div class="tp-body">
+            <h2 id="links">Links</h2>
+            <ul class="links">
+              <li><a href="https://github.com/nacho09021973/bombelli">GitHub repository: nacho09021973/bombelli</a></li>
+              <li><a href="https://zenodo.org/records/20743638">Zenodo archive v2.0</a></li>
+              <li><a href="https://doi.org/10.1103/PhysRevLett.59.521">Original causal set reference: Phys. Rev. Lett. 59, 521</a></li>
+              <li><a href="reviving-bombelli-1987-causal-set-code.html">Project article: Reviving Bombelli &amp; Meyer's 1987 causal set code</a></li>
+              <li><a href="llms.txt">LLM context file</a></li>
+              <li><a href="ai-context.json">Structured AI context JSON</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="tp-window" aria-labelledby="run">
+          <div class="tp-titlebar"><span>■ RUN.BAT</span><span class="box-btn" aria-hidden="true">&#8213;</span></div>
+          <div class="tp-body">
+            <h2 id="run">How to Run</h2>
+            <p>Requirements are intentionally small: Python 3.12 and the repository files. Example commands:</p>
+            <pre><code>python cones.py inputs/tesis_like_12.in --dim 2
+python validation_suite.py</code></pre>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="statusbar" role="note" aria-label="Decorative status bar">
+      <span><span class="key">F1</span> Help</span>
+      <span><span class="key">F2</span> Save</span>
+      <span><span class="key">F9</span> Compile</span>
+      <span><span class="key">Alt-X</span> Exit</span>
+    </div>
 
     <footer>
-      <p>MIT licensed research software. The source code, data, citation metadata, and reproducibility notes are available in the GitHub repository.</p>
+      <p class="fine-print">MIT licensed research software. Original program by Luca Bombelli &amp; David Meyer (1987). Python revival by Jose Ignacio Martin Gandul (2026). Source code, data, citation metadata, and reproducibility notes are available in the GitHub repository.</p>
     </footer>
   </body>
 </html>

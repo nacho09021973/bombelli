@@ -22,8 +22,9 @@ repository-code: "https://github.com/nacho09021973/bombelli"
 repository-artifact: "https://zenodo.org/records/20743638"
 url: "https://nacho09021973.github.io/bombelli/"
 abstract: >
-  A faithful Python 3.12 port of Luca Bombelli's 1987 Pascal program for embedding
-  causal sets into Minkowski spacetime by simulated annealing, together with an
+  A faithful Python 3.12 port of the 1987 Pascal program for embedding
+  causal sets into Minkowski spacetime by simulated annealing, written by
+  Luca Bombelli in collaboration with David Meyer, together with an
   empirical characterization of the algorithm using portable CPU runs,
   ensemble statistics, order-theoretic diagnostics, benchmark tables, and
   documentation of the historical and computational context.
