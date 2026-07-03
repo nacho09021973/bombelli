@@ -1,4 +1,4 @@
-.PHONY: test smoke data atlas schedule warmup correlate clean-data
+.PHONY: test smoke data atlas schedule warmup correlate clean-data chart
 
 # Real unit tests. Fails (non-zero exit) if any test fails.
 test:
@@ -17,3 +17,8 @@ data:
 
 atlas schedule warmup correlate:
 	python experiments.py $@
+
+# Static SVG for the schedule comparison (Finding I), from data/schedule_comparison.csv.
+chart:
+	python schedule_chart.py
+	cp schedule_comparison.svg docs/schedule_comparison.svg
