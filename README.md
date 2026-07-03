@@ -98,9 +98,9 @@ On the 12-element benchmark, the default schedule (T₀ = 100, α = 0.9) gives a
 | Bombelli defaults | 100 | 0.9 | 22.735 | 0 / 100 |
 | Tuned (grid scan) | 180 | 0.8 | 0.000 | 95 / 100 |
 
-![Mean final energy and zero-energy runs, Bombelli defaults vs tuned schedule](schedule_comparison.svg)
+![Per-seed energy traces, Bombelli defaults vs tuned schedule](local_minima_witness.png)
 
-Source: [`data/schedule_comparison.csv`](data/schedule_comparison.csv) — regenerate with `python experiments.py schedule` (run at `dim = 3`, seeds 1959–2058). Chart: `python schedule_chart.py` (or `make chart`).
+Source: [`local_minima_witness.csv`](local_minima_witness.csv) — regenerate with `python visualize_local_minima.py`.
 
 ### II. The warmup can disturb near-perfect initializations
 
