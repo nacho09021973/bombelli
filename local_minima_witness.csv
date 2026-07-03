@@ -1,0 +1,2161 @@
+schedule,seed,block,temperature,eave,final_energy,escaped
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,1,100,49.7801033063,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,2,90,46.5015042265,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,3,81,39.3653785407,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,4,72.9,40.050516699,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,5,65.61,39.6605297804,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,6,59.049,41.3212414262,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,7,53.1441,42.488487874,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,8,47.82969,43.5257494145,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,9,43.046721,41.8324523468,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,10,38.7420489,51.03627541,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,11,34.86784401,44.1354696763,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,12,31.381059609,46.0336018135,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,13,28.2429536481,44.9766251605,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,14,25.4186582833,47.0360893506,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,15,22.876792455,44.1689852635,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,16,20.5891132095,45.1117071576,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,17,18.5302018885,43.9221727447,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,18,16.6771816997,32.9679232062,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,19,15.0094635297,40.3237398916,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,20,13.5085171767,46.837066729,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,21,12.1576654591,39.2115606008,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,22,10.9418989132,38.4177043084,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,23,9.84770902184,32.0548642711,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,24,8.86293811965,34.872234632,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,25,7.97664430769,32.8707865187,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,26,7.17897987692,37.6884285358,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,27,6.46108188923,29.8183756851,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,28,5.8149737003,32.6651999974,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,29,5.23347633027,32.3780696635,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,30,4.71012869725,27.6693512152,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,31,4.23911582752,26.4871618826,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,32,3.81520424477,18.9390062091,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,33,3.43368382029,23.6182870738,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,34,3.09031543826,19.8196731625,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1959,35,2.78128389444,21.4361717692,16.7042171298,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,1,100,53.8578534648,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,2,90,46.2265650473,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,3,81,45.0596925263,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,4,72.9,38.6117132502,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,5,65.61,48.5424525487,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,6,59.049,44.5971565786,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,7,53.1441,44.5329655764,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,8,47.82969,37.6954773103,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,9,43.046721,43.2391645258,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,10,38.7420489,39.3237371982,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,11,34.86784401,47.9141216615,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,12,31.381059609,38.1719343627,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,13,28.2429536481,45.5295240505,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,14,25.4186582833,51.7428516638,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,15,22.876792455,46.3389583895,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,16,20.5891132095,40.2775318806,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,17,18.5302018885,45.2833378385,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,18,16.6771816997,41.902552101,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,19,15.0094635297,35.7231318673,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,20,13.5085171767,40.4357139054,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,21,12.1576654591,38.8367225386,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,22,10.9418989132,40.8432842422,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,23,9.84770902184,37.6957723714,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,24,8.86293811965,38.551585029,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,25,7.97664430769,43.0687067428,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,26,7.17897987692,28.2131518739,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,27,6.46108188923,33.4080875558,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,28,5.8149737003,27.0838753862,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,29,5.23347633027,33.585756308,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,30,4.71012869725,28.5086527039,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,31,4.23911582752,23.8468542536,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,32,3.81520424477,28.7265798225,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,33,3.43368382029,29.6166713979,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,34,3.09031543826,25.0239655675,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1960,35,2.78128389444,21.5925258077,14.6982233847,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,1,100,51.3449397958,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,2,90,46.963883905,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,3,81,38.0795437684,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,4,72.9,40.561995095,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,5,65.61,45.6603917467,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,6,59.049,45.7790737991,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,7,53.1441,50.1174955214,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,8,47.82969,41.003476325,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,9,43.046721,40.331523363,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,10,38.7420489,50.4235091827,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,11,34.86784401,39.09820771,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,12,31.381059609,51.659048042,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,13,28.2429536481,39.4017255251,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,14,25.4186582833,43.7669624106,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,15,22.876792455,42.0365735905,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,16,20.5891132095,44.9532273895,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,17,18.5302018885,42.0938517906,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,18,16.6771816997,42.0206658847,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,19,15.0094635297,40.4655446341,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,20,13.5085171767,37.6702381831,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,21,12.1576654591,44.0456087445,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,22,10.9418989132,38.1332788882,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,23,9.84770902184,38.1126328828,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,24,8.86293811965,38.9259363461,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,25,7.97664430769,30.8135379759,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,26,7.17897987692,34.4488219654,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,27,6.46108188923,33.2790302897,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,28,5.8149737003,27.1030562244,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,29,5.23347633027,30.0780568264,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,30,4.71012869725,29.1412110138,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,31,4.23911582752,31.9260243445,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,32,3.81520424477,23.7413931138,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,33,3.43368382029,22.6907362459,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,34,3.09031543826,26.3353045625,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1961,35,2.78128389444,22.006518625,15.7609113388,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,1,100,41.3962251422,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,2,90,39.6285036921,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,3,81,41.4549377241,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,4,72.9,42.7572733062,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,5,65.61,46.2388329514,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,6,59.049,49.035877673,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,7,53.1441,45.1654910541,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,8,47.82969,37.2816269558,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,9,43.046721,50.73043455,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,10,38.7420489,43.3760886394,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,11,34.86784401,41.2802746843,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,12,31.381059609,40.9859531075,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,13,28.2429536481,47.7018512205,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,14,25.4186582833,47.3261910254,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,15,22.876792455,39.9875426169,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,16,20.5891132095,48.8882689077,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,17,18.5302018885,42.5098022395,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,18,16.6771816997,36.2083817667,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,19,15.0094635297,41.4306007117,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,20,13.5085171767,44.5747064972,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,21,12.1576654591,37.9700946702,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,22,10.9418989132,36.6768299924,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,23,9.84770902184,38.4407621668,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,24,8.86293811965,34.7879692021,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,25,7.97664430769,32.1477880748,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,26,7.17897987692,36.7305034859,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,27,6.46108188923,30.4216314504,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,28,5.8149737003,33.9786755791,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,29,5.23347633027,29.8289992419,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,30,4.71012869725,31.9492665005,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,31,4.23911582752,29.2726799246,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,32,3.81520424477,27.030085054,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,33,3.43368382029,18.6695137022,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,34,3.09031543826,23.7307265356,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1962,35,2.78128389444,20.23183348,25.7912414078,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,1,100,44.6873622294,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,2,90,36.6581695049,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,3,81,47.7881655387,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,4,72.9,52.4785039332,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,5,65.61,45.0482353017,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,6,59.049,48.4136001015,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,7,53.1441,42.4760676255,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,8,47.82969,45.9200147217,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,9,43.046721,43.4689049781,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,10,38.7420489,42.4252552842,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,11,34.86784401,46.5906267673,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,12,31.381059609,41.5424691143,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,13,28.2429536481,38.1137434359,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,14,25.4186582833,44.6192669855,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,15,22.876792455,46.4380412502,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,16,20.5891132095,40.9927914339,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,17,18.5302018885,40.5944415987,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,18,16.6771816997,42.7601111328,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,19,15.0094635297,36.7323020594,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,20,13.5085171767,40.8617513275,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,21,12.1576654591,42.4718440149,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,22,10.9418989132,40.0112805789,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,23,9.84770902184,34.7042974247,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,24,8.86293811965,32.2112496859,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,25,7.97664430769,32.0328699675,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,26,7.17897987692,28.3948786236,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,27,6.46108188923,33.7499863425,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,28,5.8149737003,31.5425292149,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,29,5.23347633027,35.8398531219,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,30,4.71012869725,29.1496650221,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,31,4.23911582752,32.7367369436,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,32,3.81520424477,26.2075245097,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,33,3.43368382029,28.2971833717,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,34,3.09031543826,25.6722174798,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1963,35,2.78128389444,20.3708374676,42.1094107033,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,1,100,44.7220308278,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,2,90,47.2668405052,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,3,81,43.5981288549,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,4,72.9,44.6163589094,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,5,65.61,45.3229079193,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,6,59.049,51.3420535622,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,7,53.1441,42.1664177449,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,8,47.82969,42.6679678982,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,9,43.046721,44.9654441857,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,10,38.7420489,44.0689757016,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,11,34.86784401,42.8645028033,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,12,31.381059609,39.0067675016,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,13,28.2429536481,46.8788116136,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,14,25.4186582833,41.2944105399,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,15,22.876792455,39.9520322891,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,16,20.5891132095,34.0739159191,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,17,18.5302018885,36.4587842789,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,18,16.6771816997,36.8068607393,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,19,15.0094635297,40.2414722877,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,20,13.5085171767,40.2296835971,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,21,12.1576654591,39.7545564605,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,22,10.9418989132,38.9249292837,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,23,9.84770902184,39.5184697217,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,24,8.86293811965,38.9716045921,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,25,7.97664430769,35.1159627726,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,26,7.17897987692,34.5251922617,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,27,6.46108188923,35.7736618707,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,28,5.8149737003,29.3646126839,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,29,5.23347633027,34.5944743966,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,30,4.71012869725,27.8911483664,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,31,4.23911582752,27.335146219,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,32,3.81520424477,28.1284471028,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,33,3.43368382029,23.1506969586,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,34,3.09031543826,25.3240579552,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1964,35,2.78128389444,21.7145937092,23.1203725798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,1,100,42.6680343461,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,2,90,46.6773361944,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,3,81,44.5876880393,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,4,72.9,45.4367109342,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,5,65.61,51.0679386278,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,6,59.049,43.376965483,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,7,53.1441,46.5700345295,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,8,47.82969,46.1267387075,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,9,43.046721,46.7659970502,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,10,38.7420489,44.6074625577,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,11,34.86784401,43.0110119403,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,12,31.381059609,40.3751383963,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,13,28.2429536481,49.3171220967,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,14,25.4186582833,44.7395294231,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,15,22.876792455,47.0327892279,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,16,20.5891132095,45.056519167,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,17,18.5302018885,45.5860788832,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,18,16.6771816997,44.1566121902,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,19,15.0094635297,44.5780811436,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,20,13.5085171767,40.2710475188,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,21,12.1576654591,37.8846151153,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,22,10.9418989132,38.878972568,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,23,9.84770902184,41.0170560239,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,24,8.86293811965,34.8615084362,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,25,7.97664430769,35.893388791,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,26,7.17897987692,28.6023810191,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,27,6.46108188923,32.8331010904,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,28,5.8149737003,27.5307925799,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,29,5.23347633027,34.0931754271,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,30,4.71012869725,32.1014570436,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,31,4.23911582752,27.4082378961,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,32,3.81520424477,28.3939444662,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,33,3.43368382029,24.168095611,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,34,3.09031543826,25.2119344456,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1965,35,2.78128389444,25.0790527374,34.0042193864,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,1,100,40.0280516219,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,2,90,50.2267457593,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,3,81,43.989425292,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,4,72.9,47.4416791951,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,5,65.61,45.7957346399,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,6,59.049,48.4150308486,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,7,53.1441,44.6557365942,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,8,47.82969,47.0395757298,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,9,43.046721,41.9482245618,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,10,38.7420489,37.472028256,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,11,34.86784401,49.4640874627,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,12,31.381059609,44.13821198,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,13,28.2429536481,45.4599540174,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,14,25.4186582833,40.9471334335,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,15,22.876792455,35.3623644034,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,16,20.5891132095,40.9737593451,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,17,18.5302018885,43.0220059831,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,18,16.6771816997,39.8977662882,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,19,15.0094635297,37.6242241912,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,20,13.5085171767,41.9500216026,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,21,12.1576654591,38.8061788726,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,22,10.9418989132,43.0509256344,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,23,9.84770902184,34.0318580694,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,24,8.86293811965,36.226593896,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,25,7.97664430769,41.2385682795,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,26,7.17897987692,36.0661270352,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,27,6.46108188923,32.5883011028,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,28,5.8149737003,32.657274707,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,29,5.23347633027,26.2961979688,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,30,4.71012869725,30.4259707418,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,31,4.23911582752,27.4243047768,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,32,3.81520424477,23.0709658062,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,33,3.43368382029,24.7030189997,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,34,3.09031543826,21.6952816724,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1966,35,2.78128389444,18.4730920986,14.5587605972,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,1,100,49.2388979463,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,2,90,44.4911990506,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,3,81,50.789769929,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,4,72.9,49.6445871375,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,5,65.61,44.9299640769,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,6,59.049,42.5699054436,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,7,53.1441,49.238419013,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,8,47.82969,49.8577719716,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,9,43.046721,41.259254273,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,10,38.7420489,45.7828849897,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,11,34.86784401,46.2372312171,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,12,31.381059609,50.8936021773,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,13,28.2429536481,31.7113427852,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,14,25.4186582833,48.3868208531,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,15,22.876792455,36.9326458661,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,16,20.5891132095,44.7850225299,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,17,18.5302018885,42.749728829,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,18,16.6771816997,43.9807191046,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,19,15.0094635297,48.6740511952,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,20,13.5085171767,38.7127348153,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,21,12.1576654591,42.9495490038,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,22,10.9418989132,35.3756407601,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,23,9.84770902184,38.0822507473,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,24,8.86293811965,32.3137292276,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,25,7.97664430769,27.7094363057,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,26,7.17897987692,32.8166575627,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,27,6.46108188923,33.8138123425,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,28,5.8149737003,29.2183603126,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,29,5.23347633027,31.0752035499,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,30,4.71012869725,28.9462008738,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,31,4.23911582752,25.7101870237,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,32,3.81520424477,27.0314477899,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,33,3.43368382029,26.6352026344,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,34,3.09031543826,21.4618630901,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1967,35,2.78128389444,19.1766410957,14.0016301674,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,1,100,45.9690588999,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,2,90,44.2929142034,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,3,81,44.6010799299,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,4,72.9,44.641558157,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,5,65.61,51.2083109219,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,6,59.049,47.2049464069,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,7,53.1441,41.6274571896,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,8,47.82969,43.1148134254,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,9,43.046721,46.5779748212,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,10,38.7420489,49.5014521701,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,11,34.86784401,43.9205823345,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,12,31.381059609,42.1218338387,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,13,28.2429536481,45.2034656082,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,14,25.4186582833,43.8905560232,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,15,22.876792455,47.0423462084,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,16,20.5891132095,40.8230641708,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,17,18.5302018885,39.4023157626,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,18,16.6771816997,40.9373930626,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,19,15.0094635297,40.9781061993,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,20,13.5085171767,35.7473078211,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,21,12.1576654591,39.7153239122,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,22,10.9418989132,39.4330723816,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,23,9.84770902184,39.9853785424,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,24,8.86293811965,37.7188391063,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,25,7.97664430769,38.3354948476,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,26,7.17897987692,32.9542420308,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,27,6.46108188923,34.0784866218,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,28,5.8149737003,30.9888320317,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,29,5.23347633027,34.183336087,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,30,4.71012869725,29.0065132796,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,31,4.23911582752,25.0872671764,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,32,3.81520424477,25.7369137406,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,33,3.43368382029,23.4889688514,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,34,3.09031543826,21.6910999427,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1968,35,2.78128389444,24.5510086993,14.2151016914,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,1,100,43.4780582471,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,2,90,47.4873562275,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,3,81,47.3838996844,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,4,72.9,52.2220615393,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,5,65.61,46.8179022504,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,6,59.049,49.0539004183,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,7,53.1441,44.2108030327,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,8,47.82969,47.6074856278,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,9,43.046721,42.0948432424,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,10,38.7420489,40.4752543259,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,11,34.86784401,48.9940587136,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,12,31.381059609,47.3510521506,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,13,28.2429536481,38.2389818472,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,14,25.4186582833,42.7659060415,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,15,22.876792455,42.5934335471,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,16,20.5891132095,40.7937969459,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,17,18.5302018885,41.2009271887,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,18,16.6771816997,42.4038312236,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,19,15.0094635297,45.4777446694,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,20,13.5085171767,43.2527207361,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,21,12.1576654591,39.8295685645,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,22,10.9418989132,39.2877924143,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,23,9.84770902184,43.0125903237,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,24,8.86293811965,39.302970213,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,25,7.97664430769,38.6702116223,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,26,7.17897987692,39.2012672351,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,27,6.46108188923,31.1725014162,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,28,5.8149737003,31.1529234416,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,29,5.23347633027,29.9450835957,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,30,4.71012869725,27.8924581379,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,31,4.23911582752,25.4614420854,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,32,3.81520424477,25.124228703,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,33,3.43368382029,28.4435204756,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,34,3.09031543826,22.5776506961,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1969,35,2.78128389444,21.6627073541,31.749366225,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,1,100,45.256514258,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,2,90,45.1545607706,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,3,81,49.3766270136,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,4,72.9,48.3587385621,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,5,65.61,42.4420266456,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,6,59.049,38.4033638431,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,7,53.1441,52.2850160839,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,8,47.82969,48.0683065857,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,9,43.046721,47.9010828643,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,10,38.7420489,42.6320104883,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,11,34.86784401,42.7554595689,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,12,31.381059609,44.9903980538,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,13,28.2429536481,43.2147767963,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,14,25.4186582833,43.3634469069,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,15,22.876792455,46.9314812528,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,16,20.5891132095,39.3545832156,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,17,18.5302018885,42.3891925946,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,18,16.6771816997,46.8884786443,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,19,15.0094635297,39.8885335813,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,20,13.5085171767,42.8381920035,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,21,12.1576654591,36.2935791688,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,22,10.9418989132,41.8777136307,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,23,9.84770902184,37.7613972963,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,24,8.86293811965,37.5261219549,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,25,7.97664430769,32.2980011772,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,26,7.17897987692,34.4839391184,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,27,6.46108188923,28.9173896115,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,28,5.8149737003,38.3118202699,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,29,5.23347633027,32.5423742647,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,30,4.71012869725,30.5734454877,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,31,4.23911582752,32.0546676306,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,32,3.81520424477,23.0071662994,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,33,3.43368382029,23.5575964189,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,34,3.09031543826,27.5347091427,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1970,35,2.78128389444,20.4374038315,17.9062742871,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,1,100,49.2630100639,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,2,90,41.7751540236,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,3,81,46.0870013489,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,4,72.9,45.2359037023,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,5,65.61,39.6119377843,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,6,59.049,44.8185604512,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,7,53.1441,47.3059664991,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,8,47.82969,42.2877103865,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,9,43.046721,46.8469460893,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,10,38.7420489,44.6368941689,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,11,34.86784401,45.9966746411,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,12,31.381059609,51.0098374941,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,13,28.2429536481,43.5632760029,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,14,25.4186582833,42.4132086905,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,15,22.876792455,42.2829917256,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,16,20.5891132095,43.0392295754,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,17,18.5302018885,49.022011578,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,18,16.6771816997,37.7523954191,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,19,15.0094635297,42.3238808079,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,20,13.5085171767,41.1293185812,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,21,12.1576654591,37.9342273615,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,22,10.9418989132,37.2001141166,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,23,9.84770902184,37.2607979206,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,24,8.86293811965,34.4164147099,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,25,7.97664430769,32.8319970293,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,26,7.17897987692,33.1903999937,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,27,6.46108188923,26.9918882289,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,28,5.8149737003,28.2393001568,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,29,5.23347633027,31.5173522863,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,30,4.71012869725,30.7280223557,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,31,4.23911582752,30.8744599905,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,32,3.81520424477,26.7317269493,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,33,3.43368382029,24.9561298603,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,34,3.09031543826,22.7339107006,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1971,35,2.78128389444,21.7639848986,19.8169706018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,1,100,36.551122923,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,2,90,55.326518905,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,3,81,44.9072843452,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,4,72.9,40.7988020781,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,5,65.61,46.7690322517,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,6,59.049,42.6001535738,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,7,53.1441,39.1301399123,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,8,47.82969,40.417566624,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,9,43.046721,43.8073886147,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,10,38.7420489,36.6421042634,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,11,34.86784401,48.5146516042,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,12,31.381059609,40.3553781359,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,13,28.2429536481,47.3364034944,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,14,25.4186582833,45.6212744619,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,15,22.876792455,38.998171371,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,16,20.5891132095,46.1860621925,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,17,18.5302018885,38.6550616713,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,18,16.6771816997,43.1222869334,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,19,15.0094635297,37.9871118773,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,20,13.5085171767,36.0679780139,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,21,12.1576654591,33.9213077987,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,22,10.9418989132,40.4211434271,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,23,9.84770902184,39.6011328859,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,24,8.86293811965,37.3420641079,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,25,7.97664430769,34.3208494305,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,26,7.17897987692,42.467974472,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,27,6.46108188923,31.7010231307,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,28,5.8149737003,29.7519854667,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,29,5.23347633027,24.8294942848,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,30,4.71012869725,23.0041865717,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,31,4.23911582752,24.0005199602,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,32,3.81520424477,27.0223795566,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,33,3.43368382029,25.5232452566,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,34,3.09031543826,22.3533941859,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1972,35,2.78128389444,21.1805323068,8.60615138798,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,1,100,42.2638655497,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,2,90,45.1789530702,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,3,81,45.5424346167,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,4,72.9,49.0547167755,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,5,65.61,43.7733908574,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,6,59.049,42.5506431953,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,7,53.1441,45.3017561302,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,8,47.82969,45.9331207449,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,9,43.046721,50.5647981657,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,10,38.7420489,42.276968622,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,11,34.86784401,45.0651412657,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,12,31.381059609,48.1004376475,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,13,28.2429536481,47.0586648031,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,14,25.4186582833,44.5972671641,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,15,22.876792455,40.8999347879,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,16,20.5891132095,39.2615144795,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,17,18.5302018885,38.2738758232,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,18,16.6771816997,38.6586149025,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,19,15.0094635297,39.0751731222,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,20,13.5085171767,39.9728936607,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,21,12.1576654591,37.7859076647,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,22,10.9418989132,37.2217788818,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,23,9.84770902184,38.0100301968,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,24,8.86293811965,34.3778281312,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,25,7.97664430769,33.7581006698,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,26,7.17897987692,31.9968555978,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,27,6.46108188923,37.9894188909,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,28,5.8149737003,33.6639827055,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,29,5.23347633027,30.0104299354,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,30,4.71012869725,27.7137904341,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,31,4.23911582752,25.8969445217,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,32,3.81520424477,27.4065790198,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,33,3.43368382029,24.2371487765,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,34,3.09031543826,21.7611322462,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1973,35,2.78128389444,22.7651297283,18.3457405719,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,1,100,42.8934843859,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,2,90,45.0428894152,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,3,81,41.9110656424,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,4,72.9,35.6494014177,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,5,65.61,41.1895078943,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,6,59.049,39.7150958731,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,7,53.1441,38.9752509759,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,8,47.82969,45.0828081371,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,9,43.046721,44.6886827134,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,10,38.7420489,37.1802832965,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,11,34.86784401,47.9983136417,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,12,31.381059609,43.5469432687,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,13,28.2429536481,45.2896035689,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,14,25.4186582833,35.957584537,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,15,22.876792455,48.6984011344,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,16,20.5891132095,43.4696249032,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,17,18.5302018885,40.6924027615,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,18,16.6771816997,41.4013474368,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,19,15.0094635297,40.2934063023,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,20,13.5085171767,34.7118431709,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,21,12.1576654591,39.3968034913,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,22,10.9418989132,41.4788957671,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,23,9.84770902184,39.2705310366,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,24,8.86293811965,37.9996815435,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,25,7.97664430769,30.0027222639,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,26,7.17897987692,36.1381768096,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,27,6.46108188923,35.1188950524,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,28,5.8149737003,32.8480742383,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,29,5.23347633027,28.4068231391,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,30,4.71012869725,31.7837482978,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,31,4.23911582752,25.914679005,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,32,3.81520424477,25.292771567,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,33,3.43368382029,22.9416611084,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,34,3.09031543826,22.5639703586,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1974,35,2.78128389444,26.5700019348,31.1713622681,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,1,100,48.4852391866,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,2,90,44.2254021769,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,3,81,42.0092012207,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,4,72.9,46.9351738933,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,5,65.61,44.9464994209,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,6,59.049,45.6209555279,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,7,53.1441,44.6325339953,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,8,47.82969,44.4898095578,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,9,43.046721,43.1045967171,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,10,38.7420489,35.4377576369,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,11,34.86784401,48.6418840904,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,12,31.381059609,48.7720065225,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,13,28.2429536481,44.0043266593,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,14,25.4186582833,42.6435771271,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,15,22.876792455,43.2050657286,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,16,20.5891132095,39.1496100178,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,17,18.5302018885,40.9205390376,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,18,16.6771816997,44.0310939399,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,19,15.0094635297,44.4864328544,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,20,13.5085171767,38.4057934226,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,21,12.1576654591,41.2029357771,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,22,10.9418989132,43.4193487562,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,23,9.84770902184,39.8719935606,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,24,8.86293811965,34.5575401911,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,25,7.97664430769,31.9046832139,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,26,7.17897987692,33.820508468,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,27,6.46108188923,30.9160622405,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,28,5.8149737003,30.6896936781,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,29,5.23347633027,27.4152814845,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,30,4.71012869725,28.7705311547,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,31,4.23911582752,27.3577591692,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,32,3.81520424477,20.6204946424,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,33,3.43368382029,24.0560158307,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,34,3.09031543826,27.5303044282,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1975,35,2.78128389444,29.0695289247,7.32050153511,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,1,100,45.6686678953,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,2,90,45.1110676385,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,3,81,47.495138156,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,4,72.9,48.5213302955,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,5,65.61,40.9721995837,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,6,59.049,44.7190107441,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,7,53.1441,45.5120824879,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,8,47.82969,40.2742860936,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,9,43.046721,41.9108864727,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,10,38.7420489,47.238610876,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,11,34.86784401,44.6668572081,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,12,31.381059609,40.6089355981,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,13,28.2429536481,47.1678881713,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,14,25.4186582833,32.1636341988,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,15,22.876792455,48.0750464286,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,16,20.5891132095,48.6946962973,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,17,18.5302018885,36.7033744119,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,18,16.6771816997,41.5826400765,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,19,15.0094635297,31.4974670158,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,20,13.5085171767,41.0478929871,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,21,12.1576654591,36.424498498,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,22,10.9418989132,37.3895653231,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,23,9.84770902184,39.0505992182,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,24,8.86293811965,31.8540180894,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,25,7.97664430769,33.4850752079,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,26,7.17897987692,31.4271832903,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,27,6.46108188923,30.1417570692,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,28,5.8149737003,29.5685201489,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,29,5.23347633027,31.03620229,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,30,4.71012869725,27.5706603247,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,31,4.23911582752,19.8361100139,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,32,3.81520424477,27.1348823691,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,33,3.43368382029,26.1417601897,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,34,3.09031543826,23.8658904549,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1976,35,2.78128389444,19.5331364154,14.9626123271,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,1,100,48.5957238891,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,2,90,47.4520193988,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,3,81,47.8018806196,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,4,72.9,41.4461486015,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,5,65.61,44.2840229805,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,6,59.049,42.7153321133,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,7,53.1441,40.6047485593,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,8,47.82969,40.4239671023,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,9,43.046721,45.3269940153,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,10,38.7420489,40.4847023193,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,11,34.86784401,41.1499921857,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,12,31.381059609,46.6812807007,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,13,28.2429536481,48.4060754605,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,14,25.4186582833,50.6883695544,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,15,22.876792455,43.8819195864,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,16,20.5891132095,44.1530961441,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,17,18.5302018885,46.5238393899,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,18,16.6771816997,41.4669688025,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,19,15.0094635297,41.6898676484,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,20,13.5085171767,41.7665047332,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,21,12.1576654591,34.0897212662,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,22,10.9418989132,34.5745719179,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,23,9.84770902184,34.9445968084,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,24,8.86293811965,38.873788655,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,25,7.97664430769,31.5218601712,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,26,7.17897987692,35.7696289793,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,27,6.46108188923,34.1911400264,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,28,5.8149737003,31.9235369653,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,29,5.23347633027,30.644759775,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,30,4.71012869725,25.7840472506,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,31,4.23911582752,28.0292805127,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,32,3.81520424477,28.3675494624,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,33,3.43368382029,25.2467015624,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,34,3.09031543826,20.5470932774,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1977,35,2.78128389444,19.2563753662,29.6687458781,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,1,100,44.9044941635,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,2,90,46.1494057504,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,3,81,44.9844921489,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,4,72.9,44.3701954885,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,5,65.61,42.4882766141,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,6,59.049,42.5294482785,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,7,53.1441,46.2976345208,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,8,47.82969,49.4852771238,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,9,43.046721,47.4599865327,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,10,38.7420489,45.0691081261,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,11,34.86784401,44.996523758,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,12,31.381059609,51.1878437046,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,13,28.2429536481,38.1548870753,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,14,25.4186582833,41.0132879051,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,15,22.876792455,39.3576594123,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,16,20.5891132095,42.7354491741,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,17,18.5302018885,38.0388162269,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,18,16.6771816997,45.8108664915,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,19,15.0094635297,41.158089685,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,20,13.5085171767,37.9819824383,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,21,12.1576654591,35.765673026,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,22,10.9418989132,41.5507547157,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,23,9.84770902184,36.3218637513,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,24,8.86293811965,35.5090309798,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,25,7.97664430769,35.1245556619,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,26,7.17897987692,36.9568053022,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,27,6.46108188923,31.2996686165,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,28,5.8149737003,28.3525352165,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,29,5.23347633027,30.3667320846,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,30,4.71012869725,30.0753445276,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,31,4.23911582752,32.4199416017,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,32,3.81520424477,27.7572887116,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,33,3.43368382029,25.8545707617,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,34,3.09031543826,20.278671392,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1978,35,2.78128389444,23.7572456893,30.8377327085,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,1,100,41.5838301313,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,2,90,51.7990080401,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,3,81,49.563299449,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,4,72.9,46.904244391,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,5,65.61,41.6192765748,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,6,59.049,44.0986367959,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,7,53.1441,52.949103649,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,8,47.82969,44.9134590601,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,9,43.046721,48.3460055818,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,10,38.7420489,46.2802356703,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,11,34.86784401,45.9219652037,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,12,31.381059609,46.2548326282,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,13,28.2429536481,39.2095080784,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,14,25.4186582833,40.4495311707,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,15,22.876792455,35.7458532221,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,16,20.5891132095,37.4372698774,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,17,18.5302018885,44.1248826555,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,18,16.6771816997,39.8807329546,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,19,15.0094635297,36.326979577,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,20,13.5085171767,40.1436181495,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,21,12.1576654591,35.0516417278,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,22,10.9418989132,37.038545631,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,23,9.84770902184,36.9416906378,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,24,8.86293811965,41.5833484933,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,25,7.97664430769,37.2135993812,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,26,7.17897987692,31.3829959222,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,27,6.46108188923,33.6645782804,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,28,5.8149737003,33.0897470878,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,29,5.23347633027,30.4781245597,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,30,4.71012869725,35.4591077649,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,31,4.23911582752,27.018243334,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,32,3.81520424477,28.6023625857,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,33,3.43368382029,20.8200094692,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,34,3.09031543826,23.5286863379,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1979,35,2.78128389444,18.9440628378,15.7929086598,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,1,100,45.2781559657,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,2,90,40.5181357899,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,3,81,44.621203703,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,4,72.9,50.7294404749,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,5,65.61,40.084373785,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,6,59.049,43.7531390425,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,7,53.1441,41.1840615805,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,8,47.82969,46.4229928786,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,9,43.046721,44.0854626676,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,10,38.7420489,46.7836064581,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,11,34.86784401,41.1375735087,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,12,31.381059609,45.6747384202,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,13,28.2429536481,48.6698913845,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,14,25.4186582833,44.503977658,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,15,22.876792455,44.0614138685,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,16,20.5891132095,41.3329253714,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,17,18.5302018885,41.5909058863,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,18,16.6771816997,38.996502646,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,19,15.0094635297,33.6955886936,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,20,13.5085171767,44.7268846917,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,21,12.1576654591,39.8721003237,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,22,10.9418989132,41.8858788769,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,23,9.84770902184,37.6816255865,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,24,8.86293811965,39.5675418846,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,25,7.97664430769,35.9511815958,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,26,7.17897987692,36.5395326459,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,27,6.46108188923,31.1677912729,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,28,5.8149737003,35.3849529067,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,29,5.23347633027,29.8911618284,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,30,4.71012869725,25.3707264778,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,31,4.23911582752,26.0630489284,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,32,3.81520424477,24.156556939,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,33,3.43368382029,21.1144028828,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,34,3.09031543826,25.3991263834,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1980,35,2.78128389444,19.449204107,23.6525534446,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,1,100,48.8884210642,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,2,90,46.7301871975,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,3,81,44.5175882644,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,4,72.9,40.1818553991,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,5,65.61,41.7440343704,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,6,59.049,40.5313726646,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,7,53.1441,47.36090202,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,8,47.82969,46.3440520054,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,9,43.046721,47.8781150073,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,10,38.7420489,39.8747005805,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,11,34.86784401,41.2022313825,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,12,31.381059609,41.0645777909,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,13,28.2429536481,39.685772881,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,14,25.4186582833,50.3076428183,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,15,22.876792455,43.8330292824,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,16,20.5891132095,41.4634911377,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,17,18.5302018885,37.6814203122,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,18,16.6771816997,36.2538190036,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,19,15.0094635297,46.6217712929,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,20,13.5085171767,40.8259478264,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,21,12.1576654591,39.0102697013,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,22,10.9418989132,31.6718267732,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,23,9.84770902184,33.9590964629,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,24,8.86293811965,32.0734628158,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,25,7.97664430769,34.5303890722,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,26,7.17897987692,29.7864585342,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,27,6.46108188923,39.1133891129,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,28,5.8149737003,30.039377102,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,29,5.23347633027,31.5284267093,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,30,4.71012869725,26.8751364844,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,31,4.23911582752,27.3742935542,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,32,3.81520424477,26.7526441766,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,33,3.43368382029,25.1441939152,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,34,3.09031543826,20.7991105309,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1981,35,2.78128389444,25.001451799,17.3972123824,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,1,100,52.7754710347,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,2,90,48.2530731507,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,3,81,43.1356548323,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,4,72.9,42.7127394356,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,5,65.61,50.9774812734,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,6,59.049,45.1667703328,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,7,53.1441,45.5705913294,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,8,47.82969,45.1844694302,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,9,43.046721,44.8834954922,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,10,38.7420489,47.4423129992,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,11,34.86784401,39.1446558153,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,12,31.381059609,40.5095889153,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,13,28.2429536481,40.9261638832,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,14,25.4186582833,45.2325412232,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,15,22.876792455,42.1935383394,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,16,20.5891132095,42.0590118523,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,17,18.5302018885,41.5492261794,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,18,16.6771816997,36.5269471401,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,19,15.0094635297,49.4581124118,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,20,13.5085171767,38.3434180369,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,21,12.1576654591,41.9841740909,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,22,10.9418989132,34.2272961211,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,23,9.84770902184,35.5910078292,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,24,8.86293811965,37.253747785,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,25,7.97664430769,39.656296772,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,26,7.17897987692,31.1829414091,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,27,6.46108188923,35.0851606841,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,28,5.8149737003,29.8745843437,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,29,5.23347633027,30.9016974284,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,30,4.71012869725,26.1781188412,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,31,4.23911582752,28.4108514928,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,32,3.81520424477,28.4905028127,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,33,3.43368382029,26.1657292863,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,34,3.09031543826,21.8239593515,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1982,35,2.78128389444,24.4381055045,23.7151616174,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,1,100,45.6651073668,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,2,90,43.4529519255,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,3,81,45.9355591143,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,4,72.9,49.1412899846,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,5,65.61,43.0944574474,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,6,59.049,38.7244925951,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,7,53.1441,39.620878508,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,8,47.82969,50.2607810368,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,9,43.046721,46.9731917243,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,10,38.7420489,43.0770088246,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,11,34.86784401,41.5316782695,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,12,31.381059609,37.7192930313,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,13,28.2429536481,46.3067364754,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,14,25.4186582833,42.6670000835,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,15,22.876792455,42.7183182177,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,16,20.5891132095,42.359555144,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,17,18.5302018885,38.4322581831,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,18,16.6771816997,43.6644552874,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,19,15.0094635297,39.8421626895,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,20,13.5085171767,40.3803765776,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,21,12.1576654591,38.5654553048,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,22,10.9418989132,36.2313223868,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,23,9.84770902184,33.5978285586,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,24,8.86293811965,36.8865874043,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,25,7.97664430769,35.6307294656,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,26,7.17897987692,31.9653208077,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,27,6.46108188923,34.9332511375,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,28,5.8149737003,31.6798675437,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,29,5.23347633027,30.9756321294,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,30,4.71012869725,30.782703153,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,31,4.23911582752,26.1453103935,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,32,3.81520424477,25.7043072976,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,33,3.43368382029,26.0837297795,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,34,3.09031543826,24.9105716439,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1983,35,2.78128389444,25.4253202706,20.5647095343,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,1,100,42.9473868745,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,2,90,47.4513597198,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,3,81,43.4595008176,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,4,72.9,48.537813239,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,5,65.61,40.4209531987,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,6,59.049,45.314433645,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,7,53.1441,45.4177008523,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,8,47.82969,43.1097116923,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,9,43.046721,47.9292201242,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,10,38.7420489,44.2102499629,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,11,34.86784401,43.1628131137,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,12,31.381059609,41.5878444543,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,13,28.2429536481,45.4503302343,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,14,25.4186582833,35.793907462,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,15,22.876792455,44.6666325908,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,16,20.5891132095,42.9518350467,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,17,18.5302018885,47.051190427,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,18,16.6771816997,40.2229913981,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,19,15.0094635297,38.9724291814,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,20,13.5085171767,42.7677052771,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,21,12.1576654591,33.990474985,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,22,10.9418989132,39.0002441732,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,23,9.84770902184,41.5703649662,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,24,8.86293811965,33.9374151319,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,25,7.97664430769,32.5805213719,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,26,7.17897987692,34.313473098,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,27,6.46108188923,34.7472124232,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,28,5.8149737003,34.3571366753,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,29,5.23347633027,33.5592680888,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,30,4.71012869725,27.1230882574,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,31,4.23911582752,28.431288393,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,32,3.81520424477,27.6872169294,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,33,3.43368382029,21.7403958428,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,34,3.09031543826,21.8293937847,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1984,35,2.78128389444,20.3056481968,8.65430480018,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,1,100,42.9497773902,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,2,90,50.9717852381,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,3,81,43.6584677799,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,4,72.9,49.5759079135,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,5,65.61,41.8707347242,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,6,59.049,50.0812487129,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,7,53.1441,42.8244321873,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,8,47.82969,45.0915477217,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,9,43.046721,45.2128594885,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,10,38.7420489,40.0845048385,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,11,34.86784401,43.943222922,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,12,31.381059609,41.0971869884,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,13,28.2429536481,41.2792621019,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,14,25.4186582833,42.051718546,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,15,22.876792455,41.457253603,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,16,20.5891132095,43.4879177439,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,17,18.5302018885,49.3318904156,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,18,16.6771816997,38.8433570408,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,19,15.0094635297,37.2044566754,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,20,13.5085171767,40.5192244317,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,21,12.1576654591,35.8695209844,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,22,10.9418989132,41.0630150363,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,23,9.84770902184,37.1493105879,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,24,8.86293811965,37.7245513877,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,25,7.97664430769,35.5699121466,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,26,7.17897987692,38.6623782852,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,27,6.46108188923,33.9358894266,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,28,5.8149737003,32.9627533318,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,29,5.23347633027,29.6388835865,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,30,4.71012869725,26.8269266231,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,31,4.23911582752,26.7167156387,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,32,3.81520424477,29.5504063161,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,33,3.43368382029,26.2856414689,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,34,3.09031543826,21.3807686815,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1985,35,2.78128389444,18.5003042724,18.3122492846,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,1,100,41.8923844733,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,2,90,48.6459648717,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,3,81,48.8813350554,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,4,72.9,36.6816060613,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,5,65.61,50.3867877634,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,6,59.049,50.1530794559,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,7,53.1441,46.6994840471,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,8,47.82969,55.523168253,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,9,43.046721,43.7117676725,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,10,38.7420489,38.8379654042,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,11,34.86784401,39.7260314947,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,12,31.381059609,45.0068725085,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,13,28.2429536481,43.5088167821,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,14,25.4186582833,46.22927538,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,15,22.876792455,48.3438288374,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,16,20.5891132095,40.9515998019,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,17,18.5302018885,42.6285752568,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,18,16.6771816997,43.4096621623,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,19,15.0094635297,39.7172152861,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,20,13.5085171767,39.4518306089,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,21,12.1576654591,38.0807557598,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,22,10.9418989132,37.2511055283,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,23,9.84770902184,39.3049587922,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,24,8.86293811965,33.4853190275,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,25,7.97664430769,38.2321788248,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,26,7.17897987692,33.3138391017,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,27,6.46108188923,30.5929049905,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,28,5.8149737003,36.2454007994,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,29,5.23347633027,25.9538441952,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,30,4.71012869725,26.6217937807,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,31,4.23911582752,22.9320545622,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,32,3.81520424477,30.4098706075,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,33,3.43368382029,25.4346350187,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,34,3.09031543826,26.2210246542,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1986,35,2.78128389444,26.0481617818,37.0791375094,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,1,100,43.4558656151,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,2,90,41.0287639299,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,3,81,49.5907677829,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,4,72.9,44.9292392349,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,5,65.61,43.950768277,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,6,59.049,44.1881178869,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,7,53.1441,45.8377850027,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,8,47.82969,39.0887958706,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,9,43.046721,40.725814303,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,10,38.7420489,48.2238459386,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,11,34.86784401,43.3318219014,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,12,31.381059609,43.5739724792,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,13,28.2429536481,44.6108339308,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,14,25.4186582833,44.0539147483,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,15,22.876792455,39.2517983955,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,16,20.5891132095,40.3319026812,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,17,18.5302018885,37.1889768818,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,18,16.6771816997,46.2099051238,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,19,15.0094635297,45.9675716616,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,20,13.5085171767,42.990434908,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,21,12.1576654591,33.730015497,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,22,10.9418989132,39.8421731131,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,23,9.84770902184,37.9549127041,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,24,8.86293811965,38.5769321411,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,25,7.97664430769,37.5720729325,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,26,7.17897987692,33.679342376,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,27,6.46108188923,29.0988276081,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,28,5.8149737003,33.2140650245,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,29,5.23347633027,35.4530681145,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,30,4.71012869725,33.0071965188,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,31,4.23911582752,25.1516303624,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,32,3.81520424477,29.1875172378,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,33,3.43368382029,28.6311076773,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,34,3.09031543826,18.2435566886,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1987,35,2.78128389444,23.8225128738,37.6410327636,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,1,100,46.2482711369,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,2,90,48.4009428871,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,3,81,44.2680592829,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,4,72.9,40.7684225166,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,5,65.61,48.229590798,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,6,59.049,40.2596416953,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,7,53.1441,50.3371281335,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,8,47.82969,44.1486107946,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,9,43.046721,38.5781989827,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,10,38.7420489,44.6858336734,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,11,34.86784401,39.8744225174,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,12,31.381059609,48.0155734818,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,13,28.2429536481,43.0199505402,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,14,25.4186582833,47.2493243305,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,15,22.876792455,48.7663905045,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,16,20.5891132095,38.7912284791,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,17,18.5302018885,44.2440538736,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,18,16.6771816997,41.8133921277,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,19,15.0094635297,39.1164972925,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,20,13.5085171767,35.5006805984,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,21,12.1576654591,41.8884708384,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,22,10.9418989132,37.9567911161,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,23,9.84770902184,37.1073701671,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,24,8.86293811965,36.8860133109,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,25,7.97664430769,32.6490452461,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,26,7.17897987692,31.8122561789,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,27,6.46108188923,35.7617518932,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,28,5.8149737003,34.2953496849,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,29,5.23347633027,36.2198102663,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,30,4.71012869725,28.5809780846,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,31,4.23911582752,30.5451337874,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,32,3.81520424477,23.5268062516,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,33,3.43368382029,20.5356347532,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,34,3.09031543826,20.8425754999,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1988,35,2.78128389444,19.6705487234,19.3585438817,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,1,100,47.4935147583,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,2,90,45.7977928181,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,3,81,43.0301117896,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,4,72.9,42.5624479526,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,5,65.61,42.5776909006,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,6,59.049,53.7387719051,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,7,53.1441,38.9727774112,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,8,47.82969,46.6000637374,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,9,43.046721,42.3993008444,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,10,38.7420489,41.4964073141,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,11,34.86784401,46.389974886,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,12,31.381059609,45.8148987674,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,13,28.2429536481,42.6195023333,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,14,25.4186582833,44.188136807,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,15,22.876792455,40.0759882976,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,16,20.5891132095,43.3424296848,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,17,18.5302018885,42.3942601845,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,18,16.6771816997,39.6746782624,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,19,15.0094635297,38.0770382392,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,20,13.5085171767,39.7164077057,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,21,12.1576654591,38.0994897428,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,22,10.9418989132,37.7908820098,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,23,9.84770902184,33.8742571533,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,24,8.86293811965,34.514561651,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,25,7.97664430769,33.6134523029,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,26,7.17897987692,38.2088950972,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,27,6.46108188923,36.0978464829,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,28,5.8149737003,33.184836372,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,29,5.23347633027,29.3783514179,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,30,4.71012869725,31.0543669363,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,31,4.23911582752,30.6983875726,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,32,3.81520424477,24.4180338001,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,33,3.43368382029,29.6778908468,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,34,3.09031543826,23.03000877,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1989,35,2.78128389444,23.5726534825,17.0728604969,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,1,100,49.2339578,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,2,90,45.0585786984,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,3,81,40.7671208729,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,4,72.9,49.4024666933,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,5,65.61,45.140578722,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,6,59.049,45.9812729291,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,7,53.1441,46.0103944928,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,8,47.82969,43.1890493483,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,9,43.046721,42.5007081115,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,10,38.7420489,46.3307313799,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,11,34.86784401,45.9827771196,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,12,31.381059609,41.5941679201,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,13,28.2429536481,43.7146902703,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,14,25.4186582833,40.1233391468,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,15,22.876792455,42.6919099121,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,16,20.5891132095,40.9876939088,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,17,18.5302018885,45.5459634517,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,18,16.6771816997,43.6831305951,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,19,15.0094635297,51.0564049724,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,20,13.5085171767,34.7886090677,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,21,12.1576654591,32.7364989554,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,22,10.9418989132,39.6096699407,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,23,9.84770902184,36.141564588,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,24,8.86293811965,31.1572904702,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,25,7.97664430769,33.9911036879,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,26,7.17897987692,33.4055389571,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,27,6.46108188923,31.6822294799,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,28,5.8149737003,26.646682284,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,29,5.23347633027,26.1143490702,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,30,4.71012869725,33.1939750842,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,31,4.23911582752,29.6796829051,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,32,3.81520424477,28.9480460741,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,33,3.43368382029,24.0584454384,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,34,3.09031543826,23.0545138644,11.3487455869,0
+"L. Bombelli & D. Meyer defaults: T0=100, alpha=0.9",1990,35,2.78128389444,22.6577977439,11.3487455869,0
+"Hotter tuned: T0=180, alpha=0.8",1959,1,180,49.7801033063,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,2,144,46.5015042265,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,3,115.2,39.3653785407,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,4,92.16,40.050516699,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,5,73.728,39.6605297804,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,6,58.9824,41.3212414262,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,7,47.18592,42.488487874,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,8,37.748736,43.5257494145,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,9,30.1989888,41.8324523468,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,10,24.15919104,42.6326928995,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,11,19.327352832,42.2394015052,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,12,15.4618822656,39.6926252003,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,13,12.3695058125,37.9125110103,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,14,9.89560464998,35.3423304406,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,15,7.91648371999,33.4850560693,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,16,6.33318697599,29.3544618813,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,17,5.06654958079,25.3403920239,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,18,4.05323966463,27.6267403417,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,19,3.24259173171,24.7725472155,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,20,2.59407338537,21.6400337753,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,21,2.07525870829,15.886199765,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,22,1.66020696663,17.7672017776,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,23,1.32816557331,14.5176874487,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,24,1.06253245865,12.1940243389,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,25,0.850025966917,8.57851264297,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,26,0.680020773533,6.02909176031,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,27,0.544016618827,6.37930708574,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,28,0.435213295061,4.09302703637,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,29,0.348170636049,2.66247802955,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,30,0.278536508839,1.76251390593,0,1
+"Hotter tuned: T0=180, alpha=0.8",1959,31,0.222829207071,0.0506652464436,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,1,180,53.8578534648,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,2,144,46.2265650473,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,3,115.2,45.0596925263,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,4,92.16,38.6117132502,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,5,73.728,48.5424525487,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,6,58.9824,44.5971565786,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,7,47.18592,44.5329655764,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,8,37.748736,38.5891952347,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,9,30.1989888,45.3866334951,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,10,24.15919104,48.8307370266,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,11,19.327352832,43.6020499245,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,12,15.4618822656,41.7395985554,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,13,12.3695058125,40.7156192304,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,14,9.89560464998,34.7561269756,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,15,7.91648371999,36.9342261283,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,16,6.33318697599,36.0935194624,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,17,5.06654958079,30.6600267866,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,18,4.05323966463,28.6980956874,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,19,3.24259173171,22.3930395445,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,20,2.59407338537,22.3769036537,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,21,2.07525870829,18.4525409782,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,22,1.66020696663,17.4003965252,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,23,1.32816557331,10.5087669917,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,24,1.06253245865,13.3511839181,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,25,0.850025966917,10.1429569249,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,26,0.680020773533,7.73934048502,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,27,0.544016618827,5.74759458098,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,28,0.435213295061,5.29038930125,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,29,0.348170636049,3.99990990346,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,30,0.278536508839,1.21268418786,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,31,0.222829207071,0.533095937479,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,32,0.178263365657,0.0405662325292,0,1
+"Hotter tuned: T0=180, alpha=0.8",1960,33,0.142610692526,0.0205831855718,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,1,180,51.3449397958,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,2,144,46.963883905,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,3,115.2,38.0795437684,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,4,92.16,40.561995095,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,5,73.728,45.6603917467,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,6,58.9824,45.7790737991,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,7,47.18592,50.1174955214,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,8,37.748736,41.003476325,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,9,30.1989888,40.331523363,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,10,24.15919104,50.4235091827,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,11,19.327352832,38.9616608058,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,12,15.4618822656,36.7650860445,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,13,12.3695058125,33.0812412101,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,14,9.89560464998,30.8803656929,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,15,7.91648371999,40.3385360686,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,16,6.33318697599,29.7291612041,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,17,5.06654958079,25.1593508097,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,18,4.05323966463,24.8542524957,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,19,3.24259173171,24.7174154202,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,20,2.59407338537,21.7631474013,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,21,2.07525870829,17.1500248862,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,22,1.66020696663,14.1714230908,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,23,1.32816557331,15.5240761123,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,24,1.06253245865,12.454038801,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,25,0.850025966917,9.80664296039,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,26,0.680020773533,7.85036298435,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,27,0.544016618827,3.3073670992,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,28,0.435213295061,3.47721229659,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,29,0.348170636049,2.55014192203,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,30,0.278536508839,2.47597862873,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,31,0.222829207071,0.0244447619412,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,32,0.178263365657,0.000285566288852,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,33,0.142610692526,7.2204782699e-08,0,1
+"Hotter tuned: T0=180, alpha=0.8",1961,34,0.114088554021,2.20518414068e-09,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,1,180,41.3962251422,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,2,144,39.6285036921,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,3,115.2,41.4549377241,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,4,92.16,42.7572733062,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,5,73.728,46.2388329514,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,6,58.9824,49.035877673,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,7,47.18592,45.1654910541,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,8,37.748736,37.2816269558,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,9,30.1989888,50.73043455,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,10,24.15919104,45.3099585313,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,11,19.327352832,50.2272171875,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,12,15.4618822656,41.5186866993,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,13,12.3695058125,36.1891041672,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,14,9.89560464998,40.026033867,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,15,7.91648371999,36.5479641692,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,16,6.33318697599,38.3250555175,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,17,5.06654958079,27.759594146,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,18,4.05323966463,27.4957738314,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,19,3.24259173171,23.7713079256,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,20,2.59407338537,22.1214214571,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,21,2.07525870829,20.72644765,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,22,1.66020696663,16.5122822769,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,23,1.32816557331,15.7098406133,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,24,1.06253245865,11.4368389967,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,25,0.850025966917,8.12869157398,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,26,0.680020773533,6.40748926268,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,27,0.544016618827,5.42525924063,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,28,0.435213295061,2.17569886055,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,29,0.348170636049,1.39969397763,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,30,0.278536508839,0.0241727124295,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,31,0.222829207071,8.40983399584e-05,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,32,0.178263365657,9.58449770304e-06,0,1
+"Hotter tuned: T0=180, alpha=0.8",1962,33,0.142610692526,1.05049739749e-09,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,1,180,44.6873622294,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,2,144,36.6581695049,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,3,115.2,47.7881655387,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,4,92.16,52.4785039332,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,5,73.728,45.0482353017,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,6,58.9824,48.4136001015,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,7,47.18592,42.4760676255,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,8,37.748736,45.9200147217,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,9,30.1989888,43.4689049781,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,10,24.15919104,42.6673602286,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,11,19.327352832,46.7642846564,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,12,15.4618822656,36.7890431002,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,13,12.3695058125,44.1863677087,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,14,9.89560464998,36.5924378944,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,15,7.91648371999,34.0441668289,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,16,6.33318697599,31.9635998459,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,17,5.06654958079,30.5061457812,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,18,4.05323966463,30.7439673146,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,19,3.24259173171,28.1190963046,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,20,2.59407338537,23.5597638489,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,21,2.07525870829,18.0762156688,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,22,1.66020696663,16.40320938,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,23,1.32816557331,7.19937271509,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,24,1.06253245865,11.8457233912,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,25,0.850025966917,9.86725774682,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,26,0.680020773533,7.75763898501,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,27,0.544016618827,4.8339265235,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,28,0.435213295061,2.74455336817,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,29,0.348170636049,2.74625870195,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,30,0.278536508839,1.57425381422,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,31,0.222829207071,0.69499713071,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,32,0.178263365657,0.684220505927,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,33,0.142610692526,7.13322182816e-05,0,1
+"Hotter tuned: T0=180, alpha=0.8",1963,34,0.114088554021,5.10632123945e-05,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,1,180,44.7220308278,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,2,144,47.2668405052,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,3,115.2,43.5981288549,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,4,92.16,44.6163589094,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,5,73.728,45.3229079193,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,6,58.9824,51.3420535622,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,7,47.18592,42.1664177449,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,8,37.748736,42.6679678982,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,9,30.1989888,44.9654441857,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,10,24.15919104,42.3386473516,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,11,19.327352832,47.6895215584,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,12,15.4618822656,35.3688620071,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,13,12.3695058125,40.5862467413,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,14,9.89560464998,36.0016563797,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,15,7.91648371999,38.8136949336,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,16,6.33318697599,35.6290421596,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,17,5.06654958079,32.7575542922,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,18,4.05323966463,25.0642984377,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,19,3.24259173171,23.7152253627,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,20,2.59407338537,19.4624835097,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,21,2.07525870829,17.81050243,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,22,1.66020696663,15.4615189896,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,23,1.32816557331,11.6716626118,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,24,1.06253245865,11.8243475459,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,25,0.850025966917,10.643802677,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,26,0.680020773533,7.0630822609,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,27,0.544016618827,4.5287590539,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,28,0.435213295061,0.398245408318,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,29,0.348170636049,0.00949953016536,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,30,0.278536508839,0.000258200209941,0,1
+"Hotter tuned: T0=180, alpha=0.8",1964,31,0.222829207071,9.6870907635e-06,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,1,180,42.6680343461,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,2,144,46.6773361944,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,3,115.2,44.5876880393,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,4,92.16,45.4367109342,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,5,73.728,51.0679386278,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,6,58.9824,43.376965483,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,7,47.18592,46.5700345295,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,8,37.748736,46.1267387075,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,9,30.1989888,46.7713798512,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,10,24.15919104,44.924848258,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,11,19.327352832,42.5986429846,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,12,15.4618822656,41.1744315652,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,13,12.3695058125,38.2610329113,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,14,9.89560464998,41.9358247653,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,15,7.91648371999,36.2598145508,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,16,6.33318697599,32.0339245749,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,17,5.06654958079,25.9270434357,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,18,4.05323966463,25.0820316757,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,19,3.24259173171,22.3379277419,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,20,2.59407338537,18.4501857349,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,21,2.07525870829,17.7360594839,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,22,1.66020696663,15.4546906449,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,23,1.32816557331,14.5409888266,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,24,1.06253245865,10.8514366813,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,25,0.850025966917,10.3218691361,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,26,0.680020773533,7.12034533337,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,27,0.544016618827,7.27155690691,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,28,0.435213295061,2.95321035119,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,29,0.348170636049,0.0132826011162,0,1
+"Hotter tuned: T0=180, alpha=0.8",1965,30,0.278536508839,1.180974661e-06,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,1,180,40.0280516219,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,2,144,50.2267457593,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,3,115.2,43.989425292,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,4,92.16,47.4416791951,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,5,73.728,45.7957346399,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,6,58.9824,48.4150308486,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,7,47.18592,44.6557365942,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,8,37.748736,47.0395757298,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,9,30.1989888,43.8026198783,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,10,24.15919104,41.2976372606,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,11,19.327352832,50.8198249904,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,12,15.4618822656,42.9159027818,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,13,12.3695058125,46.9501998618,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,14,9.89560464998,36.7386029611,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,15,7.91648371999,33.9570365852,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,16,6.33318697599,33.0100385271,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,17,5.06654958079,29.3708610199,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,18,4.05323966463,19.2751566918,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,19,3.24259173171,23.7740298834,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,20,2.59407338537,25.7257187475,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,21,2.07525870829,21.4836086126,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,22,1.66020696663,16.4316828202,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,23,1.32816557331,13.0576175953,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,24,1.06253245865,11.4965085471,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,25,0.850025966917,11.8004542032,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,26,0.680020773533,7.80738156268,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,27,0.544016618827,6.66511944379,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,28,0.435213295061,3.6221077269,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,29,0.348170636049,1.71490924333,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,30,0.278536508839,1.26646966033,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,31,0.222829207071,0.739143497001,0,1
+"Hotter tuned: T0=180, alpha=0.8",1966,32,0.178263365657,0.0146342643047,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,1,180,49.2388979463,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,2,144,44.4911990506,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,3,115.2,50.789769929,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,4,92.16,49.6445871375,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,5,73.728,44.9299640769,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,6,58.9824,42.5699054436,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,7,47.18592,49.238419013,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,8,37.748736,49.8577719716,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,9,30.1989888,41.259254273,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,10,24.15919104,38.8398723205,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,11,19.327352832,49.3390591517,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,12,15.4618822656,37.4538868257,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,13,12.3695058125,40.9363709662,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,14,9.89560464998,41.1633313734,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,15,7.91648371999,37.9418926361,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,16,6.33318697599,29.7038961886,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,17,5.06654958079,33.8739200597,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,18,4.05323966463,25.5341830623,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,19,3.24259173171,20.7840388095,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,20,2.59407338537,22.8343543533,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,21,2.07525870829,20.8315654074,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,22,1.66020696663,17.5806203919,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,23,1.32816557331,11.5926769071,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,24,1.06253245865,13.3957256962,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,25,0.850025966917,8.54458360882,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,26,0.680020773533,8.61045221801,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,27,0.544016618827,6.65319531051,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,28,0.435213295061,3.35522010358,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,29,0.348170636049,2.69152635335,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,30,0.278536508839,0.218447906349,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,31,0.222829207071,0.00100002352328,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,32,0.178263365657,9.81883018464e-09,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,33,0.142610692526,1.2964993322e-11,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,34,0.114088554021,1.18522441039e-11,0,1
+"Hotter tuned: T0=180, alpha=0.8",1967,35,0.0912708432164,1.08746513067e-11,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,1,180,45.9690588999,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,2,144,44.2929142034,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,3,115.2,44.6010799299,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,4,92.16,44.641558157,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,5,73.728,51.2083109219,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,6,58.9824,47.2049464069,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,7,47.18592,41.6274571896,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,8,37.748736,43.1148134254,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,9,30.1989888,43.0639447065,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,10,24.15919104,38.3469834034,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,11,19.327352832,45.7081085502,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,12,15.4618822656,38.8522136096,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,13,12.3695058125,44.4108560036,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,14,9.89560464998,41.1462822716,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,15,7.91648371999,41.8976462462,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,16,6.33318697599,34.7137246967,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,17,5.06654958079,29.734485377,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,18,4.05323966463,28.4986954454,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,19,3.24259173171,23.7117625902,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,20,2.59407338537,20.7911192345,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,21,2.07525870829,18.0179602093,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,22,1.66020696663,14.530553282,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,23,1.32816557331,14.4173582613,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,24,1.06253245865,13.2867205173,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,25,0.850025966917,7.73473115125,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,26,0.680020773533,6.51516985313,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,27,0.544016618827,3.59055851006,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,28,0.435213295061,4.38943106125,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,29,0.348170636049,3.57550160423,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,30,0.278536508839,2.13517349757,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,31,0.222829207071,1.30261905785,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,32,0.178263365657,0.871103400835,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,33,0.142610692526,0.000116790325412,0,1
+"Hotter tuned: T0=180, alpha=0.8",1968,34,0.114088554021,5.19322872053e-08,0,1
+"Hotter tuned: T0=180, alpha=0.8",1969,1,180,43.4780582471,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,2,144,47.4873562275,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,3,115.2,47.3838996844,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,4,92.16,52.2220615393,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,5,73.728,46.8179022504,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,6,58.9824,49.0539004183,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,7,47.18592,44.2108030327,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,8,37.748736,47.6074856278,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,9,30.1989888,42.0948432424,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,10,24.15919104,40.4752543259,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,11,19.327352832,52.6947063526,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,12,15.4618822656,35.8584382714,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,13,12.3695058125,40.7818529755,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,14,9.89560464998,32.3531845425,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,15,7.91648371999,36.9880722126,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,16,6.33318697599,32.0309970197,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,17,5.06654958079,32.5854627278,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,18,4.05323966463,30.0405143459,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,19,3.24259173171,25.9637696544,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,20,2.59407338537,19.4164002118,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,21,2.07525870829,21.0274134215,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,22,1.66020696663,15.8272010295,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,23,1.32816557331,16.6044576163,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,24,1.06253245865,11.9296846331,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,25,0.850025966917,10.3472500776,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,26,0.680020773533,7.82831401725,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,27,0.544016618827,5.20812739795,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,28,0.435213295061,3.61393854123,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,29,0.348170636049,2.22337555922,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,30,0.278536508839,2.68503473252,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,31,0.222829207071,1.76497746482,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,32,0.178263365657,0.887692016632,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,33,0.142610692526,0.547063999627,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,34,0.114088554021,0.495179083496,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1969,35,0.0912708432164,0.0800646620968,8.22062928646e-06,0
+"Hotter tuned: T0=180, alpha=0.8",1970,1,180,45.256514258,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,2,144,45.1545607706,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,3,115.2,49.3766270136,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,4,92.16,48.3587385621,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,5,73.728,42.4420266456,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,6,58.9824,38.4033638431,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,7,47.18592,48.1752912536,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,8,37.748736,43.4419690999,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,9,30.1989888,42.1440989611,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,10,24.15919104,42.8918341527,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,11,19.327352832,44.2111735372,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,12,15.4618822656,39.8803191536,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,13,12.3695058125,39.6983568428,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,14,9.89560464998,39.0135038211,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,15,7.91648371999,33.2757748126,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,16,6.33318697599,34.3555779592,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,17,5.06654958079,24.6335193229,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,18,4.05323966463,29.1976372247,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,19,3.24259173171,22.7533719727,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,20,2.59407338537,21.6038071795,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,21,2.07525870829,15.062988795,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,22,1.66020696663,17.2368226248,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,23,1.32816557331,13.526475492,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,24,1.06253245865,9.06743828205,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,25,0.850025966917,7.99344044599,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,26,0.680020773533,4.92507490185,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,27,0.544016618827,4.6276062967,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,28,0.435213295061,1.36972919644,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,29,0.348170636049,2.22343280083,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,30,0.278536508839,1.59944381112,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,31,0.222829207071,0.6166830565,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,32,0.178263365657,0.00873306884632,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,33,0.142610692526,3.79683121207e-06,0,1
+"Hotter tuned: T0=180, alpha=0.8",1970,34,0.114088554021,9.14794057238e-08,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,1,180,49.2630100639,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,2,144,41.7751540236,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,3,115.2,46.0870013489,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,4,92.16,45.2359037023,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,5,73.728,39.6119377843,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,6,58.9824,44.8185604512,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,7,47.18592,47.3059664991,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,8,37.748736,42.2877103865,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,9,30.1989888,39.370562011,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,10,24.15919104,44.5284559215,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,11,19.327352832,42.8947804057,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,12,15.4618822656,40.1899725239,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,13,12.3695058125,35.6698902122,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,14,9.89560464998,39.6508331063,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,15,7.91648371999,36.8151739204,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,16,6.33318697599,33.6979467752,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,17,5.06654958079,28.7009957666,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,18,4.05323966463,23.5326446352,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,19,3.24259173171,25.1242320691,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,20,2.59407338537,23.7923970671,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,21,2.07525870829,17.7143182841,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,22,1.66020696663,14.2992312681,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,23,1.32816557331,13.8423363704,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,24,1.06253245865,10.9650722732,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,25,0.850025966917,8.81519276885,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,26,0.680020773533,7.95906570994,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,27,0.544016618827,5.32344914601,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,28,0.435213295061,3.42412459496,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,29,0.348170636049,2.63588044293,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,30,0.278536508839,0.908076556169,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,31,0.222829207071,1.79793871111,0,1
+"Hotter tuned: T0=180, alpha=0.8",1971,32,0.178263365657,1.22752151188,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,1,180,36.551122923,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,2,144,55.326518905,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,3,115.2,44.9072843452,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,4,92.16,40.7988020781,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,5,73.728,46.7690322517,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,6,58.9824,42.6001535738,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,7,47.18592,39.1301399123,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,8,37.748736,42.9113274227,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,9,30.1989888,40.8088169111,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,10,24.15919104,44.3189962095,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,11,19.327352832,41.0434178171,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,12,15.4618822656,42.3171694684,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,13,12.3695058125,38.2583404242,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,14,9.89560464998,36.708710177,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,15,7.91648371999,36.9433214153,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,16,6.33318697599,33.0137797622,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,17,5.06654958079,30.572986605,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,18,4.05323966463,24.5952120913,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,19,3.24259173171,25.0054005715,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,20,2.59407338537,18.6355825225,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,21,2.07525870829,17.3790612902,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,22,1.66020696663,13.7414075961,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,23,1.32816557331,12.6800942378,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,24,1.06253245865,11.4977494571,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,25,0.850025966917,5.24007883928,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,26,0.680020773533,6.34909941579,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,27,0.544016618827,7.69516994295,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,28,0.435213295061,4.43306546833,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,29,0.348170636049,3.16519191225,0,1
+"Hotter tuned: T0=180, alpha=0.8",1972,30,0.278536508839,0.203461509753,0,1
+"Hotter tuned: T0=180, alpha=0.8",1973,1,180,42.2638655497,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,2,144,45.1789530702,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,3,115.2,45.5424346167,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,4,92.16,49.0547167755,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,5,73.728,43.7733908574,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,6,58.9824,42.5506431953,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,7,47.18592,45.3017561302,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,8,37.748736,45.9331207449,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,9,30.1989888,50.5647981657,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,10,24.15919104,47.7250838347,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,11,19.327352832,38.7804999156,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,12,15.4618822656,36.8847194593,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,13,12.3695058125,36.5800719759,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,14,9.89560464998,35.0640497944,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,15,7.91648371999,32.6052984317,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,16,6.33318697599,32.1007814969,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,17,5.06654958079,29.9642540245,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,18,4.05323966463,27.0076816258,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,19,3.24259173171,23.6699727524,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,20,2.59407338537,24.6694905173,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,21,2.07525870829,20.1825903384,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,22,1.66020696663,15.6721655813,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,23,1.32816557331,13.0690778373,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,24,1.06253245865,11.4365436379,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,25,0.850025966917,9.0784048447,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,26,0.680020773533,7.22997236643,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,27,0.544016618827,4.79586184793,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,28,0.435213295061,6.85761168706,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,29,0.348170636049,3.63905932764,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,30,0.278536508839,2.9513388688,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,31,0.222829207071,1.66294571422,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,32,0.178263365657,0.372344570876,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,33,0.142610692526,0.0072866569628,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,34,0.114088554021,3.88187716987e-06,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1973,35,0.0912708432164,1.38748586117e-08,2.17061109798e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1974,1,180,42.8934843859,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,2,144,45.0428894152,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,3,115.2,41.9110656424,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,4,92.16,35.6494014177,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,5,73.728,41.1895078943,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,6,58.9824,39.7150958731,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,7,47.18592,38.9752509759,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,8,37.748736,45.0828081371,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,9,30.1989888,42.9988969192,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,10,24.15919104,38.4440605357,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,11,19.327352832,45.1404118502,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,12,15.4618822656,43.4024900961,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,13,12.3695058125,39.7352222622,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,14,9.89560464998,32.6896167559,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,15,7.91648371999,40.9697949245,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,16,6.33318697599,34.9176453607,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,17,5.06654958079,30.5150626236,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,18,4.05323966463,25.1495536611,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,19,3.24259173171,25.8200537393,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,20,2.59407338537,20.2088182417,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,21,2.07525870829,17.9176630609,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,22,1.66020696663,17.4145607719,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,23,1.32816557331,8.15109851756,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,24,1.06253245865,11.2377775398,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,25,0.850025966917,10.039791036,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,26,0.680020773533,8.79942329232,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,27,0.544016618827,6.93324164405,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,28,0.435213295061,3.9882749688,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,29,0.348170636049,0.804406640862,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,30,0.278536508839,0.0117355612299,0,1
+"Hotter tuned: T0=180, alpha=0.8",1974,31,0.222829207071,1.01543883043e-11,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,1,180,48.4852391866,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,2,144,44.2254021769,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,3,115.2,42.0092012207,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,4,92.16,46.9351738933,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,5,73.728,44.9464994209,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,6,58.9824,45.6209555279,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,7,47.18592,44.6325339953,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,8,37.748736,45.1426858296,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,9,30.1989888,35.1737165091,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,10,24.15919104,47.5580131977,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,11,19.327352832,40.5592120596,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,12,15.4618822656,40.3038060045,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,13,12.3695058125,38.0580270853,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,14,9.89560464998,43.7175318428,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,15,7.91648371999,34.5843185405,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,16,6.33318697599,33.6862643603,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,17,5.06654958079,26.0281483051,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,18,4.05323966463,26.4584595123,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,19,3.24259173171,21.7706624699,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,20,2.59407338537,22.4683733889,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,21,2.07525870829,18.502400531,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,22,1.66020696663,17.3538121803,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,23,1.32816557331,13.9794756893,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,24,1.06253245865,11.8094870489,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,25,0.850025966917,7.81452114561,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,26,0.680020773533,7.96536573318,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,27,0.544016618827,1.79248437249,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,28,0.435213295061,4.01867272253,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,29,0.348170636049,1.17372027321,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,30,0.278536508839,1.95820602995,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,31,0.222829207071,1.35890513444,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,32,0.178263365657,0.0402967395783,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,33,0.142610692526,0.000604725686231,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,34,0.114088554021,3.7801356139e-06,0,1
+"Hotter tuned: T0=180, alpha=0.8",1975,35,0.0912708432164,5.12779174944e-06,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,1,180,45.6686678953,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,2,144,49.863685088,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,3,115.2,45.5541008491,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,4,92.16,41.7801090628,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,5,73.728,41.8998362451,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,6,58.9824,49.2105758091,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,7,47.18592,43.0359982366,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,8,37.748736,44.4470984662,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,9,30.1989888,41.1439795711,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,10,24.15919104,48.1071123563,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,11,19.327352832,40.944269667,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,12,15.4618822656,48.5533879072,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,13,12.3695058125,38.6582101021,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,14,9.89560464998,36.5676606339,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,15,7.91648371999,37.1409934606,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,16,6.33318697599,31.738863143,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,17,5.06654958079,31.9148983149,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,18,4.05323966463,26.9576957615,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,19,3.24259173171,23.3042332729,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,20,2.59407338537,23.270319242,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,21,2.07525870829,19.5081388845,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,22,1.66020696663,14.0221749692,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,23,1.32816557331,13.2180746393,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,24,1.06253245865,9.88203183844,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,25,0.850025966917,6.49832929917,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,26,0.680020773533,7.28255574279,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,27,0.544016618827,6.05605528217,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,28,0.435213295061,3.10907615538,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,29,0.348170636049,0.138373595894,0,1
+"Hotter tuned: T0=180, alpha=0.8",1976,30,0.278536508839,0.0335907961864,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,1,180,48.5957238891,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,2,144,47.4520193988,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,3,115.2,47.8018806196,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,4,92.16,41.4461486015,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,5,73.728,44.2840229805,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,6,58.9824,42.7153321133,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,7,47.18592,40.6047485593,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,8,37.748736,40.4239671023,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,9,30.1989888,42.7294219078,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,10,24.15919104,41.7386323772,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,11,19.327352832,42.5351696665,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,12,15.4618822656,39.5026375478,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,13,12.3695058125,41.6508767467,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,14,9.89560464998,40.7379457328,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,15,7.91648371999,34.8107681667,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,16,6.33318697599,38.3092570121,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,17,5.06654958079,30.7096248628,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,18,4.05323966463,24.7977414077,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,19,3.24259173171,27.6843028246,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,20,2.59407338537,25.023506967,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,21,2.07525870829,17.7521538303,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,22,1.66020696663,16.3393665917,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,23,1.32816557331,10.2352639353,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,24,1.06253245865,8.28509955135,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,25,0.850025966917,8.39814083132,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,26,0.680020773533,6.55565595863,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,27,0.544016618827,4.85623314553,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,28,0.435213295061,3.24993910693,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,29,0.348170636049,3.51486504812,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,30,0.278536508839,1.13771883186,0,1
+"Hotter tuned: T0=180, alpha=0.8",1977,31,0.222829207071,0.341843093668,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,1,180,44.9044941635,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,2,144,46.1494057504,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,3,115.2,44.9844921489,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,4,92.16,44.3701954885,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,5,73.728,42.4882766141,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,6,58.9824,42.5294482785,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,7,47.18592,46.2976345208,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,8,37.748736,49.4852771238,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,9,30.1989888,40.7627189528,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,10,24.15919104,36.0219602751,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,11,19.327352832,40.2330232612,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,12,15.4618822656,35.6417995365,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,13,12.3695058125,33.6675797749,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,14,9.89560464998,35.4622024203,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,15,7.91648371999,31.3461839604,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,16,6.33318697599,32.5193359719,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,17,5.06654958079,22.4751639594,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,18,4.05323966463,28.3689248034,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,19,3.24259173171,21.4777899776,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,20,2.59407338537,24.3903430956,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,21,2.07525870829,19.6515545083,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,22,1.66020696663,15.5132227776,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,23,1.32816557331,12.5198929776,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,24,1.06253245865,9.64272974467,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,25,0.850025966917,8.29972993706,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,26,0.680020773533,8.94321285381,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,27,0.544016618827,5.20071473516,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,28,0.435213295061,3.58529778432,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,29,0.348170636049,1.92645523013,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,30,0.278536508839,1.08647830682,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,31,0.222829207071,0.252307147814,0,1
+"Hotter tuned: T0=180, alpha=0.8",1978,32,0.178263365657,0.00963857237229,0,1
+"Hotter tuned: T0=180, alpha=0.8",1979,1,180,41.5838301313,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,2,144,51.7990080401,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,3,115.2,49.563299449,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,4,92.16,46.904244391,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,5,73.728,41.6192765748,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,6,58.9824,44.0986367959,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,7,47.18592,42.1860338481,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,8,37.748736,40.6331153367,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,9,30.1989888,44.9980931198,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,10,24.15919104,38.0549889605,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,11,19.327352832,41.6188855444,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,12,15.4618822656,41.0855150523,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,13,12.3695058125,35.9261154511,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,14,9.89560464998,31.262732571,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,15,7.91648371999,39.3812871643,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,16,6.33318697599,32.3703369246,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,17,5.06654958079,27.0454169678,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,18,4.05323966463,33.431325885,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,19,3.24259173171,28.1330715788,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,20,2.59407338537,20.8760423833,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,21,2.07525870829,21.5451971656,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,22,1.66020696663,15.9082737809,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,23,1.32816557331,14.8645564793,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,24,1.06253245865,10.3250331734,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,25,0.850025966917,7.2360637351,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,26,0.680020773533,5.77679048136,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,27,0.544016618827,5.50749191325,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,28,0.435213295061,5.1054198092,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,29,0.348170636049,5.3191452026,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,30,0.278536508839,3.04038929941,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,31,0.222829207071,0.493443333511,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,32,0.178263365657,0.422212206979,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,33,0.142610692526,0.517355634238,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,34,0.114088554021,0.0442545129346,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1979,35,0.0912708432164,6.65714020111e-07,1.06946828242e-10,1
+"Hotter tuned: T0=180, alpha=0.8",1980,1,180,45.2781559657,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,2,144,40.5181357899,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,3,115.2,44.621203703,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,4,92.16,50.7294404749,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,5,73.728,40.084373785,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,6,58.9824,43.7531390425,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,7,47.18592,41.1840615805,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,8,37.748736,46.4229928786,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,9,30.1989888,44.0854626676,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,10,24.15919104,42.9473148918,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,11,19.327352832,36.9120920468,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,12,15.4618822656,39.6363560995,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,13,12.3695058125,39.7583458552,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,14,9.89560464998,34.3038162271,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,15,7.91648371999,42.0809242102,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,16,6.33318697599,31.6085651408,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,17,5.06654958079,28.7917736541,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,18,4.05323966463,25.7475435994,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,19,3.24259173171,22.1963216156,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,20,2.59407338537,18.4689639285,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,21,2.07525870829,17.8173527569,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,22,1.66020696663,19.1611570974,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,23,1.32816557331,13.1657283256,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,24,1.06253245865,11.562633632,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,25,0.850025966917,10.8049489694,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,26,0.680020773533,6.75638103424,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,27,0.544016618827,3.24372363596,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,28,0.435213295061,3.36997380423,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,29,0.348170636049,2.14909619132,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,30,0.278536508839,1.37864485041,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,31,0.222829207071,0.000769666318786,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,32,0.178263365657,1.53296082913e-07,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,33,0.142610692526,9.58350281532e-11,0,1
+"Hotter tuned: T0=180, alpha=0.8",1980,34,0.114088554021,7.11412351015e-13,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,1,180,48.8884210642,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,2,144,46.7301871975,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,3,115.2,44.5175882644,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,4,92.16,40.1818553991,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,5,73.728,41.7440343704,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,6,58.9824,40.5313726646,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,7,47.18592,40.8798707711,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,8,37.748736,44.7201184982,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,9,30.1989888,44.5379989259,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,10,24.15919104,48.2204692344,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,11,19.327352832,35.9070618226,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,12,15.4618822656,48.3101564845,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,13,12.3695058125,32.9607460933,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,14,9.89560464998,34.4529191798,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,15,7.91648371999,31.0925507738,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,16,6.33318697599,29.5384697605,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,17,5.06654958079,24.8534487201,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,18,4.05323966463,28.7934176451,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,19,3.24259173171,20.5114788745,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,20,2.59407338537,25.1218738259,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,21,2.07525870829,22.1110642978,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,22,1.66020696663,20.7850352706,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,23,1.32816557331,14.1432429745,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,24,1.06253245865,8.83399593023,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,25,0.850025966917,9.12912856184,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,26,0.680020773533,7.98371837698,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,27,0.544016618827,3.77714465079,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,28,0.435213295061,2.49796564652,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,29,0.348170636049,1.17006065837,0,1
+"Hotter tuned: T0=180, alpha=0.8",1981,30,0.278536508839,0.178307195374,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,1,180,52.7754710347,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,2,144,48.2530731507,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,3,115.2,43.1356548323,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,4,92.16,42.7127394356,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,5,73.728,50.9774812734,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,6,58.9824,45.1667703328,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,7,47.18592,45.5705913294,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,8,37.748736,45.1844694302,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,9,30.1989888,42.8784769365,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,10,24.15919104,47.4329368914,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,11,19.327352832,47.6711490336,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,12,15.4618822656,41.9848334804,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,13,12.3695058125,39.3010452367,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,14,9.89560464998,34.9602249578,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,15,7.91648371999,29.8428475295,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,16,6.33318697599,31.2354411463,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,17,5.06654958079,22.8365318593,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,18,4.05323966463,26.0745923276,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,19,3.24259173171,23.1936212113,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,20,2.59407338537,21.100212998,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,21,2.07525870829,20.2584490083,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,22,1.66020696663,15.7619158822,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,23,1.32816557331,12.2374260423,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,24,1.06253245865,10.4233208942,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,25,0.850025966917,11.1919639301,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,26,0.680020773533,4.52045058681,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,27,0.544016618827,4.50902369343,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,28,0.435213295061,5.55599733087,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,29,0.348170636049,3.57747755456,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,30,0.278536508839,1.78815126377,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,31,0.222829207071,1.05236313985,0,1
+"Hotter tuned: T0=180, alpha=0.8",1982,32,0.178263365657,0.357049197926,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,1,180,45.6651073668,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,2,144,43.4529519255,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,3,115.2,45.9355591143,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,4,92.16,49.1412899846,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,5,73.728,43.0944574474,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,6,58.9824,38.7244925951,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,7,47.18592,39.620878508,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,8,37.748736,50.2607810368,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,9,30.1989888,46.9731917243,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,10,24.15919104,45.8733350259,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,11,19.327352832,44.5031660182,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,12,15.4618822656,42.5229295828,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,13,12.3695058125,33.5668648644,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,14,9.89560464998,31.7855349486,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,15,7.91648371999,37.1069010628,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,16,6.33318697599,30.7366128375,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,17,5.06654958079,29.6756709285,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,18,4.05323966463,26.8920458903,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,19,3.24259173171,19.9582990097,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,20,2.59407338537,21.8960164035,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,21,2.07525870829,20.333201896,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,22,1.66020696663,13.1076564338,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,23,1.32816557331,12.1237941302,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,24,1.06253245865,11.5105369232,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,25,0.850025966917,9.24320983836,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,26,0.680020773533,8.83613598758,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,27,0.544016618827,7.48692692977,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,28,0.435213295061,4.30757929096,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,29,0.348170636049,2.04861603056,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,30,0.278536508839,2.50159116806,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,31,0.222829207071,1.73523461009,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,32,0.178263365657,0.980575797245,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,33,0.142610692526,0.224852866032,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,34,0.114088554021,0.0489305108311,0,1
+"Hotter tuned: T0=180, alpha=0.8",1983,35,0.0912708432164,0.0303753398495,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,1,180,42.9473868745,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,2,144,47.4513597198,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,3,115.2,43.4595008176,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,4,92.16,48.537813239,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,5,73.728,40.4209531987,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,6,58.9824,45.314433645,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,7,47.18592,45.4177008523,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,8,37.748736,43.1097116923,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,9,30.1989888,47.4491247541,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,10,24.15919104,38.1376730474,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,11,19.327352832,41.5982737349,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,12,15.4618822656,41.2580249118,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,13,12.3695058125,37.5747851734,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,14,9.89560464998,36.6875680345,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,15,7.91648371999,33.2451197657,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,16,6.33318697599,27.3544192242,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,17,5.06654958079,34.0134823979,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,18,4.05323966463,25.7412840259,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,19,3.24259173171,20.4746154406,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,20,2.59407338537,17.2154165558,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,21,2.07525870829,20.6668774609,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,22,1.66020696663,12.1033354811,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,23,1.32816557331,12.9337696553,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,24,1.06253245865,12.2613284565,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,25,0.850025966917,9.58880877918,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,26,0.680020773533,7.65011261379,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,27,0.544016618827,6.6208992881,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,28,0.435213295061,1.05470105392,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,29,0.348170636049,0.00427069646575,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,30,0.278536508839,8.00299641795e-07,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,31,0.222829207071,8.8239746118e-11,0,1
+"Hotter tuned: T0=180, alpha=0.8",1984,32,0.178263365657,2.15561083827e-12,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,1,180,42.9497773902,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,2,144,50.9717852381,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,3,115.2,43.6584677799,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,4,92.16,49.5759079135,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,5,73.728,41.8707347242,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,6,58.9824,50.0812487129,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,7,47.18592,42.8244321873,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,8,37.748736,45.6488011184,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,9,30.1989888,44.5717542158,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,10,24.15919104,42.4232291507,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,11,19.327352832,43.0563352247,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,12,15.4618822656,35.0934971371,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,13,12.3695058125,41.4242002795,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,14,9.89560464998,43.3525524777,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,15,7.91648371999,30.2956631987,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,16,6.33318697599,35.0496502948,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,17,5.06654958079,32.1551911928,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,18,4.05323966463,29.0105020274,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,19,3.24259173171,31.1147065341,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,20,2.59407338537,19.7381480074,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,21,2.07525870829,20.0120673584,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,22,1.66020696663,16.0942360472,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,23,1.32816557331,15.8110985925,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,24,1.06253245865,9.36632951601,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,25,0.850025966917,10.8693934983,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,26,0.680020773533,7.48952775627,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,27,0.544016618827,4.34583169524,0,1
+"Hotter tuned: T0=180, alpha=0.8",1985,28,0.435213295061,3.51988589496,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,1,180,41.8923844733,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,2,144,48.6459648717,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,3,115.2,48.8813350554,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,4,92.16,36.6816060613,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,5,73.728,50.3867877634,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,6,58.9824,50.1530794559,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,7,47.18592,46.6994840471,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,8,37.748736,55.523168253,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,9,30.1989888,43.0226602497,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,10,24.15919104,46.1657946606,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,11,19.327352832,44.61539131,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,12,15.4618822656,39.5973732316,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,13,12.3695058125,36.1169941826,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,14,9.89560464998,37.2906464445,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,15,7.91648371999,39.7230295597,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,16,6.33318697599,27.3453956607,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,17,5.06654958079,29.0591374742,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,18,4.05323966463,24.1982890598,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,19,3.24259173171,27.6247765878,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,20,2.59407338537,22.6038353812,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,21,2.07525870829,19.5743390691,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,22,1.66020696663,14.1042075853,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,23,1.32816557331,11.594988979,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,24,1.06253245865,9.64011971586,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,25,0.850025966917,9.32929827811,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,26,0.680020773533,7.64046157581,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,27,0.544016618827,6.08441346932,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,28,0.435213295061,4.98818541379,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,29,0.348170636049,3.28772609128,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,30,0.278536508839,1.86208023224,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,31,0.222829207071,0.131814638933,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,32,0.178263365657,0.000412910059605,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,33,0.142610692526,9.37909646032e-08,0,1
+"Hotter tuned: T0=180, alpha=0.8",1986,34,0.114088554021,8.14655895836e-08,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,1,180,43.4558656151,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,2,144,41.0287639299,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,3,115.2,49.5907677829,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,4,92.16,44.9292392349,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,5,73.728,46.5382959772,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,6,58.9824,51.052666271,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,7,47.18592,48.6821006428,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,8,37.748736,46.4289682202,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,9,30.1989888,54.103530061,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,10,24.15919104,47.5553360147,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,11,19.327352832,46.1986796599,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,12,15.4618822656,41.3087553167,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,13,12.3695058125,41.6126679902,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,14,9.89560464998,39.0043342674,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,15,7.91648371999,34.0262539132,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,16,6.33318697599,34.1493725056,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,17,5.06654958079,32.7192983829,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,18,4.05323966463,27.4804384942,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,19,3.24259173171,24.5387280986,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,20,2.59407338537,23.8209217352,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,21,2.07525870829,17.950397583,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,22,1.66020696663,13.1700788294,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,23,1.32816557331,10.5367549652,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,24,1.06253245865,11.9937915523,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,25,0.850025966917,8.17166649307,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,26,0.680020773533,6.46151577672,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,27,0.544016618827,2.69935543678,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,28,0.435213295061,0.161596729685,0,1
+"Hotter tuned: T0=180, alpha=0.8",1987,29,0.348170636049,0.0644332273861,0,1
+"Hotter tuned: T0=180, alpha=0.8",1988,1,180,46.2482711369,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,2,144,48.4009428871,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,3,115.2,44.2680592829,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,4,92.16,40.7684225166,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,5,73.728,48.229590798,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,6,58.9824,40.2596416953,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,7,47.18592,50.3371281335,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,8,37.748736,44.1486107946,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,9,30.1989888,38.5781989827,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,10,24.15919104,42.4813570667,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,11,19.327352832,40.8184423056,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,12,15.4618822656,35.4665780366,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,13,12.3695058125,42.5326690778,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,14,9.89560464998,38.1392768362,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,15,7.91648371999,36.1520381787,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,16,6.33318697599,32.6379544435,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,17,5.06654958079,31.4039418801,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,18,4.05323966463,29.0768801467,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,19,3.24259173171,20.2935860688,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,20,2.59407338537,26.4482606829,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,21,2.07525870829,18.6520245344,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,22,1.66020696663,15.0815581537,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,23,1.32816557331,14.751152184,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,24,1.06253245865,10.8280817579,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,25,0.850025966917,9.10563708044,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,26,0.680020773533,6.88909782358,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,27,0.544016618827,4.86393917314,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,28,0.435213295061,2.8745481384,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,29,0.348170636049,3.41853420737,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,30,0.278536508839,1.53516186779,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,31,0.222829207071,2.50264261965,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,32,0.178263365657,1.51413520781,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,33,0.142610692526,0.914047080876,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,34,0.114088554021,0.0053177207335,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1988,35,0.0912708432164,5.48769096396e-09,8.33304223952e-12,1
+"Hotter tuned: T0=180, alpha=0.8",1989,1,180,47.4935147583,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,2,144,45.7977928181,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,3,115.2,43.0301117896,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,4,92.16,42.5624479526,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,5,73.728,42.5776909006,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,6,58.9824,53.7387719051,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,7,47.18592,38.9727774112,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,8,37.748736,49.9842293506,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,9,30.1989888,37.6964656249,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,10,24.15919104,47.9900318105,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,11,19.327352832,42.6261448492,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,12,15.4618822656,43.0878711031,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,13,12.3695058125,36.6128129601,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,14,9.89560464998,38.4120478,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,15,7.91648371999,35.4790840771,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,16,6.33318697599,33.1678429501,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,17,5.06654958079,29.7317632178,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,18,4.05323966463,30.6221543809,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,19,3.24259173171,25.2172152591,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,20,2.59407338537,20.4487970827,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,21,2.07525870829,20.2916963094,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,22,1.66020696663,17.7997144562,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,23,1.32816557331,12.9787850682,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,24,1.06253245865,13.6545445282,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,25,0.850025966917,7.32318434611,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,26,0.680020773533,7.83166466437,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,27,0.544016618827,5.53561319372,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,28,0.435213295061,4.2256953817,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,29,0.348170636049,3.45222509458,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,30,0.278536508839,1.41271388976,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,31,0.222829207071,0.66265814376,0,1
+"Hotter tuned: T0=180, alpha=0.8",1989,32,0.178263365657,0.290398981808,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,1,180,49.2339578,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,2,144,45.0585786984,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,3,115.2,40.7671208729,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,4,92.16,49.4024666933,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,5,73.728,45.140578722,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,6,58.9824,45.9812729291,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,7,47.18592,46.0103944928,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,8,37.748736,41.3618340806,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,9,30.1989888,46.1009600269,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,10,24.15919104,38.2120260965,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,11,19.327352832,45.7053574654,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,12,15.4618822656,41.8519882076,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,13,12.3695058125,39.6292041262,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,14,9.89560464998,41.8965517493,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,15,7.91648371999,37.1714388808,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,16,6.33318697599,32.4479664935,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,17,5.06654958079,34.8923290447,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,18,4.05323966463,28.7984003705,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,19,3.24259173171,20.4708358953,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,20,2.59407338537,23.2153210157,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,21,2.07525870829,18.8033718091,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,22,1.66020696663,13.258801711,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,23,1.32816557331,13.0429119095,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,24,1.06253245865,11.9725288329,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,25,0.850025966917,9.057669458,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,26,0.680020773533,7.20242620779,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,27,0.544016618827,7.73311486012,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,28,0.435213295061,4.06704131325,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,29,0.348170636049,1.56301884378,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,30,0.278536508839,1.94850185749,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,31,0.222829207071,0.582496839854,0,1
+"Hotter tuned: T0=180, alpha=0.8",1990,32,0.178263365657,0.00196966540271,0,1

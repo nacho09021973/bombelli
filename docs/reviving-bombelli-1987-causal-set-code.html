@@ -226,8 +226,8 @@
 
     <h2>The schedule matters</h2>
     <p>Same code, same energy function, same move set &mdash; only the cooling schedule changes. On the 12-element benchmark, Bombelli's original parameters (T&#8320;=100, &#945;=0.9) give a mean final energy of 22.735 across 100 seeds and never reach a faithful embedding. A tuned schedule (T&#8320;=180, &#945;=0.8) reaches zero energy in 95 of 100 seeds.</p>
-    <img src="schedule_comparison.svg" alt="Bar charts comparing mean final energy and zero-energy runs between Bombelli's default annealing schedule and a tuned schedule on the 12-element benchmark" width="760" height="320" style="max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 8px;">
-    <p style="font-size: 0.9rem; color: var(--muted);">Source: <code>data/schedule_comparison.csv</code>, regenerated with <code>python experiments.py schedule</code>; chart with <code>python schedule_chart.py</code>.</p>
+    <img src="local_minima_witness.png" alt="Per-seed energy traces showing Bombelli's default annealing schedule freezing at positive energy versus a tuned schedule reaching zero energy on the 12-element benchmark" width="1180" height="850" style="max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 8px;">
+    <p style="font-size: 0.9rem; color: var(--muted);">Source: <code>local_minima_witness.csv</code>, regenerated with <code>python visualize_local_minima.py</code>.</p>
 
     <h2>Useful search terms</h2>
     <p>This page is intentionally explicit about the relevant terms: causal set theory, causal sets, quantum gravity, discrete spacetime, discrete quantum gravity, Minkowski spacetime embedding, causal set embedding algorithm, Luca Bombelli, Bombelli 1987, simulated annealing, Pascal to Python, computational archaeology, scientific software preservation, computational physics, and reproducible research.</p>
