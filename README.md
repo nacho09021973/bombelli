@@ -50,6 +50,7 @@ Bombelli/
 ├── causet_invariants.py      # Order-theoretic invariants (chains, links, height, MM dim)
 ├── validation_suite.py       # Sprinkler, controls, Lorentz-invariant residual, recovery
 ├── visualize_causets.py      # Retro SVG diagrams for small causal sets
+├── schedule_chart.py         # Static SVG chart for the schedule comparison (Finding I)
 ├── experiments.py            # Reproducible driver: regenerates every data/*.csv
 ├── Makefile                  # make test / smoke / data
 │
@@ -97,7 +98,9 @@ On the 12-element benchmark, the default schedule (T₀ = 100, α = 0.9) gives a
 | Bombelli defaults | 100 | 0.9 | 22.735 | 0 / 100 |
 | Tuned (grid scan) | 180 | 0.8 | 0.000 | 95 / 100 |
 
-Source: [`data/schedule_comparison.csv`](data/schedule_comparison.csv) — regenerate with `python experiments.py schedule` (run at `dim = 3`, seeds 1959–2058).
+![Mean final energy and zero-energy runs, Bombelli defaults vs tuned schedule](schedule_comparison.svg)
+
+Source: [`data/schedule_comparison.csv`](data/schedule_comparison.csv) — regenerate with `python experiments.py schedule` (run at `dim = 3`, seeds 1959–2058). Chart: `python schedule_chart.py` (or `make chart`).
 
 ### II. The warmup can disturb near-perfect initializations
 
@@ -193,6 +196,9 @@ python experiments.py schedule   # finding I   -> data/schedule_comparison.csv  
 python experiments.py warmup     # finding II  -> data/warmup_comparison.csv
 python experiments.py correlate  # finding IV  -> data/correlate_summary.csv
 # or: make data   (runs them all)
+
+python schedule_chart.py         # finding I chart -> schedule_comparison.svg
+# or: make chart  (also copies it into docs/)
 ```
 
 The experiment parameters (sizes, seeds, dimensions, annealing budget) are

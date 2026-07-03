@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320">
+  <rect width="100%" height="100%" fill="#fbfaf7" />
+  <text x="190.0" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#222">Mean final energy</text>
+<text x="190.0" y="34" text-anchor="middle" font-family="monospace" font-size="10.5" fill="#5a534b">100 seeds, 12-element benchmark - lower is better</text>
+<line x1="34.0" x2="364.0" y1="240.0" y2="240.0" stroke="#d8d1c6" stroke-width="1" />
+<text x="28.0" y="243.0" text-anchor="end" font-family="monospace" font-size="9" fill="#898781">0</text>
+<line x1="34.0" x2="364.0" y1="191.0" y2="191.0" stroke="#d8d1c6" stroke-width="1" />
+<text x="28.0" y="194.0" text-anchor="end" font-family="monospace" font-size="9" fill="#898781">6</text>
+<line x1="34.0" x2="364.0" y1="142.0" y2="142.0" stroke="#d8d1c6" stroke-width="1" />
+<text x="28.0" y="145.0" text-anchor="end" font-family="monospace" font-size="9" fill="#898781">12</text>
+<line x1="34.0" x2="364.0" y1="93.0" y2="93.0" stroke="#d8d1c6" stroke-width="1" />
+<text x="28.0" y="96.0" text-anchor="end" font-family="monospace" font-size="9" fill="#898781">19</text>
+<line x1="34.0" x2="364.0" y1="44.0" y2="44.0" stroke="#d8d1c6" stroke-width="1" />
+<text x="28.0" y="47.0" text-anchor="end" font-family="monospace" font-size="9" fill="#898781">25</text>
+<line x1="34.0" x2="364.0" y1="240.0" y2="240.0" stroke="#c3c2b7" stroke-width="1" />
+<path d="M 88.5 240.0 L 88.5 65.7576 Q 88.5 61.7576 92.5 61.7576 L 140.5 61.7576 Q 144.5 61.7576 144.5 65.7576 L 144.5 240.0 Z" fill="#2a78d6" />
+<text x="116.5" y="53.8" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#171512">22.735</text>
+<text x="116.5" y="255.0" text-anchor="middle" font-family="monospace" font-size="9.5" fill="#5a534b">T&#8320;=100, &#945;=0.9</text>
+<path d="M 253.5 240.0 L 253.5 240.0 Q 253.5 240.0 253.5 240.0 L 309.5 240.0 Q 309.5 240.0 309.5 240.0 L 309.5 240.0 Z" fill="#1baf7a" />
+<text x="281.5" y="232.0" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#171512">0.000</text>
+<text x="281.5" y="255.0" text-anchor="middle" font-family="monospace" font-size="9.5" fill="#5a534b">T&#8320;=180, &#945;=0.8</text>
+  <text x="570.0" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#222">Zero-energy runs</text>
+<text x="570.0" y="34" text-anchor="middle" font-family="monospace" font-size="10.5" fill="#5a534b">out of 100 seeds - higher is better</text>
+<line x1="414.0" x2="744.0" y1="240.0" y2="240.0" stroke="#d8d1c6" stroke-width="1" />
+<text x="408.0" y="243.0" text-anchor="end" font-family="monospace" font-size="9" fill="#898781">0</text>
+<line x1="414.0" x2="744.0" y1="191.0" y2="191.0" stroke="#d8d1c6" stroke-width="1" />
+<text x="408.0" y="194.0" text-anchor="end" font-family="monospace" font-size="9" fill="#898781">25</text>
+<line x1="414.0" x2="744.0" y1="142.0" y2="142.0" stroke="#d8d1c6" stroke-width="1" />
+<text x="408.0" y="145.0" text-anchor="end" font-family="monospace" font-size="9" fill="#898781">50</text>
+<line x1="414.0" x2="744.0" y1="93.0" y2="93.0" stroke="#d8d1c6" stroke-width="1" />
+<text x="408.0" y="96.0" text-anchor="end" font-family="monospace" font-size="9" fill="#898781">75</text>
+<line x1="414.0" x2="744.0" y1="44.0" y2="44.0" stroke="#d8d1c6" stroke-width="1" />
+<text x="408.0" y="47.0" text-anchor="end" font-family="monospace" font-size="9" fill="#898781">100</text>
+<line x1="414.0" x2="744.0" y1="240.0" y2="240.0" stroke="#c3c2b7" stroke-width="1" />
+<path d="M 468.5 240.0 L 468.5 240.0 Q 468.5 240.0 468.5 240.0 L 524.5 240.0 Q 524.5 240.0 524.5 240.0 L 524.5 240.0 Z" fill="#2a78d6" />
+<text x="496.5" y="232.0" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#171512">0/100</text>
+<text x="496.5" y="255.0" text-anchor="middle" font-family="monospace" font-size="9.5" fill="#5a534b">T&#8320;=100, &#945;=0.9</text>
+<path d="M 633.5 240.0 L 633.5 57.80000000000001 Q 633.5 53.80000000000001 637.5 53.80000000000001 L 685.5 53.80000000000001 Q 689.5 53.80000000000001 689.5 57.80000000000001 L 689.5 240.0 Z" fill="#1baf7a" />
+<text x="661.5" y="45.8" text-anchor="middle" font-family="monospace" font-size="12" font-weight="bold" fill="#171512">95/100</text>
+<text x="661.5" y="255.0" text-anchor="middle" font-family="monospace" font-size="9.5" fill="#5a534b">T&#8320;=180, &#945;=0.8</text>
+  <line x1="380.0" x2="380.0" y1="10" y2="286" stroke="#e1e0d9" stroke-width="1" />
+  <rect x="28" y="300" width="10" height="10" rx="3" fill="#2a78d6" /><text x="44" y="309" font-family="monospace" font-size="10.5" fill="#5a534b">Bombelli defaults</text><rect x="218" y="300" width="10" height="10" rx="3" fill="#1baf7a" /><text x="234" y="309" font-family="monospace" font-size="10.5" fill="#5a534b">Tuned schedule</text>
+</svg>
