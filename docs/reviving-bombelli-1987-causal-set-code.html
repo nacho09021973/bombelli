@@ -204,7 +204,7 @@
   <header>
     <p class="eyebrow">Research note</p>
     <h1>Reviving Luca Bombelli's 1987 causal set simulated annealing code</h1>
-    <p class="lead">A concise guide to a Python 3.12 revival of an early causal set embedding algorithm for Minkowski spacetime.</p>
+    <p class="lead">A concise guide to a Python 3.12 revival of an early causal set embedding algorithm for Minkowski spacetime, written by Luca Bombelli in collaboration with David Meyer.</p>
     <nav class="links" aria-label="Project links">
       <a href="https://nacho09021973.github.io/bombelli/">Landing page</a>
       <a href="https://doi.org/10.5281/zenodo.20357739">Zenodo DOI</a>
@@ -214,12 +214,12 @@
   </header>
 
   <main>
-    <p>In 1987, Luca Bombelli included a Pascal program in his PhD thesis for embedding small causal sets into Minkowski spacetime using simulated annealing. The code belongs to the early computational history of causal set theory, a discrete approach to quantum gravity in which spacetime is modeled as a locally finite partially ordered set.</p>
+    <p>In 1987, Luca Bombelli included a Pascal program in his PhD thesis for embedding small causal sets into Minkowski spacetime using simulated annealing. The thesis credits the program, in its own footnote to Appendix A.2, as "written in collaboration with D. Meyer" &mdash; David Meyer, one of Bombelli's co-authors on the foundational causal set paper. The code belongs to the early computational history of causal set theory, a discrete approach to quantum gravity in which spacetime is modeled as a locally finite partially ordered set.</p>
 
     <p>This project revives that historical program as a faithful Python 3.12 port. The goal is not to claim a new result in quantum gravity, but to preserve and audit an early causal set algorithm with modern reproducibility practices.</p>
 
     <h2>What was revived</h2>
-    <p>The repository keeps the core algorithmic ingredients of Bombelli's Pascal annealer: the input format, energy function, move set, cooling rule, and small causal-set embedding workflow. Around that core, the project adds reproducible CPU runs, ensemble statistics, benchmark CSV files, order-theoretic diagnostics, and documentation.</p>
+    <p>The repository keeps the core algorithmic ingredients of Bombelli and Meyer's Pascal annealer: the input format, energy function, move set, cooling rule, and small causal-set embedding workflow. Around that core, the project adds reproducible CPU runs, ensemble statistics, benchmark CSV files, order-theoretic diagnostics, and documentation.</p>
 
     <h2>Why simulated annealing appears here</h2>
     <p>The algorithm searches for coordinates whose Minkowski causal relations resemble the target causal set. Simulated annealing provides a historically appropriate stochastic optimizer for this embedding task. The revived code makes it easy to run many seeds and compare schedules rather than relying on a single historical run.</p>

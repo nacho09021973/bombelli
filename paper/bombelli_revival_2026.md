@@ -17,22 +17,23 @@
 Rafael Sorkin and Luca Bombelli introduced causal set theory in 1987:
 the idea that spacetime, at the Planck scale, may be described by a
 locally finite partially ordered set. The same year, Bombelli appended
-to his thesis a Pascal program that tried to embed small causal sets
-into Minkowski spacetime by simulated annealing. The program ran on
-the workstations of the era, produced results for a handful of cases,
-and was never published as a standalone tool.
+to his thesis a Pascal program — written in collaboration with David
+Meyer — that tried to embed small causal sets into Minkowski spacetime
+by simulated annealing. The program ran on the workstations of the
+era, produced results for a handful of cases, and was never published
+as a standalone tool.
 
-This note documents a small experiment: port Bombelli's program to
-Python, run it reproducibly on ordinary machines, and compare many runs
-instead of one. It is meant as a readable revival for people who like
-physics and computation, not as a formal claim of advancing causal set
-theory.
+This note documents a small experiment: port Bombelli and Meyer's
+program to Python, run it reproducibly on ordinary machines, and
+compare many runs instead of one. It is meant as a readable revival
+for people who like physics and computation, not as a formal claim of
+advancing causal set theory.
 
 ---
 
 ## I. The Instruments
 
-| Aspect | Bombelli (1987) | This work (2024–2026) |
+| Aspect | Bombelli & Meyer (1987) | This work (2024–2026) |
 |:---|:---|:---|
 | Language | Pascal | Python 3.12 (faithful port) |
 | Hardware | ~1 MIPS workstation | Ordinary CPU machine |
@@ -198,7 +199,7 @@ physical embeddability.
 | Year | Event |
 |---:|:---|
 | 1987 | Sorkin and Bombelli introduce causal set theory (*Phys. Rev. Lett.* 59, 521) |
-| 1987 | Bombelli writes the Pascal annealing program (PhD thesis, Appendix A.2) |
+| 1987 | Bombelli and Meyer write the Pascal annealing program (PhD thesis, Appendix A.2) |
 | 1987–2024 | Program dormant. CST develops theoretically. Modern tools emerge. |
 | 2024 | Faithful port to Python 3.12, validated against thesis inputs |
 | 2024 | Faithful CPU implementation made portable and reproducible |
@@ -211,9 +212,10 @@ physical embeddability.
 
 ## VIII. What Remains the Same
 
-The energy function is Bombelli's. The move set is Bombelli's. The
-cooling rule (`4 × exp(−ΔE / T)`) is Bombelli's. The input format is
-Bombelli's. The core loop is Bombelli's.
+The energy function is Bombelli and Meyer's. The move set is Bombelli
+and Meyer's. The cooling rule (`4 × exp(−ΔE / T)`) is Bombelli and
+Meyer's. The input format is Bombelli and Meyer's. The core loop is
+Bombelli and Meyer's.
 
 Everything else — the number of runs, the parameter scan, the controls,
 the invariants, the n-control audit — is a modern way to look more
@@ -229,7 +231,12 @@ computational program introduced in:
 > L. Bombelli, *Space-time as a Causal Net*, PhD thesis, Syracuse
 > University, 1987.
 
-and motivated by the foundational paper:
+Appendix A.2 of the thesis, "An application of simulated annealing" —
+the program this repository ports — carries its own footnote: "Written
+in collaboration with D. Meyer." The annealer revived here is
+therefore Bombelli and Meyer's work, not Bombelli's alone.
+
+This work is also motivated by the foundational paper:
 
 > L. Bombelli, J. Lee, D. Meyer, R. D. Sorkin, *Space-time as a causal
 > set*, Phys. Rev. Lett. **59**, 521 (1987).

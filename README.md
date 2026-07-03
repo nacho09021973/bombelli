@@ -27,11 +27,11 @@ Project landing page: <https://nacho09021973.github.io/bombelli/>
 
 ## What this is
 
-A modern Python revival and empirical audit of Luca Bombelli's 1987 causal-set simulated annealing program.
+A modern Python revival and empirical audit of the 1987 causal-set simulated annealing program written by Luca Bombelli and David Meyer.
 
-In 1987, Luca Bombelli appended to his PhD thesis a Pascal program that tried to embed small causal sets into Minkowski spacetime by simulated annealing. The program ran on the workstations of the era, produced results for a handful of cases, and was never published as a standalone tool.
+In 1987, Luca Bombelli appended to his PhD thesis a Pascal program — written in collaboration with David Meyer — that tried to embed small causal sets into Minkowski spacetime by simulated annealing. The program ran on the workstations of the era, produced results for a handful of cases, and was never published as a standalone tool.
 
-This repository provides a faithful Python 3.12 port of Bombelli's Pascal simulated-annealing program for embedding causal sets into Minkowski spacetime. It includes reproducible CPU experiments, ensemble statistics, order-theoretic diagnostics, benchmark tables, and documentation of the historical and computational context. The work revisits an early causal set algorithm using modern software engineering, reproducibility practices, and AI-assisted code archaeology.
+This repository provides a faithful Python 3.12 port of the Pascal simulated-annealing program that Bombelli and Meyer wrote for embedding causal sets into Minkowski spacetime. It includes reproducible CPU experiments, ensemble statistics, order-theoretic diagnostics, benchmark tables, and documentation of the historical and computational context. The work revisits an early causal set algorithm using modern software engineering, reproducibility practices, and AI-assisted code archaeology.
 
 It is written for curious readers, physics enthusiasts, and people who enjoy computational archaeology. It does not claim to advance causal set theory; it is simply a closer look at one old algorithm.
 
@@ -46,7 +46,7 @@ the public issue tracker: <https://github.com/nacho09021973/bombelli/issues>.
 
 ```
 Bombelli/
-├── cones.py                  # Faithful Python 3.12 port of Bombelli's Pascal annealer
+├── cones.py                  # Faithful Python 3.12 port of Bombelli & Meyer's Pascal annealer
 ├── causet_invariants.py      # Order-theoretic invariants (chains, links, height, MM dim)
 ├── validation_suite.py       # Sprinkler, controls, Lorentz-invariant residual, recovery
 ├── visualize_causets.py      # Retro SVG diagrams for small causal sets
@@ -70,7 +70,7 @@ Bombelli/
 │   └── bombelli_revival_2026.md  # The full comparison document
 │
 └── references/
-    ├── Pascal.pdf                # Bombelli's original Pascal source (thesis appendix)
+    ├── Pascal.pdf                # Bombelli & Meyer's original Pascal source (thesis appendix)
     └── Bombelli_1987_PhD.pdf     # Bombelli's PhD thesis, Syracuse University
 ```
 
@@ -78,7 +78,7 @@ Bombelli/
 
 ## The one-minute version
 
-**What Bombelli had in 1987:**
+**What Bombelli and Meyer had in 1987:**
 A Pascal program, a single workstation, and one run per case.
 
 **What we have in 2026:**
@@ -228,7 +228,7 @@ period-appropriate compiled program.
 
 ## What remains the same
 
-The energy function is Bombelli's. The move set is Bombelli's. The cooling rule is Bombelli's. The input format is Bombelli's. The core loop is Bombelli's.
+The energy function is Bombelli and Meyer's. The move set is Bombelli and Meyer's. The cooling rule is Bombelli and Meyer's. The input format is Bombelli and Meyer's. The core loop is Bombelli and Meyer's.
 
 Everything else — the number of runs, the parameter scan, the controls, the invariants, the correlation analysis — is a modern way to look more carefully at the same small program.
 
@@ -252,6 +252,8 @@ And the original work this revives:
 
 ```
 Bombelli, L. "Space-time as a Causal Net." PhD thesis, Syracuse University, 1987.
+(Appendix A.2, "An application of simulated annealing," is written in
+collaboration with D. Meyer, per the thesis' own attribution.)
 
 Bombelli, L., Lee, J., Meyer, D., Sorkin, R. D. "Space-time as a causal set."
 Phys. Rev. Lett. 59, 521 (1987).
