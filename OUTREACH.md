@@ -59,9 +59,9 @@ I have archived a Python 3.12 revival of Luca Bombelli's 1987 Pascal simulated-a
 The release includes reproducible CPU runs, ensemble statistics, order-theoretic diagnostics, benchmark tables, and documentation of the historical/computational reconstruction.
 
 Landing page: https://nacho09021973.github.io/bombelli/
-Version DOI: https://doi.org/10.5281/zenodo.20357739
+Version DOI: https://doi.org/10.5281/zenodo.20743638
 Concept DOI / all versions: https://doi.org/10.5281/zenodo.20307735
-Latest public record: https://zenodo.org/records/20357739
+Latest public record: https://zenodo.org/records/20743638
 GitHub: https://github.com/nacho09021973/bombelli
 ```
 

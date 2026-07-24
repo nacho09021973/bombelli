@@ -499,6 +499,7 @@ class RecoveryResult:
     initial_energy: float
     warmup_energy: float
     final_energy: float
+    rolling_mean_energy: float
     truth_energy: float
     interval_rmse: float
     mm_dim_truth: float
@@ -616,7 +617,8 @@ def run_recovery(
         target_dim=target_dim,
         initial_energy=sim.initial_energy,
         warmup_energy=sim.warmup_energy,
-        final_energy=sim.data[-1][1] if sim.data else float("nan"),
+        final_energy=sim.energies[0],
+        rolling_mean_energy=sim.data[-1][1] if sim.data else float("nan"),
         truth_energy=truth_energy,
         interval_rmse=interval_residual,
         mm_dim_truth=float(case.d_spacetime),
@@ -638,6 +640,7 @@ _RESULT_CSV_HEADER = [
     "initial_energy",
     "warmup_energy",
     "final_energy",
+    "rolling_mean_energy",
     "truth_energy",
     "interval_rmse",
     "mm_dim_truth",
@@ -661,6 +664,7 @@ def write_results_csv(results: Sequence[RecoveryResult], path: Path) -> None:
                     f"{r.initial_energy:.6f}",
                     f"{r.warmup_energy:.6f}",
                     f"{r.final_energy:.6f}",
+                    f"{r.rolling_mean_energy:.6f}",
                     f"{r.truth_energy:.6f}",
                     f"{r.interval_rmse:.6f}",
                     f"{r.mm_dim_truth:.6f}",
@@ -734,8 +738,8 @@ def write_summary_report(summary: Sequence[dict], path: Path) -> None:
         "# Validation Suite",
         "",
         "Sprinkle-then-recover summary across ensembles. ",
-        "`mean_final_energy` is the optimizer's final energy averaged",
-        "across runs; `mean_truth_energy` is the Bombelli energy at",
+        "`mean_final_energy` is the optimizer's terminal configuration",
+        "energy averaged across runs; `mean_truth_energy` is the Bombelli energy at",
         "the ground-truth coordinates; `mean_interval_rmse` is the",
         "Lorentz-invariant residual; `mean_mm_dim` is the",
         "Myrheim-Meyer dimension recovered from the causal matrix",

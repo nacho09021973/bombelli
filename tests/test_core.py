@@ -9,6 +9,7 @@ to fail loudly if any of those break -- nothing here is a no-op.
 
 from __future__ import annotations
 
+import csv
 import io
 import math
 import contextlib
@@ -64,6 +65,67 @@ def test_simulator_is_reproducible(tmp_path):
     s2 = _run(m, 1, 99, tmp_path / "b.out")
     assert s1.energies[0] == s2.energies[0]
     assert s1.xold == s2.xold and s1.rold == s2.rold
+
+
+def test_summary_distinguishes_terminal_and_rolling_mean_energy(tmp_path):
+    z = cones.parse_cones_input(Path("inputs/tesis_like_6.in"))
+    with contextlib.redirect_stdout(io.StringIO()):
+        sim = cones.ConesSimulator(
+            z=z,
+            dim=2,
+            seed=1959,
+            max_data=1,
+            plot_path=None,
+        )
+        sim.run(tmp_path / "run.out")
+
+    summary = sim.summary()
+    assert summary["final_energy"] == sim.energies[0]
+    assert summary["rolling_mean_energy"] == sim.data[-1][1]
+
+
+def test_sweep_forwards_annealing_parameters(tmp_path):
+    sweep_dir = tmp_path / "runs"
+    report_csv = tmp_path / "report.csv"
+    report_md = tmp_path / "report.md"
+    summary_svg = tmp_path / "summary.svg"
+
+    with contextlib.redirect_stdout(io.StringIO()):
+        exit_code = cones.main([
+            "inputs/tesis_like_6.in",
+            "--dim", "2",
+            "--seed", "1959",
+            "--sweep", "1",
+            "--max-data", "1",
+            "--no-plot",
+            "--warmup-limit", "7",
+            "--anneal-limit", "9",
+            "--initial-temp", "180",
+            "--cooling-factor", "0.8",
+            "--acceptance-scale", "2",
+            "--sweep-dir", str(sweep_dir),
+            "--sweep-report-csv", str(report_csv),
+            "--sweep-report-md", str(report_md),
+            "--sweep-summary-plot", str(summary_svg),
+        ])
+
+    assert exit_code == 0
+    run_output = (sweep_dir / "run_000.out").read_text()
+    assert (
+        "Schedule: warmup_limit=7 anneal_limit=9 initial_temp=180.000 "
+        "cooling_factor=0.800000 acceptance_scale=2.000"
+    ) in run_output
+
+    row = next(csv.DictReader(report_csv.open(newline="", encoding="utf-8")))
+    terminal_energy = float(
+        next(
+            line.removeprefix("Total energy: ")
+            for line in run_output.splitlines()
+            if line.startswith("Total energy: ")
+        )
+    )
+    assert float(row["final_energy"]) == pytest.approx(terminal_energy, abs=1e-6)
+    assert "rolling_mean_energy" in row
 
 
 # ---------------------------------------------------------------------

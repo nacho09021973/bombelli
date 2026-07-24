@@ -50,9 +50,9 @@ Bombelli/
 ├── causet_invariants.py      # Order-theoretic invariants (chains, links, height, MM dim)
 ├── validation_suite.py       # Sprinkler, controls, Lorentz-invariant residual, recovery
 ├── visualize_causets.py      # Retro SVG diagrams for small causal sets
-├── schedule_chart.py         # Static SVG chart for the schedule comparison (Finding I)
 ├── experiments.py            # Reproducible driver: regenerates every data/*.csv
-├── Makefile                  # make test / smoke / data
+├── Makefile                  # make check / data / verify-data
+├── pyproject.toml            # Package metadata and development configuration
 │
 ├── tests/                    # Real unit tests (RNG, energy oracle, invariants)
 │
@@ -165,8 +165,14 @@ The concrete reproducible witness is finding I: under the tuned schedule the opt
 ## How to run it
 
 **Requirements:** Python 3.12. The simulation and experiments use only the
-standard library; `pip install -r requirements.txt` adds `pytest` for the
-tests.
+standard library. For development, create an isolated environment and install
+the test dependency:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -e ".[dev]"
+```
 
 ```bash
 # Run the annealer on the canonical 12-element input
@@ -188,7 +194,8 @@ Each table above is the literal output of one experiment; nothing is
 hand-edited. Regenerate them (deterministic given the seeds) with:
 
 ```bash
-make test        # 18 unit tests (RNG determinism, energy oracle, Lorentz invariance, …)
+make check       # syntax, tests, smoke run, and a deterministic-data check
+make test        # unit and regression tests only
 make smoke       # fast end-to-end check (writes to a scratch dir)
 
 python experiments.py atlas      # finding III -> data/dimension_atlas.csv
@@ -197,8 +204,8 @@ python experiments.py warmup     # finding II  -> data/warmup_comparison.csv
 python experiments.py correlate  # finding IV  -> data/correlate_summary.csv
 # or: make data   (runs them all)
 
-python schedule_chart.py         # finding I chart -> schedule_comparison.svg
-# or: make chart  (also copies it into docs/)
+make verify-data-fast             # fast byte-for-byte check used in CI
+make verify-data                  # regenerate and compare every committed CSV
 ```
 
 The experiment parameters (sizes, seeds, dimensions, annealing budget) are
@@ -229,6 +236,12 @@ period-appropriate compiled program.
 ## What remains the same
 
 The energy function is Bombelli and Meyer's. The move set is Bombelli and Meyer's. The cooling rule is Bombelli and Meyer's. The input format is Bombelli and Meyer's. The core loop is Bombelli and Meyer's.
+
+One historical quirk is preserved deliberately: the Pascal listing sets every
+`change[i]` flag during startup and never resets it. Consequently the later
+`Efraction` assignment does not deselect events. The Python port retains that
+flag lifecycle for fidelity; changing it would define a separate annealer and
+should be evaluated as an explicit experimental variant.
 
 Everything else — the number of runs, the parameter scan, the controls, the invariants, the correlation analysis — is a modern way to look more carefully at the same small program.
 
