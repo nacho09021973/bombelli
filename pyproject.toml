@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bombelli-revival"
+version = "2.0.0"
+description = "A reproducible Python revival of Bombelli and Meyer's 1987 causal-set annealer"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+authors = [
+  { name = "Jose Ignacio Martin Gandul" },
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<9",
+]
+
+[project.scripts]
+bombelli-anneal = "cones:main"
+bombelli-experiments = "experiments:main"
+
+[tool.setuptools]
+py-modules = [
+  "causet_invariants",
+  "cones",
+  "experiments",
+  "validation_suite",
+  "visualize_causets",
+  "visualize_local_minima",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--strict-markers"

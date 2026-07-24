@@ -48,3 +48,6 @@ jobs:
           else
             echo "No smoke target; skipping."
           fi
+
+      - name: Verify deterministic data
+        run: make verify-data-fast

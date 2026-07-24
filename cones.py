@@ -349,12 +349,12 @@ def write_sweep_report(results: Sequence[Dict[str, Any]], path: Path) -> None:
 
     lines = ["# Sweep report", ""]
     lines.append(
-        "| seed | n | dim | initial_energy | final_energy | warmup_energy | points | plot_file |"
+        "| seed | n | dim | initial_energy | final_energy | rolling_mean_energy | warmup_energy | points | plot_file |"
     )
-    lines.append("| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |")
+    lines.append("| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |")
     for row in results:
         lines.append(
-            "| {seed} | {n} | {dim} | {initial_energy:.6f} | {final_energy:.6f} | {warmup_energy:.6f} | {points} | {plot_file} |".format(
+            "| {seed} | {n} | {dim} | {initial_energy:.6f} | {final_energy:.6f} | {rolling_mean_energy:.6f} | {warmup_energy:.6f} | {points} | {plot_file} |".format(
                 **row
             )
         )
@@ -370,6 +370,7 @@ def write_sweep_csv(results: Sequence[Dict[str, Any]], path: Path) -> None:
         "dim",
         "initial_energy",
         "final_energy",
+        "rolling_mean_energy",
         "warmup_energy",
         "points",
         "input_file",
@@ -387,6 +388,7 @@ def write_sweep_csv(results: Sequence[Dict[str, Any]], path: Path) -> None:
                     str(row.get("dim", "")),
                     f"{row.get('initial_energy', 0.0):.6f}",
                     f"{row.get('final_energy', 0.0):.6f}",
+                    f"{row.get('rolling_mean_energy', 0.0):.6f}",
                     f"{row.get('warmup_energy', 0.0):.6f}",
                     str(row.get("points", "")),
                     str(row.get("input_file", "")),
@@ -407,6 +409,11 @@ def run_single_case(
     plot_path: Path | None,
     interactive: bool,
     max_data: int,
+    warmup_limit: int = 100,
+    anneal_limit: int = 100,
+    initial_temp: float = 100.0,
+    cooling_factor: float = 0.9,
+    acceptance_scale: float = 4.0,
 ) -> ConesSimulator:
     sim = ConesSimulator(
         z=z,
@@ -415,6 +422,11 @@ def run_single_case(
         interactive=interactive,
         max_data=max_data,
         plot_path=plot_path,
+        warmup_limit=warmup_limit,
+        anneal_limit=anneal_limit,
+        initial_temp=initial_temp,
+        cooling_factor=cooling_factor,
+        acceptance_scale=acceptance_scale,
     )
     sim.run(output_path)
     return sim
@@ -466,6 +478,11 @@ def run_sweep(args: argparse.Namespace) -> int:
             plot_path=plot_path,
             interactive=args.interactive,
             max_data=args.max_data,
+            warmup_limit=args.warmup_limit,
+            anneal_limit=args.anneal_limit,
+            initial_temp=args.initial_temp,
+            cooling_factor=args.cooling_factor,
+            acceptance_scale=args.acceptance_scale,
         )
         row = sim.summary()
         row.update(
@@ -597,6 +614,10 @@ class ConesSimulator:
         self.rave = self.r
         for i in range(self.n):
             efraction = 2.0 * self.eold[i][i] / self.energies[0] if self.energies[0] else 0.0
+            # Fidelity note: the 1987 Pascal listing sets every ``change``
+            # flag at startup and never resets it. That makes this assignment
+            # redundant in faithful mode, but preserving it is intentional:
+            # changing the flag lifecycle would define a different annealer.
             if self.ran2() < efraction:
                 self.change[i] = True
 
@@ -768,13 +789,14 @@ class ConesSimulator:
             write_svg_plot(self.data, self.plot_path)
 
     def summary(self) -> Dict[str, Any]:
-        final_energy = self.data[-1][1] if self.data else self.eave
+        rolling_mean_energy = self.data[-1][1] if self.data else self.eave
         return {
             "seed": self.original_seed,
             "n": self.n,
             "dim": self.dim,
             "initial_energy": self.initial_energy,
-            "final_energy": final_energy,
+            "final_energy": self.energies[0],
+            "rolling_mean_energy": rolling_mean_energy,
             "warmup_energy": self.warmup_energy,
             "points": len(self.data),
         }
