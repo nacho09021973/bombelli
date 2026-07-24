@@ -19,5 +19,5 @@ This project is a revival and empirical audit associated with Bombelli's 1987 ca
 ## Canonical links
 
 - Project page: https://nacho09021973.github.io/bombelli/
-- Zenodo record: https://zenodo.org/records/20743638
-- Version DOI: https://doi.org/10.5281/zenodo.20743638
+- Latest Zenodo record: https://zenodo.org/records/20307735/latest
+- Concept DOI / all versions: https://doi.org/10.5281/zenodo.20307735

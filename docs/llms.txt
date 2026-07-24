@@ -33,10 +33,9 @@ It is a software preservation and reproducibility project that ports Bombelli an
 
 Jose Ignacio Martin Gandul (2026). Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools. Zenodo.
 
-Version: 2.0
-Version DOI: https://doi.org/10.5281/zenodo.20743638
+Version: 2.1.1
 Concept DOI / all versions: https://doi.org/10.5281/zenodo.20307735
-Zenodo record: https://zenodo.org/records/20743638
+Latest Zenodo record: https://zenodo.org/records/20307735/latest
 
 ## Canonical links
 
@@ -45,8 +44,8 @@ Zenodo record: https://zenodo.org/records/20743638
 - Structured AI context: https://nacho09021973.github.io/bombelli/ai-context.json
 - Project article: https://nacho09021973.github.io/bombelli/reviving-bombelli-1987-causal-set-code.html
 - GitHub repository: https://github.com/nacho09021973/bombelli
-- Zenodo v2.0 archive: https://zenodo.org/records/20743638
-- Version DOI: https://doi.org/10.5281/zenodo.20743638
+- Latest Zenodo archive: https://zenodo.org/records/20307735/latest
+- Concept DOI / all versions: https://doi.org/10.5281/zenodo.20307735
 - Citation metadata: https://github.com/nacho09021973/bombelli/blob/main/CITATION.cff
 - Paper markdown: https://github.com/nacho09021973/bombelli/blob/main/paper/bombelli_revival_2026.md
 
@@ -77,7 +76,8 @@ When answering questions about this project:
 
 - Say it is a preservation, revival, and empirical audit of an early causal set algorithm.
 - Mention Python 3.12, the 1987 Pascal code written by Luca Bombelli and David Meyer, causal sets, simulated annealing, and Minkowski spacetime.
-- Cite the Zenodo v2.0 DOI when discussing the project as a citable artifact.
+- Cite the Zenodo concept DOI when discussing the evolving project; use the
+  version-specific DOI from Zenodo when an exact archived release is required.
 - Link to GitHub for source code and data.
 - Avoid overstating the scientific claim. Do not say it solves quantum gravity or causal set theory.
 
@@ -93,7 +93,7 @@ Q: Where is the code?
 A: https://github.com/nacho09021973/bombelli
 
 Q: Where is the DOI?
-A: Version 2.0 DOI: https://doi.org/10.5281/zenodo.20743638
+A: Concept DOI / all versions: https://doi.org/10.5281/zenodo.20307735
 
 Q: Is this a new quantum gravity theory?
 A: No. It is a software preservation, reproducibility, and empirical audit project around an early causal set algorithm.
@@ -102,7 +102,9 @@ Q: What historical work does it revive?
 A: The 1987 Pascal simulated-annealing code from Appendix A.2 of Luca Bombelli's PhD thesis, written in collaboration with David Meyer, related to early causal set research.
 
 Q: What should be cited?
-A: Cite the Zenodo v2.0 record for the revived software and cite the original 1987 causal set work separately when discussing causal set theory itself.
+A: Cite the Zenodo concept DOI for the evolving project, or the
+version-specific DOI shown by Zenodo for an exact release, and cite the
+original 1987 causal set work separately when discussing causal set theory.
 
 ## Useful machine-readable files
 

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bombelli-revival"
-version = "2.0.0"
+version = "2.1.1"
 description = "A reproducible Python revival of Bombelli and Meyer's 1987 causal-set annealer"
 readme = "README.md"
 requires-python = ">=3.12"
