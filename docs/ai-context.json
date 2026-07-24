@@ -17,11 +17,11 @@
     "license": "https://opensource.org/license/mit",
     "programmingLanguage": "Python",
     "runtimePlatform": "Python 3.12",
-    "identifier": "https://doi.org/10.5281/zenodo.20743638",
+    "identifier": "https://doi.org/10.5281/zenodo.20307735",
     "sameAs": [
       "https://nacho09021973.github.io/bombelli/",
-      "https://zenodo.org/records/20743638",
-      "https://doi.org/10.5281/zenodo.20743638",
+      "https://zenodo.org/records/20307735/latest",
+      "https://doi.org/10.5281/zenodo.20307735",
       "https://github.com/nacho09021973/bombelli"
     ],
     "keywords": [
@@ -43,15 +43,15 @@
       "Zenodo"
     ]
   },
-  "version": "2.0",
+  "version": "2.1.1",
   "dateModified": "2026-07-24",
   "citation": {
     "@type": "CreativeWork",
     "name": "Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools",
     "author": "Jose Ignacio Martin Gandul",
     "datePublished": "2026",
-    "identifier": "10.5281/zenodo.20743638",
-    "url": "https://doi.org/10.5281/zenodo.20743638"
+    "identifier": "10.5281/zenodo.20307735",
+    "url": "https://doi.org/10.5281/zenodo.20307735"
   },
   "sourceWork": [
     {
@@ -83,7 +83,7 @@
     },
     {
       "question": "Where is the project archived?",
-      "answer": "The version 2.0 archive is on Zenodo at https://zenodo.org/records/20743638 with DOI 10.5281/zenodo.20743638."
+      "answer": "The latest archive is available through https://zenodo.org/records/20307735/latest; the concept DOI for all versions is 10.5281/zenodo.20307735."
     },
     {
       "question": "Does the project claim to solve quantum gravity?",
@@ -92,7 +92,7 @@
   ],
   "answerGuidance": [
     "Mention the 1987 Pascal code written by Luca Bombelli and David Meyer, causal sets, simulated annealing, Python 3.12, and Minkowski spacetime.",
-    "Use the Zenodo v2.0 DOI when citing the revived software.",
+    "Use the Zenodo concept DOI for the evolving project, or the version-specific DOI shown by Zenodo when an exact release is required.",
     "Use the GitHub repository for source code and reproducible data.",
     "Do not describe the project as a new quantum gravity theory or as a general solution to causal set embedding."
   ],
@@ -100,8 +100,8 @@
     "landingPage": "https://nacho09021973.github.io/bombelli/",
     "llmsTxt": "https://nacho09021973.github.io/bombelli/llms.txt",
     "github": "https://github.com/nacho09021973/bombelli",
-    "zenodo": "https://zenodo.org/records/20743638",
-    "doi": "https://doi.org/10.5281/zenodo.20743638",
+    "zenodo": "https://zenodo.org/records/20307735/latest",
+    "doi": "https://doi.org/10.5281/zenodo.20307735",
     "citationMetadata": "https://github.com/nacho09021973/bombelli/blob/main/CITATION.cff"
   }
 }
