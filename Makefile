@@ -1,24 +1,40 @@
-.PHONY: test smoke data atlas schedule warmup correlate clean-data chart
+PYTHON ?= python
+
+.PHONY: check lint test smoke data verify-data verify-data-fast atlas schedule warmup correlate
+
+check: lint test smoke verify-data-fast
+
+lint:
+	$(PYTHON) -m py_compile cones.py causet_invariants.py validation_suite.py experiments.py visualize_causets.py visualize_local_minima.py
 
 # Real unit tests. Fails (non-zero exit) if any test fails.
 test:
-	python -m pytest -v --tb=short
+	$(PYTHON) -m pytest -v --tb=short
 
 # Fast end-to-end check that the core programs run. Writes to a scratch
 # directory so it never touches the committed data/ CSVs.
 smoke:
-	python cones.py --sprinkle 8 --dim 1 --seed 1959 --output /tmp/smoke_cone.out --no-plot
-	python causet_invariants.py inputs/tesis_like_6.in >/dev/null
-	python experiments.py atlas --data-dir /tmp/smoke_data
+	$(PYTHON) cones.py --sprinkle 8 --dim 1 --seed 1959 --output /tmp/smoke_cone.out --no-plot
+	$(PYTHON) causet_invariants.py inputs/tesis_like_6.in >/dev/null
+	$(PYTHON) experiments.py atlas --data-dir /tmp/smoke_data
 
 # Regenerate every paper CSV from scratch (this overwrites data/*.csv).
 data:
-	python experiments.py all
+	$(PYTHON) experiments.py all
+
+# Regenerate committed CSVs in a scratch directory and fail on any drift.
+verify-data:
+	@tmpdir=$$(mktemp -d); trap 'rm -rf "$$tmpdir"' EXIT; \
+	$(PYTHON) experiments.py all --data-dir "$$tmpdir" >/dev/null; \
+	for source in data/*.csv; do \
+		diff -u "$$source" "$$tmpdir/$$(basename "$$source")"; \
+	done
+
+# Fast CI-sized reproducibility check; the complete verification is above.
+verify-data-fast:
+	@tmpdir=$$(mktemp -d); trap 'rm -rf "$$tmpdir"' EXIT; \
+	$(PYTHON) experiments.py atlas --data-dir "$$tmpdir" >/dev/null; \
+	diff -u data/dimension_atlas.csv "$$tmpdir/dimension_atlas.csv"
 
 atlas schedule warmup correlate:
-	python experiments.py $@
-
-# Static SVG for the schedule comparison (Finding I), from data/schedule_comparison.csv.
-chart:
-	python schedule_chart.py
-	cp schedule_comparison.svg docs/schedule_comparison.svg
+	$(PYTHON) experiments.py $@

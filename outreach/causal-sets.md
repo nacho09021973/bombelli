@@ -19,5 +19,5 @@ This is a revival and empirical audit associated with Bombelli's 1987 causal-set
 ## Canonical links
 
 - Project page: https://nacho09021973.github.io/bombelli/
-- Zenodo record: https://zenodo.org/records/20357739
-- Version DOI: https://doi.org/10.5281/zenodo.20357739
+- Zenodo record: https://zenodo.org/records/20743638
+- Version DOI: https://doi.org/10.5281/zenodo.20743638
