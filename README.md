@@ -255,7 +255,7 @@ If you use this work, please cite:
 
 ```
 Jose Ignacio Martin Gandul (2026). Thirty-Nine Years of Simulated Annealing
-on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools (v2.1.2). Zenodo.
+on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools (v2.1.3). Zenodo.
 Concept DOI, all versions: https://doi.org/10.5281/zenodo.20307735
 Latest public record: https://zenodo.org/records/20307735/latest
 ```

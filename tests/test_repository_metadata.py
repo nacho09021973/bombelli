@@ -10,7 +10,7 @@ import xml.etree.ElementTree as ET
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PROJECT_VERSION = "2.1.2"
+PROJECT_VERSION = "2.1.3"
 CONCEPT_DOI = "10.5281/zenodo.20307735"
 STALE_VERSION_DOIS = {
     "10.5281/zenodo.20357739",

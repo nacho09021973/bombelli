@@ -33,7 +33,7 @@ It is a software preservation and reproducibility project that ports Bombelli an
 
 Jose Ignacio Martin Gandul (2026). Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools. Zenodo.
 
-Version: 2.1.2
+Version: 2.1.3
 Concept DOI / all versions: https://doi.org/10.5281/zenodo.20307735
 Latest Zenodo record: https://zenodo.org/records/20307735/latest
 
