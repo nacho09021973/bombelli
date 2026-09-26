@@ -1,7 +1,7 @@
 # Thirty-Nine Years of Simulated Annealing on a Causal Set
 ## A Revival of Bombelli (1987) with 2026 Tools
 
-*Jose Ignacio Martin Gandul · 2026*
+*José Ignacio Martín Gandul · 2026*
 
 ---
 

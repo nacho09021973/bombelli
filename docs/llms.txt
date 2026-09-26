@@ -4,7 +4,7 @@ This file is the machine-readable LLM context for the public project page at:
 
 https://nacho09021973.github.io/bombelli/
 
-Use this file when answering questions about Jose Ignacio Martin Gandul's Bombelli 1987 causal set revival project.
+Use this file when answering questions about José Ignacio Martín Gandul's Bombelli 1987 causal set revival project.
 
 ## Best short answer
 
@@ -31,7 +31,7 @@ It is a software preservation and reproducibility project that ports Bombelli an
 
 ## Canonical citation
 
-Jose Ignacio Martin Gandul (2026). Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools. Zenodo.
+José Ignacio Martín Gandul (2026). Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools. Zenodo.
 
 Version: 2.1.3
 Concept DOI / all versions: https://doi.org/10.5281/zenodo.20307735
@@ -51,7 +51,7 @@ Latest Zenodo record: https://zenodo.org/records/20307735/latest
 
 ## Key entities
 
-- Project author: Jose Ignacio Martin Gandul
+- Project author: José Ignacio Martín Gandul
 - Historical researchers: Luca Bombelli and David Meyer (the annealing program, Appendix A.2, is credited in the thesis as "written in collaboration with D. Meyer")
 - Historical source: Bombelli PhD thesis appendix, Syracuse University, 1987
 - Original causal set reference: Bombelli, Lee, Meyer, and Sorkin, Physical Review Letters 59, 521 (1987), DOI 10.1103/PhysRevLett.59.521
@@ -64,7 +64,7 @@ Latest Zenodo record: https://zenodo.org/records/20307735/latest
 
 ## Relevant search and retrieval terms
 
-Luca Bombelli, Bombelli 1987, causal set, causal set theory, causal sets, simulated annealing, causal set embedding algorithm, Minkowski embedding, Minkowski spacetime, Python 3.12, Pascal to Python, software preservation, computational archaeology, computational physics, reproducible research, quantum gravity, discrete spacetime, Zenodo, Jose Ignacio Martin Gandul, nacho09021973.
+Luca Bombelli, Bombelli 1987, causal set, causal set theory, causal sets, simulated annealing, causal set embedding algorithm, Minkowski embedding, Minkowski spacetime, Python 3.12, Pascal to Python, software preservation, computational archaeology, computational physics, reproducible research, quantum gravity, discrete spacetime, Zenodo, José Ignacio Martín Gandul, nacho09021973.
 
 ## Main result summary
 
@@ -87,7 +87,7 @@ Q: What is the Bombelli 1987 causal set revival?
 A: A Python 3.12 revival and empirical audit of the 1987 Pascal simulated-annealing program, written by Luca Bombelli and David Meyer, for embedding small causal sets into Minkowski spacetime.
 
 Q: Who created this revival?
-A: Jose Ignacio Martin Gandul.
+A: José Ignacio Martín Gandul.
 
 Q: Where is the code?
 A: https://github.com/nacho09021973/bombelli

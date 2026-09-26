@@ -2,7 +2,7 @@
 
 *A revival of Bombelli (1987) with 2026 tools*
 
-*Jose Ignacio Martin Gandul · 2026*
+*José Ignacio Martín Gandul · 2026*
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20307735.svg)](https://doi.org/10.5281/zenodo.20307735)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -254,7 +254,7 @@ The result is modest: old code, a few simple tests, and a clearer picture of how
 If you use this work, please cite:
 
 ```
-Jose Ignacio Martin Gandul (2026). Thirty-Nine Years of Simulated Annealing
+José Ignacio Martín Gandul (2026). Thirty-Nine Years of Simulated Annealing
 on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools (v2.1.3). Zenodo.
 Concept DOI, all versions: https://doi.org/10.5281/zenodo.20307735
 Latest public record: https://zenodo.org/records/20307735/latest

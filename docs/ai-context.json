@@ -10,7 +10,7 @@
     "description": "A reproducible Python 3.12 revival and empirical audit of the 1987 Pascal simulated-annealing program for embedding small causal sets into Minkowski spacetime, written by Luca Bombelli in collaboration with David Meyer.",
     "author": {
       "@type": "Person",
-      "name": "Jose Ignacio Martin Gandul",
+      "name": "José Ignacio Martín Gandul",
       "url": "https://github.com/nacho09021973"
     },
     "codeRepository": "https://github.com/nacho09021973/bombelli",
@@ -48,7 +48,7 @@
   "citation": {
     "@type": "CreativeWork",
     "name": "Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools",
-    "author": "Jose Ignacio Martin Gandul",
+    "author": "José Ignacio Martín Gandul",
     "datePublished": "2026",
     "identifier": "10.5281/zenodo.20307735",
     "url": "https://doi.org/10.5281/zenodo.20307735"
@@ -79,7 +79,7 @@
     },
     {
       "question": "Who created the revival?",
-      "answer": "Jose Ignacio Martin Gandul."
+      "answer": "José Ignacio Martín Gandul."
     },
     {
       "question": "Where is the project archived?",
