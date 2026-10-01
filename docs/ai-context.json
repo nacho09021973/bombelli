@@ -22,7 +22,8 @@
       "https://nacho09021973.github.io/bombelli/",
       "https://zenodo.org/records/20307735/latest",
       "https://doi.org/10.5281/zenodo.20307735",
-      "https://github.com/nacho09021973/bombelli"
+      "https://github.com/nacho09021973/bombelli",
+      "https://nacho09021973.github.io/atlas-qca-students/"
     ],
     "keywords": [
       "Luca Bombelli",
@@ -102,6 +103,7 @@
     "github": "https://github.com/nacho09021973/bombelli",
     "zenodo": "https://zenodo.org/records/20307735/latest",
     "doi": "https://doi.org/10.5281/zenodo.20307735",
-    "citationMetadata": "https://github.com/nacho09021973/bombelli/blob/main/CITATION.cff"
+    "citationMetadata": "https://github.com/nacho09021973/bombelli/blob/main/CITATION.cff",
+    "relatedQCAProject": "https://nacho09021973.github.io/atlas-qca-students/"
   }
 }
