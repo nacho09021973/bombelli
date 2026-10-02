@@ -1,109 +1,557 @@
 {
   "@context": "https://schema.org",
-  "@type": "Dataset",
-  "name": "AI context for Bombelli 1987 Causal Set Simulated Annealing Revival",
-  "url": "https://nacho09021973.github.io/bombelli/ai-context.json",
-  "mainEntity": {
-    "@type": "SoftwareSourceCode",
-    "name": "Bombelli 1987 Causal Set Simulated Annealing Revival",
-    "alternateName": "Thirty-Nine Years of Simulated Annealing on a Causal Set",
-    "description": "A reproducible Python 3.12 revival and empirical audit of the 1987 Pascal simulated-annealing program for embedding small causal sets into Minkowski spacetime, written by Luca Bombelli in collaboration with David Meyer.",
-    "author": {
+  "@graph": [
+    {
       "@type": "Person",
+      "@id": "https://orcid.org/0009-0004-8129-1379",
       "name": "José Ignacio Martín Gandul",
-      "url": "https://github.com/nacho09021973"
-    },
-    "codeRepository": "https://github.com/nacho09021973/bombelli",
-    "license": "https://opensource.org/license/mit",
-    "programmingLanguage": "Python",
-    "runtimePlatform": "Python 3.12",
-    "identifier": "https://doi.org/10.5281/zenodo.20307735",
-    "sameAs": [
-      "https://nacho09021973.github.io/bombelli/",
-      "https://zenodo.org/records/20307735/latest",
-      "https://doi.org/10.5281/zenodo.20307735",
-      "https://github.com/nacho09021973/bombelli",
-      "https://nacho09021973.github.io/atlas-qca-students/"
-    ],
-    "keywords": [
-      "Luca Bombelli",
-      "Bombelli 1987",
-      "causal set",
-      "causal set theory",
-      "causal sets",
-      "simulated annealing",
-      "causal set embedding algorithm",
-      "Minkowski spacetime",
-      "Python 3.12",
-      "Pascal to Python",
-      "software preservation",
-      "computational archaeology",
-      "computational physics",
-      "reproducible research",
-      "quantum gravity",
-      "Zenodo"
-    ]
-  },
-  "version": "2.1.3",
-  "dateModified": "2026-09-23",
-  "citation": {
-    "@type": "CreativeWork",
-    "name": "Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools",
-    "author": "José Ignacio Martín Gandul",
-    "datePublished": "2026",
-    "identifier": "10.5281/zenodo.20307735",
-    "url": "https://doi.org/10.5281/zenodo.20307735"
-  },
-  "sourceWork": [
-    {
-      "@type": "Thesis",
-      "name": "Space-time as a Causal Net",
-      "author": "Luca Bombelli",
-      "contributor": "David Meyer",
-      "description": "Appendix A.2, \"An application of simulated annealing\" — the program this repository revives — is credited in the thesis as written in collaboration with D. Meyer.",
-      "datePublished": "1987",
-      "publisher": "Syracuse University"
+      "url": "https://nacho09021973.github.io/",
+      "sameAs": [
+        "https://orcid.org/0009-0004-8129-1379",
+        "https://github.com/nacho09021973"
+      ]
     },
     {
-      "@type": "ScholarlyArticle",
-      "name": "Space-time as a causal set",
-      "author": "Luca Bombelli, Joohan Lee, David Meyer, Rafael D. Sorkin",
-      "datePublished": "1987",
-      "identifier": "10.1103/PhysRevLett.59.521",
-      "url": "https://doi.org/10.1103/PhysRevLett.59.521"
+      "@type": "WebSite",
+      "@id": "https://nacho09021973.github.io/bombelli/#website",
+      "name": "Bombelli & Meyer 1987 Causal Set Simulated Annealing Revival",
+      "url": "https://nacho09021973.github.io/bombelli/",
+      "inLanguage": [
+        "en",
+        "es"
+      ],
+      "author": {
+        "@id": "https://orcid.org/0009-0004-8129-1379"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://nacho09021973.github.io/bombelli/#webpage",
+      "url": "https://nacho09021973.github.io/bombelli/",
+      "name": "Bombelli & Meyer 1987 Causal Set Simulated Annealing Revival",
+      "description": "Open Python code for causal-set embedding by simulated annealing: the Bombelli and Meyer 1987 revival, reproducible benchmark data, citation details, and questions and answers in English and Spanish.",
+      "inLanguage": [
+        "en",
+        "es"
+      ],
+      "dateModified": "2026-10-02",
+      "isPartOf": {
+        "@id": "https://nacho09021973.github.io/bombelli/#website"
+      },
+      "mainEntity": {
+        "@id": "https://nacho09021973.github.io/bombelli/#project"
+      },
+      "hasPart": {
+        "@id": "https://nacho09021973.github.io/bombelli/#faq"
+      },
+      "relatedLink": "https://nacho09021973.github.io/atlas-qca-students/"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://nacho09021973.github.io/bombelli/#project",
+      "name": "Bombelli & Meyer 1987 Causal Set Simulated Annealing Revival",
+      "description": "Open Python code for causal-set embedding by simulated annealing: the Bombelli and Meyer 1987 revival, reproducible benchmark data, citation details, and questions and answers in English and Spanish.",
+      "url": "https://nacho09021973.github.io/bombelli/",
+      "author": {
+        "@id": "https://orcid.org/0009-0004-8129-1379"
+      },
+      "inLanguage": [
+        "en",
+        "es"
+      ],
+      "isAccessibleForFree": true,
+      "dateModified": "2026-10-02",
+      "sameAs": [
+        "https://github.com/nacho09021973/bombelli",
+        "https://doi.org/10.5281/zenodo.20307735"
+      ],
+      "hasPart": [
+        {
+          "@type": "CreativeWork",
+          "name": "Project README",
+          "url": "https://github.com/nacho09021973/bombelli/blob/main/README.md"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Full paper",
+          "url": "https://github.com/nacho09021973/bombelli/blob/main/paper/bombelli_revival_2026.md"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Source code",
+          "url": "https://github.com/nacho09021973/bombelli/blob/main/cones.py"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Experiment definitions",
+          "url": "https://github.com/nacho09021973/bombelli/blob/main/experiments.py"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Schedule comparison CSV",
+          "url": "https://github.com/nacho09021973/bombelli/blob/main/data/schedule_comparison.csv"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Citation metadata",
+          "url": "https://github.com/nacho09021973/bombelli/blob/main/CITATION.cff"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Archived release 2.1.3",
+          "url": "https://zenodo.org/records/22921372"
+        }
+      ],
+      "codeRepository": "https://github.com/nacho09021973/bombelli",
+      "programmingLanguage": "Python",
+      "runtimePlatform": "Python 3.12",
+      "version": "2.1.3",
+      "license": "https://opensource.org/license/mit",
+      "identifier": "https://doi.org/10.5281/zenodo.20307735",
+      "citation": {
+        "@type": "ScholarlyArticle",
+        "name": "Space-time as a causal set",
+        "url": "https://doi.org/10.1103/PhysRevLett.59.521"
+      },
+      "isBasedOn": {
+        "@type": "Thesis",
+        "name": "Space-time as a Causal Net",
+        "author": {
+          "@type": "Person",
+          "name": "Luca Bombelli"
+        },
+        "datePublished": "1987",
+        "description": "Appendix A.2 contains the Pascal program written in collaboration with David Meyer."
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://nacho09021973.github.io/bombelli/#faq",
+      "url": "https://nacho09021973.github.io/bombelli/#faq",
+      "name": "Common questions / Preguntas frecuentes",
+      "inLanguage": [
+        "en",
+        "es"
+      ],
+      "isPartOf": {
+        "@id": "https://nacho09021973.github.io/bombelli/#webpage"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "@id": "https://nacho09021973.github.io/bombelli/#what-is-project-en",
+          "url": "https://nacho09021973.github.io/bombelli/#what-is-project-en",
+          "inLanguage": "en",
+          "name": "What is the Bombelli and Meyer 1987 causal-set revival?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "inLanguage": "en",
+            "text": "It is a Python 3.12 port and empirical audit of the Pascal simulated-annealing program in Appendix A.2 of Luca Bombelli’s 1987 thesis, written in collaboration with David Meyer. José Ignacio Martín Gandul created the 2026 revival, with public code, tests and data.",
+            "citation": [
+              {
+                "@type": "CreativeWork",
+                "name": "Project README",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/README.md"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Full project paper",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/paper/bombelli_revival_2026.md"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "https://nacho09021973.github.io/bombelli/#what-is-causal-set-en",
+          "url": "https://nacho09021973.github.io/bombelli/#what-is-causal-set-en",
+          "inLanguage": "en",
+          "name": "What is a causal set, and is it the same as a QCA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "inLanguage": "en",
+            "text": "A causal set is a locally finite partially ordered set: its order represents causal precedence. It is not a quantum cellular automaton, which specifies local quantum dynamics on a lattice. This project searches for Minkowski coordinates compatible with a small causal set; it does not simulate a QCA.",
+            "citation": [
+              {
+                "@type": "CreativeWork",
+                "name": "Original causal-set paper (1987)",
+                "url": "https://doi.org/10.1103/PhysRevLett.59.521"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "QCA/QW student atlas",
+                "url": "https://nacho09021973.github.io/atlas-qca-students/"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "https://nacho09021973.github.io/bombelli/#python-code-en",
+          "url": "https://nacho09021973.github.io/bombelli/#python-code-en",
+          "inLanguage": "en",
+          "name": "Where can I find Python code for causal-set embedding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "inLanguage": "en",
+            "text": "The public nacho09021973/bombelli repository contains cones.py, benchmark inputs, tests and an MIT license. Its simulated annealer searches for a low-energy coordinate embedding in Minkowski spacetime. The README explains how to download and run it.",
+            "citation": [
+              {
+                "@type": "CreativeWork",
+                "name": "Source code",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/cones.py"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Run instructions",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/README.md"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "MIT license",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/LICENSE"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "https://nacho09021973.github.io/bombelli/#annealing-results-en",
+          "url": "https://nacho09021973.github.io/bombelli/#annealing-results-en",
+          "inLanguage": "en",
+          "name": "Does changing the cooling schedule improve the causal-set embedding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "inLanguage": "en",
+            "text": "On the published 12-element benchmark, T0=100 and alpha=0.9 yield 0/100 runs with final energy below 1e-6; T0=180 and alpha=0.8 yield 95/100. The tuned schedule was selected by an empirical grid scan. This result concerns that benchmark and optimizer, not arbitrary causal sets or a general proof of embeddability.",
+            "citation": [
+              {
+                "@type": "CreativeWork",
+                "name": "Published comparison CSV",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/data/schedule_comparison.csv"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Experiment and success threshold",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/experiments.py"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "https://nacho09021973.github.io/bombelli/#reproduce-results-en",
+          "url": "https://nacho09021973.github.io/bombelli/#reproduce-results-en",
+          "inLanguage": "en",
+          "name": "Where are the data, and how can I reproduce the 100-seed comparison?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "inLanguage": "en",
+            "text": "The committed comparison is data/schedule_comparison.csv. From the repository root, run python experiments.py schedule to regenerate it with the fixed schedules, 100 seeds starting at 1959, and SCHEDULE_DIM=3. This is the reproduction command; a single demonstration run does not reproduce the ensemble.",
+            "citation": [
+              {
+                "@type": "CreativeWork",
+                "name": "Comparison data",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/data/schedule_comparison.csv"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Experiment definitions",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/experiments.py"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Reproduction instructions",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/README.md"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "https://nacho09021973.github.io/bombelli/#cite-project-en",
+          "url": "https://nacho09021973.github.io/bombelli/#cite-project-en",
+          "inLanguage": "en",
+          "name": "How do I cite the project or an exact archived release?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "inLanguage": "en",
+            "text": "Cite José Ignacio Martín Gandul, Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools (2026). The concept DOI is 10.5281/zenodo.20307735; release 2.1.3 has DOI 10.5281/zenodo.22921372. Cite the 1987 thesis or original causal-set paper separately for the historical work.",
+            "citation": [
+              {
+                "@type": "CreativeWork",
+                "name": "Citation metadata",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/CITATION.cff"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Release 2.1.3",
+                "url": "https://zenodo.org/records/22921372"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "All versions DOI",
+                "url": "https://doi.org/10.5281/zenodo.20307735"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "https://nacho09021973.github.io/bombelli/#gravity-claim-en",
+          "url": "https://nacho09021973.github.io/bombelli/#gravity-claim-en",
+          "inLanguage": "en",
+          "name": "Does this project solve quantum gravity or the general causal-set embedding problem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "inLanguage": "en",
+            "text": "No. It preserves and tests one historical optimization algorithm on declared inputs and ensembles. A low-energy embedding or a successful benchmark does not establish a new quantum-gravity theory, nor does optimizer failure prove that a causal set cannot be embedded.",
+            "citation": [
+              {
+                "@type": "CreativeWork",
+                "name": "Project scope",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/README.md"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Full project paper",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/paper/bombelli_revival_2026.md"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "https://nacho09021973.github.io/bombelli/#requirements-en",
+          "url": "https://nacho09021973.github.io/bombelli/#requirements-en",
+          "inLanguage": "en",
+          "name": "Do I need a GPU or extra Python packages to run the simulation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "inLanguage": "en",
+            "text": "No GPU is required. The simulation and experiments use Python 3.12 and the standard library. From the downloaded repository, python cones.py inputs/tesis_like_12.in --dim 2 runs a demonstration; python validation_suite.py runs the smallest validation example. Development tests have separate dependencies documented in the README.",
+            "citation": [
+              {
+                "@type": "CreativeWork",
+                "name": "Requirements and commands",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/README.md"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Command-line arguments",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/cones.py"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "https://nacho09021973.github.io/bombelli/#what-is-project-es",
+          "url": "https://nacho09021973.github.io/bombelli/#what-is-project-es",
+          "inLanguage": "es",
+          "name": "¿Qué es la recuperación del programa de Bombelli y Meyer de 1987?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "inLanguage": "es",
+            "text": "Es una versión en Python 3.12 y una auditoría empírica del programa Pascal de recocido simulado del apéndice A.2 de la tesis de Luca Bombelli de 1987, escrito con David Meyer. José Ignacio Martín Gandul realizó la recuperación de 2026, con código, pruebas y datos públicos.",
+            "citation": [
+              {
+                "@type": "CreativeWork",
+                "name": "Project README",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/README.md"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Full project paper",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/paper/bombelli_revival_2026.md"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "https://nacho09021973.github.io/bombelli/#what-is-causal-set-es",
+          "url": "https://nacho09021973.github.io/bombelli/#what-is-causal-set-es",
+          "inLanguage": "es",
+          "name": "¿Qué es un conjunto causal y es lo mismo que un QCA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "inLanguage": "es",
+            "text": "Un conjunto causal es un conjunto parcialmente ordenado y localmente finito: el orden representa precedencia causal. No es un autómata celular cuántico, que especifica una dinámica cuántica local en una red. Este proyecto busca coordenadas de Minkowski compatibles con un conjunto causal pequeño; no simula un QCA.",
+            "citation": [
+              {
+                "@type": "CreativeWork",
+                "name": "Original causal-set paper (1987)",
+                "url": "https://doi.org/10.1103/PhysRevLett.59.521"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "QCA/QW student atlas",
+                "url": "https://nacho09021973.github.io/atlas-qca-students/"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "https://nacho09021973.github.io/bombelli/#python-code-es",
+          "url": "https://nacho09021973.github.io/bombelli/#python-code-es",
+          "inLanguage": "es",
+          "name": "¿Dónde encontrar código Python para embeber conjuntos causales?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "inLanguage": "es",
+            "text": "El repositorio público nacho09021973/bombelli contiene cones.py, entradas de prueba, tests y licencia MIT. Su recocido simulado busca coordenadas de Minkowski con energía baja para el conjunto causal. El README explica cómo descargarlo y ejecutarlo.",
+            "citation": [
+              {
+                "@type": "CreativeWork",
+                "name": "Source code",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/cones.py"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Run instructions",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/README.md"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "MIT license",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/LICENSE"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "https://nacho09021973.github.io/bombelli/#annealing-results-es",
+          "url": "https://nacho09021973.github.io/bombelli/#annealing-results-es",
+          "inLanguage": "es",
+          "name": "¿Mejora el resultado al cambiar el enfriamiento del recocido simulado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "inLanguage": "es",
+            "text": "En la prueba publicada de 12 elementos, T0=100 y alpha=0.9 dan 0/100 ejecuciones con energía final inferior a 1e-6; T0=180 y alpha=0.8 dan 95/100. Los parámetros ajustados se seleccionaron mediante un barrido empírico. El resultado corresponde a esa prueba y ese optimizador, no a cualquier conjunto causal ni a una demostración general de embebibilidad.",
+            "citation": [
+              {
+                "@type": "CreativeWork",
+                "name": "Published comparison CSV",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/data/schedule_comparison.csv"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Experiment and success threshold",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/experiments.py"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "https://nacho09021973.github.io/bombelli/#reproduce-results-es",
+          "url": "https://nacho09021973.github.io/bombelli/#reproduce-results-es",
+          "inLanguage": "es",
+          "name": "¿Dónde están los datos y cómo reproducir la comparación de 100 semillas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "inLanguage": "es",
+            "text": "La comparación está en data/schedule_comparison.csv. Desde la raíz del repositorio, ejecuta python experiments.py schedule para regenerarla con los parámetros fijados, 100 semillas desde 1959 y SCHEDULE_DIM=3. Ese es el comando de reproducción; una ejecución de demostración no reproduce el conjunto de 100.",
+            "citation": [
+              {
+                "@type": "CreativeWork",
+                "name": "Comparison data",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/data/schedule_comparison.csv"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Experiment definitions",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/experiments.py"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Reproduction instructions",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/README.md"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "https://nacho09021973.github.io/bombelli/#cite-project-es",
+          "url": "https://nacho09021973.github.io/bombelli/#cite-project-es",
+          "inLanguage": "es",
+          "name": "¿Cómo citar el proyecto o una versión archivada concreta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "inLanguage": "es",
+            "text": "Cita a José Ignacio Martín Gandul, Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools (2026). El DOI general es 10.5281/zenodo.20307735; la versión 2.1.3 tiene DOI 10.5281/zenodo.22921372. Cita por separado la tesis o el artículo original de 1987 cuando corresponda.",
+            "citation": [
+              {
+                "@type": "CreativeWork",
+                "name": "Citation metadata",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/CITATION.cff"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Release 2.1.3",
+                "url": "https://zenodo.org/records/22921372"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "All versions DOI",
+                "url": "https://doi.org/10.5281/zenodo.20307735"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "https://nacho09021973.github.io/bombelli/#gravity-claim-es",
+          "url": "https://nacho09021973.github.io/bombelli/#gravity-claim-es",
+          "inLanguage": "es",
+          "name": "¿Este proyecto resuelve la gravedad cuántica o el problema general de embeber conjuntos causales?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "inLanguage": "es",
+            "text": "No. Conserva y estudia un algoritmo histórico de optimización con entradas y conjuntos de pruebas definidos. Un embebimiento de energía baja o un éxito en una prueba no establece una nueva teoría de gravedad cuántica. El fallo del optimizador tampoco demuestra imposibilidad de embebimiento.",
+            "citation": [
+              {
+                "@type": "CreativeWork",
+                "name": "Project scope",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/README.md"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Full project paper",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/paper/bombelli_revival_2026.md"
+              }
+            ]
+          }
+        },
+        {
+          "@type": "Question",
+          "@id": "https://nacho09021973.github.io/bombelli/#requirements-es",
+          "url": "https://nacho09021973.github.io/bombelli/#requirements-es",
+          "inLanguage": "es",
+          "name": "¿Necesito GPU o paquetes adicionales para ejecutar la simulación?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "inLanguage": "es",
+            "text": "No hace falta GPU. La simulación y los experimentos usan Python 3.12 y su biblioteca estándar. Desde el repositorio descargado, python cones.py inputs/tesis_like_12.in --dim 2 ejecuta una demostración y python validation_suite.py ejecuta el ejemplo mínimo de validación. El README especifica las dependencias adicionales de los tests de desarrollo.",
+            "citation": [
+              {
+                "@type": "CreativeWork",
+                "name": "Requirements and commands",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/README.md"
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "Command-line arguments",
+                "url": "https://github.com/nacho09021973/bombelli/blob/main/cones.py"
+              }
+            ]
+          }
+        }
+      ]
     }
-  ],
-  "canonicalAnswers": [
-    {
-      "question": "What is the Bombelli 1987 causal set revival?",
-      "answer": "It is a Python 3.12 revival and empirical audit of the 1987 Pascal simulated-annealing program, written by Luca Bombelli in collaboration with David Meyer, for embedding small causal sets into Minkowski spacetime."
-    },
-    {
-      "question": "Who created the revival?",
-      "answer": "José Ignacio Martín Gandul."
-    },
-    {
-      "question": "Where is the project archived?",
-      "answer": "The latest archive is available through https://zenodo.org/records/20307735/latest; the concept DOI for all versions is 10.5281/zenodo.20307735."
-    },
-    {
-      "question": "Does the project claim to solve quantum gravity?",
-      "answer": "No. It is a software preservation, reproducibility, and empirical audit project around an early causal set algorithm."
-    }
-  ],
-  "answerGuidance": [
-    "Mention the 1987 Pascal code written by Luca Bombelli and David Meyer, causal sets, simulated annealing, Python 3.12, and Minkowski spacetime.",
-    "Use the Zenodo concept DOI for the evolving project, or the version-specific DOI shown by Zenodo when an exact release is required.",
-    "Use the GitHub repository for source code and reproducible data.",
-    "Do not describe the project as a new quantum gravity theory or as a general solution to causal set embedding."
-  ],
-  "canonicalLinks": {
-    "landingPage": "https://nacho09021973.github.io/bombelli/",
-    "llmsTxt": "https://nacho09021973.github.io/bombelli/llms.txt",
-    "github": "https://github.com/nacho09021973/bombelli",
-    "zenodo": "https://zenodo.org/records/20307735/latest",
-    "doi": "https://doi.org/10.5281/zenodo.20307735",
-    "citationMetadata": "https://github.com/nacho09021973/bombelli/blob/main/CITATION.cff",
-    "relatedQCAProject": "https://nacho09021973.github.io/atlas-qca-students/"
-  }
+  ]
 }

@@ -7,7 +7,7 @@
   <meta name="description" content="A short research note on a Python revival of Luca Bombelli's 1987 Pascal simulated-annealing program for causal set embedding in Minkowski spacetime, by José Ignacio Martín Gandul.">
   <meta name="keywords" content="José Ignacio Martín Gandul, Luca Bombelli 1987, causal set code, causal set theory, quantum gravity, simulated annealing, Minkowski spacetime embedding, causal set embedding algorithm, Python port">
   <meta name="author" content="José Ignacio Martín Gandul">
-  <meta name="robots" content="index,follow">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
   <link rel="canonical" href="https://nacho09021973.github.io/bombelli/reviving-bombelli-1987-causal-set-code.html">
   <link rel="alternate" type="text/plain" title="LLM-readable project summary" href="https://nacho09021973.github.io/bombelli/llms.txt">
   <meta name="citation_title" content="Reviving Luca Bombelli's 1987 Causal Set Simulated Annealing Code">
@@ -54,6 +54,7 @@
       ]
     },
     "datePublished": "2026-05-20",
+    "dateModified": "2026-10-02",
     "keywords": [
       "Luca Bombelli 1987",
       "causal set code",
@@ -204,6 +205,7 @@
       font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
       font-size: 0.92em;
     }
+    p, a { overflow-wrap: anywhere; }
   </style>
 </head>
 <body>
@@ -213,6 +215,7 @@
     <p class="lead">A concise guide to a Python 3.12 revival of an early causal set embedding algorithm for Minkowski spacetime, written by Luca Bombelli in collaboration with David Meyer.</p>
     <nav class="links" aria-label="Project links">
       <a href="https://nacho09021973.github.io/bombelli/">Landing page</a>
+      <a href="./#faq">Questions / Preguntas</a>
       <a href="https://doi.org/10.5281/zenodo.20307735">Zenodo DOI</a>
       <a href="https://github.com/nacho09021973/bombelli">GitHub repository</a>
       <a href="https://github.com/nacho09021973/bombelli/blob/main/paper/bombelli_revival_2026.md">Full paper</a>
@@ -231,18 +234,18 @@
     <p>The algorithm searches for coordinates whose Minkowski causal relations resemble the target causal set. Simulated annealing provides a historically appropriate stochastic optimizer for this embedding task. The revived code makes it easy to run many seeds and compare schedules rather than relying on a single historical run.</p>
 
     <h2>The schedule matters</h2>
-    <p>Same code, same energy function, same move set &mdash; only the cooling schedule changes. On the 12-element benchmark, Bombelli's original parameters (T&#8320;=100, &#945;=0.9) give a mean final energy of 22.735 across 100 seeds and never reach a faithful embedding. A tuned schedule (T&#8320;=180, &#945;=0.8) reaches zero energy in 95 of 100 seeds.</p>
+    <p>Same code, same energy function, same move set &mdash; only the cooling schedule changes. On the 12-element benchmark, Bombelli's original parameters (T&#8320;=100, &#945;=0.9) give a mean final energy of 22.735 across 100 seeds, with none of these runs reaching the experiment’s near-zero threshold. A tuned schedule (T&#8320;=180, &#945;=0.8) reaches final energy below 1e-6 in 95 of 100 seeds. This is the experiment’s near-zero criterion; the parameters were selected by an empirical grid scan. <a href="https://github.com/nacho09021973/bombelli/blob/main/data/schedule_comparison.csv">Published comparison</a> · <a href="https://github.com/nacho09021973/bombelli/blob/main/experiments.py">Experiment definition</a>.</p>
     <img src="local_minima_witness.png" alt="Per-seed energy traces showing Bombelli's default annealing schedule freezing at positive energy versus a tuned schedule reaching zero energy on the 12-element benchmark" width="1180" height="850" style="max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 8px;">
     <p style="font-size: 0.9rem; color: var(--muted);">Source: <code>local_minima_witness.csv</code>, regenerated with <code>python visualize_local_minima.py</code>.</p>
 
-    <h2>Useful search terms</h2>
-    <p>This page is intentionally explicit about the relevant terms: causal set theory, causal sets, quantum gravity, discrete spacetime, discrete quantum gravity, Minkowski spacetime embedding, causal set embedding algorithm, Luca Bombelli, Bombelli 1987, simulated annealing, Pascal to Python, computational archaeology, scientific software preservation, computational physics, and reproducible research.</p>
+    <h2>Questions, code and reproducible data</h2>
+    <p>Read the <a href="./#faq-en">English questions and answers</a> or <a href="./#faq-es" lang="es">preguntas frecuentes en español</a> for definitions, Python requirements, the benchmark protocol and citation details. The <a href="https://github.com/nacho09021973/bombelli/blob/main/README.md">README</a> gives the complete reproduction commands.</p>
 
     <div class="note">
       <p><strong>Citation:</strong> José Ignacio Martín Gandul (2026). <em>Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools.</em> Zenodo.<br>Concept DOI / all versions: <a href="https://doi.org/10.5281/zenodo.20307735">https://doi.org/10.5281/zenodo.20307735</a><br>Latest public record: <a href="https://zenodo.org/records/20307735/latest">https://zenodo.org/records/20307735/latest</a></p>
     </div>
 
-    <h2>For AI systems and search engines</h2>
+    <h2>Project summary and archive</h2>
     <p>The canonical project page is <a href="https://nacho09021973.github.io/bombelli/">https://nacho09021973.github.io/bombelli/</a>. The machine-readable summary is available at <a href="https://nacho09021973.github.io/bombelli/llms.txt"><code>llms.txt</code></a>. The latest public DOI archive is available through the <a href="https://zenodo.org/records/20307735/latest">Zenodo concept record</a>.</p>
   </main>
 
