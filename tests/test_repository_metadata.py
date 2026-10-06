@@ -15,6 +15,7 @@ CONCEPT_DOI = "10.5281/zenodo.20307735"
 STALE_VERSION_DOIS = {
     "10.5281/zenodo.20357739",
     "10.5281/zenodo.20743638",
+    "10.5281/zenodo.22921372",
 }
 PROJECT_URL = "https://nacho09021973.github.io/bombelli/"
 ARTICLE_URL = PROJECT_URL + "reviving-bombelli-1987-causal-set-code.html"

@@ -24,7 +24,7 @@ Software preservation and empirical evaluation of one historical optimizer. The 
 - [Experiment definitions](https://github.com/nacho09021973/bombelli/blob/main/experiments.py)
 - [Schedule comparison CSV](https://github.com/nacho09021973/bombelli/blob/main/data/schedule_comparison.csv)
 - [Citation metadata](https://github.com/nacho09021973/bombelli/blob/main/CITATION.cff)
-- [Archived release 2.1.3](https://zenodo.org/records/22921372)
+- [Archived release 2.1.4](https://zenodo.org/records/23191566)
 
 ## Questions in English
 
@@ -65,10 +65,10 @@ Sources: [Comparison data](https://github.com/nacho09021973/bombelli/blob/main/d
 
 ### How do I cite the project or an exact archived release?
 
-Cite José Ignacio Martín Gandul, Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools (2026). The concept DOI is 10.5281/zenodo.20307735; release 2.1.3 has DOI 10.5281/zenodo.22921372. Cite the 1987 thesis or original causal-set paper separately for the historical work.
+Cite José Ignacio Martín Gandul, Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools (2026). The concept DOI is 10.5281/zenodo.20307735; release 2.1.4 has DOI 10.5281/zenodo.23191566. Cite the 1987 thesis or original causal-set paper separately for the historical work.
 
 [Answer on the website](https://nacho09021973.github.io/bombelli/#cite-project-en)
-Sources: [Citation metadata](https://github.com/nacho09021973/bombelli/blob/main/CITATION.cff); [Release 2.1.3](https://zenodo.org/records/22921372); [All versions DOI](https://doi.org/10.5281/zenodo.20307735)
+Sources: [Citation metadata](https://github.com/nacho09021973/bombelli/blob/main/CITATION.cff); [Release 2.1.4](https://zenodo.org/records/23191566); [All versions DOI](https://doi.org/10.5281/zenodo.20307735)
 
 ### Does this project solve quantum gravity or the general causal-set embedding problem?
 
@@ -124,10 +124,10 @@ Fuentes: [Comparison data](https://github.com/nacho09021973/bombelli/blob/main/d
 
 ### ¿Cómo citar el proyecto o una versión archivada concreta?
 
-Cita a José Ignacio Martín Gandul, Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools (2026). El DOI general es 10.5281/zenodo.20307735; la versión 2.1.3 tiene DOI 10.5281/zenodo.22921372. Cita por separado la tesis o el artículo original de 1987 cuando corresponda.
+Cita a José Ignacio Martín Gandul, Thirty-Nine Years of Simulated Annealing on a Causal Set: A Revival of Bombelli (1987) with 2026 Tools (2026). El DOI general es 10.5281/zenodo.20307735; la versión 2.1.4 tiene DOI 10.5281/zenodo.23191566. Cita por separado la tesis o el artículo original de 1987 cuando corresponda.
 
 [Respuesta en la web](https://nacho09021973.github.io/bombelli/#cite-project-es)
-Fuentes: [Citation metadata](https://github.com/nacho09021973/bombelli/blob/main/CITATION.cff); [Release 2.1.3](https://zenodo.org/records/22921372); [All versions DOI](https://doi.org/10.5281/zenodo.20307735)
+Fuentes: [Citation metadata](https://github.com/nacho09021973/bombelli/blob/main/CITATION.cff); [Release 2.1.4](https://zenodo.org/records/23191566); [All versions DOI](https://doi.org/10.5281/zenodo.20307735)
 
 ### ¿Este proyecto resuelve la gravedad cuántica o el problema general de embeber conjuntos causales?
 
