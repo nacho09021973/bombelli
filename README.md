@@ -263,7 +263,7 @@ Latest public record: https://zenodo.org/records/20307735/latest
 And the original work this revives:
 
 ```
-Bombelli, L. "Space-time as a Causal Net." PhD thesis, Syracuse University, 1987.
+Bombelli, L. "Space-time as a Causal Set." PhD thesis, Syracuse University, 1987.
 (Appendix A.2, "An application of simulated annealing," is written in
 collaboration with D. Meyer, per the thesis' own attribution.)
 

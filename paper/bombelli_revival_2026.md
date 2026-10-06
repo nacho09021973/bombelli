@@ -228,7 +228,7 @@ carefully at the same small program.
 This work is a revival and empirical characterisation of the
 computational program introduced in:
 
-> L. Bombelli, *Space-time as a Causal Net*, PhD thesis, Syracuse
+> L. Bombelli, *Space-time as a Causal Set*, PhD thesis, Syracuse
 > University, 1987.
 
 Appendix A.2 of the thesis, "An application of simulated annealing" —

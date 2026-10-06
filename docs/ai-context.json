@@ -115,7 +115,7 @@
       },
       "isBasedOn": {
         "@type": "Thesis",
-        "name": "Space-time as a Causal Net",
+        "name": "Space-time as a Causal Set",
         "author": {
           "@type": "Person",
           "name": "Luca Bombelli"
